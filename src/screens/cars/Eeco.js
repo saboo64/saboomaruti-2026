@@ -1,0 +1,655 @@
+import React, { useState, Fragment, useRef } from 'react';
+// import { BsCalendarCheck } from "react-icons/bs";
+
+import 'react-image-gallery/styles/css/image-gallery.css';
+import ImageGallery from 'react-image-gallery';
+// import { Dialog, Transition } from '@headlessui/react';
+import {
+  eecoColors,
+  eecoSliders,
+  eecoVariants,
+  eecoMileage,
+  eecoData,
+} from '../../constants/eecoData';
+import EecoBanner from '../../assets/banners/Saboo-RKS-Maruti-Suzuki-EECO-With-More-Mileage.webp';
+// import { CgSpinner } from 'react-icons/cg';
+import Header from '../../components/header/Header';
+// import { Helmet } from 'react-helmet';
+
+import { CarEnquiryDown } from '../Forms/CarEnquiryDown';
+// import { Link } from 'react-router-dom';
+import PriceTable from '../reusable/pricetable';
+import CarDetails from '../reusable/cardslider';
+import SeoMeta from '../../components/SEo/SeoMeta';
+import { LazyImage } from '../about/About';
+import { VehicleSEO } from '../../constants/SEOData';
+
+function Eeco() {
+  const carEnquiryRef = useRef(null);
+  // const scrollToCarEnquiry = () => {
+  //   if (carEnquiryRef.current) {
+  //     carEnquiryRef.current.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // };
+  return (
+    <>
+      <SeoMeta {...VehicleSEO.Ecco} />
+      <Header />
+      <img
+        src={EecoBanner}
+        className='w-full max-w-full lg:mt-16'
+        alt='Buy Maruti Suzuki Eeco 2023 in Hyderabad'
+      />
+      <div className='container grid grid-cols-1 gap-5 px-5 mx-auto my-8 sm:grid-cols-2 sm:px-0'>
+        <div>
+          <ImageGallery
+            lazyLoad={true}
+            autoPlay={true}
+            thumbnailPosition='left'
+            showPlayButton={false}
+            items={eecoSliders}
+          />
+        </div>
+        <div>
+          <CarDetails {...eecoData} />
+        </div>
+      </div>
+      <div className='container mx-auto'>
+        <div className='mx-5'>
+          {/* Car Enquiry and Colors */}
+          <div className='flex flex-col lg:flex-row lg:space-x-4 rounded-3xl'>
+            <div className='mb-4 lg:w-1/2 lg:mb-0' ref={carEnquiryRef}>
+              <CarEnquiryDown title='EECO' carName='EECO' />
+            </div>
+            <div className='lg:w-1/2'>
+              <Colors />
+            </div>
+          </div>
+
+          {/* Table and PriceTable */}
+          <div className='mt-8'>
+            <PriceTable
+              sections={[
+                {
+                  headers: ['Variants', 'Transmission', 'Price'],
+                  columns: ['title', 'transmission', 'price'],
+                  rows: eecoVariants,
+                },
+                {
+                  headers: ['FUELTYPE', 'Transmission', 'Mileage'],
+                  columns: ['title', 'transmission', 'mileage'],
+                  rows: eecoMileage,
+                },
+              ]}
+              disclaimer='The prices and
+          mileage information provided in the table above are indicative and
+          subject to change. The actual prices and mileage of Maruti Suzuki
+          vehicles may vary based on factors such as location, dealer, variant,
+          and other applicable conditions. For the most accurate and up-to-date
+          information, please contact your nearest Popular RKS  Maruti Suzuki
+          dealership.'
+            />
+            <SafetySection />
+            {/* <Table /> */}
+          </div>
+        </div>
+      </div>
+      <div>
+        <img
+          src='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/maruti-eeco/Eeco_Brand_brochure.webp'
+          alt='brochure'
+          className='w-full'
+        />
+      </div>
+    </>
+  );
+}
+
+//   const [name, setName] = useState('');
+//   const [phone, setPhone] = useState('');
+//   const [model, setModel] = useState('Eeco');
+//   // const [method, setMethod] = useState();
+//   const [loading, setLoading] = useState(false);
+//   const [outlet, setOutlet] = useState('');
+//   const [submitted, setSubmitted] = useState(false);
+//   // Inside your component function
+//   // const [showToast, setShowToast] = useState(false);
+
+//   const checkFormValidity = () => {
+//     return (
+//       name.trim() !== '' &&
+//       phone.length === 10 &&
+//       model.trim() !== '' &&
+//       !loading
+//     );
+//   };
+
+//   const handleSubmit = async (event) => {
+//     event.preventDefault();
+//     if (!name || !phone) {
+//       toast.error('Please fill in all required fields.');
+//       return;
+//     }
+//     setLoading(true);
+//     try {
+//       await axios
+//         .post('https://saboogroups.com/admin/api/arena-onRoadPrice', {
+//           name: name,
+//           phone: phone,
+//           // email: email,
+//           model: model,
+//           outlet: outlet,
+//         })
+//         .then((res) => {
+//           toast.success('Enquiry sent successfully');
+//         })
+//         .catch((err) => {
+//           setLoading(false);
+//           toast.error('Something went wrong!');
+//           console.log(err);
+//         });
+//     } catch (error) {
+//       // toast.error("Something went wrong!");
+//       setLoading(false);
+//     }
+
+//     try {
+//       await axios
+//         .post('https://arena-backend-git-main-arenas-projects.vercel.app/onRoadPrice', {
+//           name: name,
+//           phone: phone,
+//           // email: email,
+//           model: model,
+//           outlet: outlet,
+//         })
+//         .then((res) => {
+//           toast.success('Enquiry sent successfully');
+//         })
+//         .catch((err) => {
+//           setLoading(false);
+//           toast.error('Something went wrong!');
+//           console.log(err);
+//         });
+//     } catch (error) {
+//       toast.error('Something went wrong!');
+//       setLoading(false);
+//     }
+
+//     // Second API call
+//     await axios
+//       .get(
+//         `https://www.smsstriker.com/API/sms.php?username=saboorks&password=LqHk1wBeI&from=RKSMOT&to=${phone}&msg=Thank you for showing interest in Maruti Suzuki.
+//    Our Sales consultant will contact you shortly.
+
+//    Regards
+//    RKS Motor Pvt. Ltd.
+//    98488 98488
+//    www.saboomaruti.in
+//    www.saboonexa.in&type=1&template_id=1407168967467983613`
+//       )
+//       .then((res) => {
+//         console.log('SMS API Response:', res.data);
+//         setSubmitted(true);
+//         setLoading(false);
+//       })
+//       .catch((err) => {
+//         console.error('Error sending SMS:', err);
+//         setSubmitted(true);
+//         setLoading(false);
+//       });
+//   };
+
+//   useEffect(() => {
+//     if (submitted) {
+//       document.getElementById('arenaCarEnq2').submit();
+//     }
+//   }, [submitted]);
+
+//   const pattern = /^(?![6-9]{10}$)(?!.*(\d)(?:-?\1){9})[6-9]\d{9}$/;
+//   if (phone !== '' && phone.length === 10) {
+//     if (!pattern.test(phone)) {
+//       toast.error('Enter valid phone number', {
+//         theme: 'colored',
+//       });
+//     }
+//   }
+
+//   return (
+//     <div className='py-12 mt-12 bg-blue-800'>
+//       <div className='container px-5 mx-auto space-y-5 lg:px-0'>
+//         <h3 className='text-xl font-normal text-white normal-case'>
+//           Get Eeco On-Road price in Hyderabad
+//         </h3>
+//         <form
+//           id='arenaCarEnq2'
+//           action={
+//             pattern.test(phone) && phone.length === 10
+//               ? 'https://crm.zoho.in/crm/WebToLeadForm'
+//               : '#'
+//           }
+//           name='WebToLeads54158000083979838'
+//           method={'POST'}
+//           acceptCharset='UTF-8'
+//         >
+//           <input
+//             type='text'
+//             className='hidden'
+//             name='xnQsjsdp'
+//             value='c74cc4baa2079f2637d12188693a8bb7a822a54f015337983612fcbc54e9f529'
+//           />
+//           <input type='hidden' name='zc_gad' id='zc_gad' value='' />
+//           <input
+//             type='text'
+//             className='hidden'
+//             name='xmIwtLD'
+//             value='adcef2507910e0e3ba3fffde446eb242f3dba817a00c872b6a7d471bc1ce61d0bd840c68a483b37a9012f6016a3ceeb4'
+//           />
+//           <input
+//             type='text'
+//             className='hidden'
+//             name='actionType'
+//             value='TGVhZHM='
+//           />
+//           <input
+//             type='text'
+//             className='hidden'
+//             name='returnURL'
+//             value='https://www.saboomaruti.in/thank-you-for-contact-us'
+//           />
+//           <div className='grid grid-cols-1 gap-4 lg:grid-cols-4 md:grid-cols-2'>
+//             <div>
+//               <input
+//                 className='w-full h-10 px-3 border rounded-md outline-none focus:ring-blue-500 focus:border-blue-500'
+//                 placeholder='Name'
+//                 id='Last_Name'
+//                 name='Last Name'
+//                 onChange={(e) => setName(e.target.value)}
+//                 required
+//               />
+//             </div>
+//             <div>
+//               <input
+//                 className='w-full h-10 px-3 border rounded-md outline-none focus:ring-blue-500 focus:border-blue-500'
+//                 placeholder='Enter your phone number'
+//                 minlength='10'
+//                 maxlength='10'
+//                 id='Phone'
+//                 name='Phone'
+//                 value={phone}
+//                 required
+//                 minLength='10'
+//                 maxLength='10'
+//                 onChange={(e) =>
+//                   setPhone(
+//                     e.target.value.replace(/[^1-9 ]/g, '') &&
+//                       e.target.value.replace(/ /g, '')
+//                   )
+//                 }
+//               />
+//               {phone.length > 7 && phone.length < 10 ? (
+//                 <small className='text-red-500'>
+//                   Phone number must be 10 digits
+//                 </small>
+//               ) : !pattern.test(phone) && phone.length === 10 ? (
+//                 <small className='text-red-500'>Phone number is invalid</small>
+//               ) : (
+//                 ''
+//               )}
+//             </div>
+//             <div>
+//               <select
+//                 id='LEADCF6'
+//                 name='LEADCF6'
+//                 onChange={(e) => setModel(e.target.value)}
+//                 className='block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm'
+//                 defaultValue='Eeco'
+//               >
+//                 <option disabled>Select Model</option>
+
+//                 <option value='Eeco'>Eeco</option>
+//               </select>
+//             </div>
+//             <div>
+//               <select
+//                 id='LEADCF23'
+//                 name='LEADCF23'
+//                 onChange={(e) => {
+//                   const selectedValue = e.target.value;
+
+//                   // Check if the selected option is not "Select Outlet"
+//                   if (selectedValue !== 'Select Outlet') {
+//                     // Perform the backend call or set the model state here
+//                     setOutlet(selectedValue);
+//                   }
+//                 }}
+//                 defaultValue='Select Outlet'
+//                 className='block w-full h-10 px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm'
+//               >
+//                 <option disabled>Select Outlet</option>
+//                 <option value='Somajiguda'>Somajiguda</option>
+//                 <option value='Malakpet'>Malakpet</option>
+//                 <option value='Secunderabad'>Secunderabad</option>
+//                 <option value='Kushaiguda'>Kushaiguda</option>
+//                 <option value='Kompally'>Kompally</option>
+//                 <option value='Shamirpet'>Shamirpet</option>
+//                 <option value='Narsingi'>Narsingi</option>
+//                 <option value='Kodangal'>Kodangal</option>
+//               </select>
+//             </div>
+//           </div>
+//           {/* <div className='flex items-center my-3 space-x-1'>
+//           <input id='comments' name='comments' type='checkbox' required />
+//           <label htmlFor='comments' className='font-medium text-gray-200'>
+//             I Agree
+//           </label>
+//         </div>
+//         <p className='mb-2 text-gray-200'>
+//           <span className='font-semibold'>Disclaimer :</span> I agree that
+//           by clicking the ‘Submit’ button below, I am explicitly soliciting
+//           a call / Message from Saboo Maruti (RKS Motor Pvt. Ltd) or its
+//           Representatives on my ‘Mobile’
+//         </p> */}
+//           <button
+//             type='submit'
+//             disabled={!checkFormValidity()}
+//             onClick={handleSubmit}
+//             className={`h-10 inline-flex justify-center mr-3 py-2 px-4 mt-4 mb-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white ${
+//               !checkFormValidity()
+//                 ? 'bg-gray-400 cursor-not-allowed'
+//                 : 'bg-red-800 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500'
+//             }`}
+//           >
+//             {loading ? (
+//               <div className='flex items-center justify-center'>
+//                 <CgSpinner className='h-5 mr-2 text-white animate-spin' />
+//                 Loading
+//               </div>
+//             ) : (
+//               'SUBMIT'
+//             )}
+//           </button>
+//           <div className='flex items-start py-1 '>
+//             <div className='ml-2 text-sm'>
+//               <label
+//                 htmlFor='disclaimer'
+//                 className='italic font-medium text-gray-700'
+//               >
+//                 <span className='font-bold text-white'>Disclaimer</span>
+//                 <span className='text-white font-extralight'>
+//                   : By clicking 'SUBMIT', you agree to our
+//                 </span>
+//                 <a
+//                   href='/maruti-car-terms-and-conditions'
+//                   target='_blank'
+//                   rel='noopener noreferrer'
+//                   className='px-2 text-sm font-bold text-red-700 '
+//                 >
+//                   Terms and Conditions
+//                 </a>
+//               </label>
+//             </div>
+//           </div>
+//         </form>
+//       </div>
+//     </div>
+//   );
+// };
+
+// const CarsSlider = ({ scrollToCarEnquiry }) => {
+//   return (
+//     <>
+//       <div className="container grid grid-cols-1 gap-5 px-5 mx-auto my-8 sm:grid-cols-2 sm:px-0">
+//         <div>
+//           <ImageGallery
+//             lazyLoad={true}
+//             autoPlay={true}
+//             thumbnailPosition="left"
+//             showPlayButton={false}
+//             items={eecoSliders}
+//           />
+//         </div>
+
+//         <div className="my-auto">
+//           <div className="flex flex-col items-center sm:flex-row sm:items-start">
+//             <p
+//               className="mb-2 text-3xl font-light text-blue-800 sm:mb-0 sm:mr-4"
+//               x-intersect="$el.classList.add('focus-in-expand')"
+//             >
+//               Maruti Suzuki <span className="font-semibold">Eeco</span>
+//             </p>
+//           </div>
+
+//           <p className="text-lg font-light text-blue-800">
+//             Ex-Showroom Price
+//             <span className="ml-3 text-xl text-red-600">
+//               ₹&nbsp;5.41 - 8.44 Lakh*
+//             </span>
+//           </p>
+//           <div className="flex flex-wrap items-center mt-5 mb-2 text-blue-800">
+//             <div className="flex items-center space-x-3 mr-7">
+//               <img
+//                 src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/local/speedometer.png"
+//                 className="w-5 h-5"
+//                 alt="speedometer"
+//               />
+//               <p className="text-sm">
+//                 Engine <br />
+//                 <span className="font-semibold">1196cc</span>
+//               </p>
+//             </div>
+
+//             <div className="flex items-center space-x-3 mr-7">
+//               <img
+//                 src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/local/gas-station.png"
+//                 className="w-5 h-5"
+//                 alt="gas station"
+//               />
+//               <p className="text-sm">
+//                 Mileage <br />
+//                 <span className="font-semibold">26.78 km/kg*</span>
+//               </p>
+//             </div>
+
+//             <div className="flex items-center space-x-3 mr-7">
+//               <img
+//                 src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/local/car.png"
+//                 className="w-5 h-5"
+//                 alt="car icon"
+//               />
+//               <p className="text-sm">
+//                 Power (kW) <br />
+//                 <span className="font-semibold">59.4</span>
+//               </p>
+//             </div>
+//           </div>
+//           <div className="flex flex-col items-center space-y-2 md:flex-row md:space-y-0 md:space-x-2 md:mt-5 md:mb-1 ">
+//             <a
+//               href="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/brochures/Saboo_RKS_Eeco_Passenger_2022_brochure.pdf"
+//               //https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/brochures/Saboo_RKS_Eeco_Passenger_2022_brochure.pdf
+//               target="_blank"
+//               rel="noopener noreferrer"
+//               className="flex-1 block w-full px-4 py-2 text-sm text-center text-white bg-blue-800 border border-blue-800 rounded-full shadow-sm hover:bg-red-600 hover:border-none hover:text-white md:mb-0"
+//             >
+//               View Brochure
+//             </a>
+//             <a
+//               href="/compare-cars"
+//               target="_blank"
+//               rel="noopener noreferrer"
+//               className="flex-1 block w-full px-4 py-2 text-sm text-center text-blue-800 bg-white border border-blue-800 rounded-full shadow-sm hover:bg-red-600 hover:border-none hover:text-white "
+//             >
+//               Compare
+//             </a>
+//             <Link
+//               to="/maruti-eeco-cng-on-road-price-in-hyderabad"
+//               className="flex-1 block w-full px-4 py-2 text-sm text-center text-blue-800 bg-white border border-blue-800 rounded-full shadow-sm hover:bg-green-600 hover:border-none hover:text-white"
+//             >
+//               Get CNG
+//             </Link>
+//             {/* <button
+//               className="px-4 py-1.5 text-sm bg-red-600 border hover:bg-red-500 text-white rounded shadow-sm"
+//               onClick={() => setOpen(true)}
+//             >
+//               Book a Test Drive
+//             </button> */}
+//           </div>
+//           <p className="w-full h-px my-6 bg-gray-300"></p>
+//           {/* <p className="flex items-center">
+//           <BsCalendarCheck className="mr-1" />
+//           Delivery from Saboo RKS, 7-30 days
+//         </p> */}
+
+//           <p
+//             className="mt-2 mb-5 text-xl text-blue-800"
+//             x-intersect="$el.classList.add('fade-in-left')"
+//           >
+//             Our professional and well-trained staff is ready to assist you
+//           </p>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
+
+const Colors = () => {
+  const [current, setCurrent] = useState(1);
+  return (
+    <div className='mt-8 bg-gray-100 border rounded-3xl'>
+      <div className='container flex flex-col items-center py-12 mx-auto mt-12'>
+        {eecoColors.map((item) => (
+          <LazyImage
+            key={item.id}
+            src={item.img}
+            className={item.id === current ? 'mx-auto md:h-80' : 'hidden'}
+            alt={item.id}
+          />
+        ))}
+        <div className='flex items-center justify-center space-x-3 space-y-1 sm:space-y-0'>
+          <p
+            className={
+              current === 1
+                ? 'h-5 rounded-full w-5 bg-[#fcfcfc] animate-bounce'
+                : 'h-5 rounded-full w-5 bg-[#fcfcfc]'
+            }
+            onClick={() => setCurrent(1)}
+          ></p>
+          <p
+            className={
+              current === 2
+                ? 'h-5 rounded-full w-5 bg-[#0084C9] animate-bounce'
+                : 'h-5 rounded-full w-5 bg-[#0084C9]'
+            }
+            onClick={() => setCurrent(2)}
+          ></p>
+
+          <p
+            className={
+              current === 3
+                ? 'h-5 rounded-full w-5 bg-[#525255] animate-bounce'
+                : 'h-5 rounded-full w-5 bg-[#525255]'
+            }
+            onClick={() => setCurrent(3)}
+          ></p>
+          <p
+            className={
+              current === 4
+                ? 'h-5 rounded-full w-5 bg-[#D2CFD0] animate-bounce'
+                : 'h-5 rounded-full w-5 bg-[#D2CFD0]'
+            }
+            onClick={() => setCurrent(4)}
+          ></p>
+          <p
+            className={
+              current === 5
+                ? 'h-5 rounded-full w-5 bg-[#080808] animate-bounce'
+                : 'h-5 rounded-full w-5 bg-[#080808]'
+            }
+            onClick={() => setCurrent(5)}
+          ></p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const safetyFeatures = [
+  {
+    title: '6 Airbags',
+    image:
+      'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/cars/eeco/Airbag2+771x426.webp',
+    content:
+      'Provides comprehensive protection in case of collision, ensuring safety for all passengers.',
+  },
+  // {
+  //   title: 'Electronic Stability Program (ESP)',
+  //   image: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/cars/eeco/Electronic-Stability-Program+(ESP).jpeg',
+  //   content: '',
+  // },
+  {
+    title: 'Seat Belt Reminder with Buzzer (Front & Rear Seat)',
+    image:
+      'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/cars/eeco/seatbelt.png',
+    content: '',
+  },
+  {
+    title: 'Reverse parking sensor',
+    image:
+      'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/cars/eeco/eeco-exterior-rear-parking-sensor-6.avif',
+    content: '',
+  },
+];
+
+export function SafetySection() {
+  const [activeFeature, setActiveFeature] = useState(0);
+
+  return (
+    <div className='flex flex-col p-6 bg-white md:flex-row'>
+      {/* Left: Background Image */}
+      <div
+        className='h-64 bg-center bg-cover shadow md:w-1/2 md:h-auto rounded-xl'
+        style={{
+          backgroundImage: `url(${safetyFeatures[activeFeature].image})`,
+        }}
+      ></div>
+
+      {/* Right: Text Content */}
+      <div className='mt-6 md:w-1/2 md:mt-0 md:ml-10'>
+        <p>
+          <LazyImage
+            src='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/TOUR/dzire-tour-s/safety-txt.png'
+            className='object-scale-down p-5'
+            alt='1'
+          />
+        </p>
+        <p className='mb-4 text-gray-700'>
+          The Eeco comes loaded with 12+ safety features such as engine
+          immobiliser, illuminated hazard switch, 6 airbags, ABS with EBD, child
+          lock for the sliding doors and windows, reverse parking sensors etc.
+          amongst other standard safety features to ensure a safe drive.
+        </p>
+
+        <ul className='space-y-3'>
+          {safetyFeatures.map((feature, index) => (
+            <li key={index}>
+              <button
+                className={`w-full text-left text-lg font-semibold transition ${
+                  activeFeature === index ? 'text-blue-700' : 'text-black'
+                }`}
+                onClick={() => setActiveFeature(index)}
+              >
+                {feature.title}
+              </button>
+              {/* {activeFeature === index && (
+                <div className="p-3 mt-2 text-gray-600 bg-gray-100 rounded-md shadow-inner">
+                  {feature.content}
+                </div>
+              )} */}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+export default Eeco;

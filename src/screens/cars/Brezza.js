@@ -1,0 +1,207 @@
+import React, { useState, useRef } from 'react';
+
+import 'react-image-gallery/styles/css/image-gallery.css';
+import ImageGallery from 'react-image-gallery';
+
+import {
+  brezzaColors,
+  brezzaSliders,
+  brezzaVariants,
+  brezzaMileage,
+  brezzaData,
+} from '../../constants/brezzaData';
+import BrezzaBanner from '../../assets/banners/Saboo-RKS-Maruti-Suzuki-Brezza-Now-6-Airbags.webp';
+import Header from '../../components/header/Header';
+// import { Helmet } from 'react-helmet';
+
+import { CarEnquiryDown } from '../Forms/CarEnquiryDown';
+
+import PriceTable from '../reusable/pricetable';
+import CarDetails from '../reusable/cardslider';
+import SeoMeta from '../../components/SEo/SeoMeta';
+import { LazyImage } from '../about/About';
+import { VehicleSEO } from '../../constants/SEOData';
+
+function Brezza() {
+  // // const [email, setEmail] = useState('');
+  const carEnquiryRef = useRef(null);
+  // const scrollToCarEnquiry = () => {
+  //   if (carEnquiryRef.current) {
+  //     carEnquiryRef.current.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // };
+
+  return (
+    <>
+      <SeoMeta {...VehicleSEO.Brezza} />
+      <Header />
+      <LazyImage
+        src={BrezzaBanner}
+        className='w-full max-w-full lg:mt-16'
+        alt='Buy Maruti Suzuki Brezza 2025 in Hyderabad'
+      />
+      <div className='container grid grid-cols-1 gap-5 px-5 mx-auto my-8 sm:grid-cols-2 sm:px-0'>
+        <div>
+          <ImageGallery
+            lazyLoad={true}
+            autoPlay={true}
+            thumbnailPosition='left'
+            showPlayButton={false}
+            items={brezzaSliders}
+          />
+        </div>
+        <div>
+          <CarDetails {...brezzaData} />
+        </div>
+      </div>
+      <div className='container mx-auto'>
+        <div className='mx-5'>
+          {/* Car Enquiry and Colors */}
+          <div className='flex flex-col lg:flex-row lg:space-x-4'>
+            <div className='mb-4 lg:w-1/2 lg:mb-0' ref={carEnquiryRef}>
+              <CarEnquiryDown title='BREZZA' carName='BREZZA' />
+            </div>
+            <div className='lg:w-1/2'>
+              <Colors />
+            </div>
+          </div>
+
+          {/* Table and PriceTable */}
+          <div className='mt-8'>
+            <PriceTable
+              sections={[
+                {
+                  headers: ['Variants', 'Transmission', 'Price'],
+                  columns: ['title', 'transmission', 'price'],
+                  rows: brezzaVariants,
+                },
+                {
+                  headers: ['Variants', 'Transmission', 'Mileage'],
+                  columns: ['title', 'transmission', 'mileage'],
+                  rows: brezzaMileage,
+                },
+              ]}
+              disclaimer='The prices and mileage information provided above are indicative and may vary. Please check with your nearest dealership.'
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <img
+          src='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/specifications/Brezza2022_new.webp'
+          alt='brochure'
+          className='w-full'
+        />
+      </div>
+    </>
+  );
+}
+
+const Colors = () => {
+  const [current, setCurrent] = useState(1);
+  return (
+    <div className='container flex flex-col items-center py-8 mx-auto mt-16 bg-gray-100 rounded-3xl'>
+      {brezzaColors.map((item) => (
+        <LazyImage
+          key={item.id}
+          src={item.img}
+          className={item.id === current ? 'mx-auto sm:h-80' : 'hidden'}
+          alt={item.id}
+        />
+      ))}
+      <div className='flex items-center justify-center space-x-3 space-y-1 sm:space-y-0'>
+        <p
+          className={
+            current === 1
+              ? 'h-5 rounded-full w-5 animate-bounce bg-[#5d5135]'
+              : 'h-5 rounded-full w-5 bg-[#5d5135]'
+          }
+          onClick={() => setCurrent(1)}
+        ></p>
+        <p
+          className={
+            current === 2
+              ? 'h-5 rounded-full w-5 bg-[#264b9c] animate-bounce'
+              : 'h-5 rounded-full w-5 bg-[#264b9c]'
+          }
+          onClick={() => setCurrent(2)}
+        ></p>
+        <p
+          className={
+            current === 3
+              ? 'h-5 rounded-full w-5 bg-[#8d8d8d] animate-bounce'
+              : 'h-5 rounded-full w-5 bg-[#8d8d8d] '
+          }
+          onClick={() => setCurrent(3)}
+        ></p>
+        <p
+          className={
+            current === 4
+              ? 'h-5 rounded-full w-5 animate-bounce'
+              : 'h-5 rounded-full w-5'
+          }
+          style={{
+            background: 'linear-gradient(61deg, #5d5135 50%, #ffffff 50%)',
+          }}
+          onClick={() => setCurrent(4)}
+        ></p>
+        <p
+          className={
+            current === 5
+              ? 'h-5 rounded-full w-5 bg-[#f7f7f7] border-2 border-gray-300 animate-bounce'
+              : 'h-5 rounded-full w-5 bg-[#f7f7f7] border-2 border-gray-300'
+          }
+          onClick={() => setCurrent(5)}
+        ></p>
+        <p
+          className={
+            current === 6
+              ? 'h-5 rounded-full w-5 animate-bounce'
+              : 'h-5 rounded-full w-5'
+          }
+          style={{
+            background: 'linear-gradient(61deg, #e62924 50%, #3e403f 50%)',
+          }}
+          onClick={() => setCurrent(6)}
+        ></p>
+        <p
+          className={
+            current === 7
+              ? 'h-5 rounded-full w-5 bg-[#e62924] animate-bounce'
+              : 'h-5 rounded-full w-5 bg-[#e62924]'
+          }
+          onClick={() => setCurrent(7)}
+        ></p>
+        <p
+          className={
+            current === 8
+              ? 'h-5 rounded-full w-5 animate-bounce'
+              : 'h-5 rounded-full w-5'
+          }
+          style={{
+            background: 'linear-gradient(61deg, #5d5135 50%, #000 50%)',
+          }}
+          onClick={() => setCurrent(8)}
+        ></p>
+        <p
+          className={
+            current === 9
+              ? 'h-5 rounded-full w-5 bg-[#c5c5c5] animate-bounce'
+              : 'h-5 rounded-full w-5 bg-[#c5c5c5]'
+          }
+          onClick={() => setCurrent(9)}
+        ></p>
+        <p
+          className={
+            current === 10
+              ? 'h-5 rounded-full w-5 bg-[#141316] animate-bounce'
+              : 'h-5 rounded-full w-5 bg-[#141316]'
+          }
+          onClick={() => setCurrent(10)}
+        ></p>
+      </div>
+    </div>
+  );
+};
+
+export default Brezza;
