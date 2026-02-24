@@ -540,10 +540,10 @@ const Careers = () => {
   return (
     <>
       <Helmet>
-        <title>Careers | Popular RKS  Pvt Ltd | Saboo Maruti</title>
+        <title>Careers | Popular RKS  Pvt Ltd | Popular Maruti</title>
         <meta
           name="title"
-          content="Careers |Popular RKS Pvt Ltd | Saboo Maruti"
+          content="Careers |Popular RKS Pvt Ltd | Popular Maruti"
         />
         <meta
           name="description"

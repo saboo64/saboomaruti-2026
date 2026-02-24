@@ -32,7 +32,7 @@ export const LazyImage = ({ src, alt, className = '', height = 300 }) => {
 };
 
 const longText =
-  "At Saboo RKS Group, we have a robust presence in Hyderabad with extensive coverage that includes seven sales outlets, nine workshops, four True Value (pre-owned) sales outlets, one commercial outlet, and two premium car outlets, Nexa. As Hyderabad's leading automobile dealership, we have been at the forefront of driving growth in automobile sales and service over the last four decades. Our unwavering commitment to customer satisfaction is reflected in our extensive network and our belief in the 'Customers for Life' concept. We consistently strive to offer world-class products and services that provide the best value for money to our customers. Saboo RKS Group's values of dependability, assurance, trustworthiness, and loyalty have gained the trust of our customers since our inception, and we continue to prioritize understanding and anticipating their needs to ensure our continued success.";
+  "At Popular RKS Group, we have a robust presence in Hyderabad with extensive coverage that includes seven sales outlets, nine workshops, four True Value (pre-owned) sales outlets, one commercial outlet, and two premium car outlets, Nexa. As Hyderabad's leading automobile dealership, we have been at the forefront of driving growth in automobile sales and service over the last four decades. Our unwavering commitment to customer satisfaction is reflected in our extensive network and our belief in the 'Customers for Life' concept. We consistently strive to offer world-class products and services that provide the best value for money to our customers. Popular RKS Group's values of dependability, assurance, trustworthiness, and loyalty have gained the trust of our customers since our inception, and we continue to prioritize understanding and anticipating their needs to ensure our continued success.";
 
 function About() {
   return (
@@ -43,7 +43,7 @@ function About() {
 
       <LazyImage
         src={banner}
-        alt='Saboo RKS Banner'
+        alt='Popular RKS Banner'
         className='w-full max-w-full lg:mt-16'
         height={400}
       />
@@ -58,7 +58,7 @@ function About() {
       <div className='container p-2 px-5 mx-auto leading-loose text-center border rounded-md shadow-md'>
         <p className='text-gray-100'>
           <span className='font-medium text-blue-900' id='aboutsaboo'>
-            For over four decades, Saboo RKS has been the driving force behind
+            For over four decades, Popular RKS has been the driving force behind
             the growth of automobile sales and service in Hyderabad, solidifying
             our position as the city's premier automobile dealership.
           </span>

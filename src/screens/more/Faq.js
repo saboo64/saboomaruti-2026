@@ -11,7 +11,7 @@ function Faq() {
       <Header />
 
       <SeoMeta
-        title="Maruti Suzuki FAQ's | Saboo Maruti"
+        title="Maruti Suzuki FAQ's | Popular RKS  Maruti"
         description='Check out the frequently asked questions for Maruti Suzuki Arena cars. Get on road price, Book a test drive, Offers on Maruti cars, Maruti car servicing, Maruti insurance, Maruti finance. Call us 98488 98488.'
         keywords='Maruti FAQ'
         canonicalUrl='https://www.saboomaruti.in/faq'
@@ -40,9 +40,8 @@ function Faq() {
                 <Disclosure.Button className='flex justify-between w-full px-4 py-3 mt-2 text-base font-medium text-left text-blue-900 bg-blue-100 rounded-lg hover:bg-blue-200 focus:outline-none focus-visible:ring focus-visible:ring-blue-500 focus-visible:ring-opacity-75'>
                   <span>{data.question}</span>
                   <ChevronDownIcon
-                    className={`${
-                      open ? 'rotate-180 transform' : ''
-                    } h-5 w-5 text-blue-500`}
+                    className={`${open ? 'rotate-180 transform' : ''
+                      } h-5 w-5 text-blue-500`}
                   />
                 </Disclosure.Button>
                 <Disclosure.Panel className='px-4 pt-4 pb-2 text-base text-gray-500'>
