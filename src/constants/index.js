@@ -1,6 +1,6 @@
 export const sliders = [
   {
-   img: require("../assets/banners/Website_Maruti_Suzuki_Arena_February_Offers_Saboo_RKS_Popular_Vehicles.webp"),
+   img: require('../assets/banners/Website_Maruti_Suzuki_Arena_Ugadi_Offers_mobile.webp'),
     alt: "Website Maruti Suzuki Dzire Festive November Yearend Offers Saboo RKS Motor, Website_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor",
     link: "/maruti-suzuki-car-offers-page",
   },
@@ -112,7 +112,7 @@ export const sliders = [
 
 export const mobileSliders = [
   {
-    img: require('../assets/banners/WM_Maruti_Suzuki_Arena_February_Offers_Saboo_RKS_Popular_Vehicles.webp'),
+    img: require("../assets/banners/Website_Maruti_Suzuki_Arena_Ugadi_Offers.webp"),
     alt: 'Maruti_Suzuki_Arena_Valentines_Day_2025_Febrauary_offers',
     link: '/maruti-suzuki-car-offers-page',
   },
