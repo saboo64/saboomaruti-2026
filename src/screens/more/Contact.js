@@ -596,7 +596,7 @@ function Contact() {
             >
               <FaEnvelope className='mr-2 text-blue-800' />
               <span className='text-blue-800 font-extralight'>Email </span>
-              &nbsp;| info@saboomaruti.in
+              &nbsp;| smg.crc.cm@popularv.com
             </a>
             <div className='flex flex-col items-center space-y-3 text-center'>
               <Link

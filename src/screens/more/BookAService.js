@@ -38,12 +38,12 @@ const serviceBanners = [
   // },
 
   // Regular-service-banners
-  {
-    desktopImg: require('../../assets/banners/Website_Maruti_Suzuki_Service_diwali_offer_with_Saboo_RKS_Motor_October_Service.webp'),
-    mobileImg: require('../../assets/banners/WM_Maruti_Suzuki_Service_diwali_offer_with_Saboo_RKS_Motor_October_Service.webp'),
-    alt: 'diwali',
-    link: '',
-  },
+  // {
+  //   desktopImg: require('../../assets/banners/Website_Maruti_Suzuki_Service_diwali_offer_with_Saboo_RKS_Motor_October_Service.webp'),
+  //   mobileImg: require('../../assets/banners/WM_Maruti_Suzuki_Service_diwali_offer_with_Saboo_RKS_Motor_October_Service.webp'),
+  //   alt: 'diwali',
+  //   link: '',
+  // },
 ];
 
 function BookAService() {

@@ -37,7 +37,7 @@ const TopHeader = () => {
     //   <div className="items-center space-x-3 lg:flex ">
     //     <div className="flex items-center p-2 space-x-5">
     //       <div className="flex items-center space-x-1">Contact Us &nbsp;
-    //         <a href="mailto:info@saboomaruti.in">
+    //         <a href="mailto:smg.crc.cm@popularv.com">
     //           <FaEnvelope />
     //         </a>
     //       </div>
@@ -154,7 +154,7 @@ const TopHeader = () => {
         <div className="border text-[#293e91] h-5 lg:flex space-y-4"></div>
         <div className="flex items-center space-x-1 justify-center sm:justify-start text-[#293e91]">
           <a
-            href="mailto:info@saboomaruti.in"
+            href="mailto:smg.crc.cm@popularv.com"
             x-intersect="$el.classList.add('bounce-in-top')"
           >
             <FaEnvelope />

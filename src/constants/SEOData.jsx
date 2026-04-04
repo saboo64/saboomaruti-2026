@@ -1,41 +1,41 @@
 export const SEOPages = {
   About: {
     title:
-      'About Popular RKS Maruti Suzuki | No.1 Maruti Dealer in Hyderabad Since 1984',
+      'About Popular RKS Maruti Suzuki | Ugadi 2026 Offers | No.1 Dealer in Hyderabad Since 1984',
     description:
-      'Popular RKS Maruti Suzuki is Hyderabad’s most trusted Maruti dealership with 40+ years of excellence. Discover our award-winning showrooms, customer-first service, and best Maruti car offers in Telangana.',
+      'Popular RKS Maruti Suzuki is Hyderabad’s most trusted dealership with 40+ years of excellence. Celebrate Ugadi 2026 with exclusive Maruti car offers, best prices, exchange bonus & customer-first service in Telangana.',
     keywords:
-      'Popular RKS Maruti, Maruti Suzuki dealers in Hyderabad, best Maruti showroom Hyderabad, trusted Maruti dealer Telangana, Maruti Arena dealer Hyderabad',
+      'Popular RKS Maruti, Ugadi offers 2026 Maruti Suzuki, Maruti dealers Hyderabad, best Maruti showroom Hyderabad, trusted Maruti dealer Telangana',
     canonicalUrl: 'https://www.saboomaruti.in/about-maruti-suzuki-dealers',
     ogImage: 'https://www.saboomaruti.in/img/og-tags/about_us.webp',
   },
 
   Home: {
     title:
-      'Maruti Suzuki Cars in Hyderabad 2026 | Best Prices, Offers & Test Drive – Popular RKS',
+      'Ugadi 2026 Maruti Suzuki Cars in Hyderabad | Best Prices, Offers & Test Drive – Popular RKS',
     description:
-      'Buy Maruti Suzuki cars in Hyderabad at the best price from Popular RKS. Explore Alto K10, Swift, Brezza, Dzire, WagonR & more with latest 2026 offers, easy EMI, exchange bonus & instant test drive.',
+      'Celebrate Ugadi 2026 with best Maruti Suzuki car offers in Hyderabad at Popular RKS. Get exclusive discounts, low EMI, exchange bonus on Alto K10, Swift, Brezza, Dzire, WagonR & more.',
     keywords:
-      'Maruti Suzuki cars Hyderabad, Maruti car price Hyderabad, Popular RKS Maruti showroom, Maruti Arena dealer Telangana, Swift on road price Hyderabad, Brezza price Hyderabad, Maruti test drive Hyderabad',
+      'Ugadi offers 2026 Maruti Suzuki, Maruti cars Hyderabad, Swift Ugadi offer, Brezza price Hyderabad, Dzire discount, Maruti test drive Hyderabad',
     canonicalUrl: 'https://www.saboomaruti.in/',
     ogImage: 'https://www.saboomaruti.in/img/og-tags/saboo_rks.webp',
   },
 
   Accessory: {
     title:
-      'Maruti Suzuki Genuine Accessories & Spare Parts in Hyderabad | Popular RKS',
+      'Maruti Suzuki Accessories Hyderabad | Ugadi 2026 Offers on Genuine Parts – Popular RKS',
     description:
-      'Buy genuine Maruti Suzuki accessories and spare parts in Hyderabad from Popular RKS. Original parts with warranty for Arena & Nexa cars at best prices.',
+      'Buy genuine Maruti Suzuki accessories and spare parts in Hyderabad with Ugadi 2026 special offers at Popular RKS. Get original parts with warranty at best prices.',
     keywords:
-      'Maruti Suzuki accessories Hyderabad, Maruti genuine spare parts, Maruti car accessories price, Popular RKS accessories, Maruti Arena accessories',
+      'Maruti accessories Hyderabad, Ugadi offers car accessories, Maruti spare parts Hyderabad, genuine Maruti accessories',
     canonicalUrl: 'https://www.saboomaruti.in/maruti-accessories',
   },
 
   ArenaSitemap: {
     title:
-      'Sitemap | Maruti Suzuki Cars, Offers, Service & Finance | Popular RKS Hyderabad',
+      'Sitemap | Ugadi 2026 Maruti Offers, Cars & Services – Popular RKS Hyderabad',
     description:
-      'Explore Popular RKS sitemap to find Maruti Suzuki cars, latest offers, service centers, finance options, insurance and dealership details across Hyderabad.',
+      'Explore Popular RKS sitemap for Ugadi 2026 Maruti Suzuki offers, cars, service centers, finance, insurance and dealership details across Hyderabad.',
     canonicalUrl: 'https://www.saboomaruti.in/',
     ogImage: '/img/og-tags/alto.webp',
     twitterUrl: 'https://x.com/saboorksmaruti',
@@ -43,11 +43,11 @@ export const SEOPages = {
 
   Awards: {
     title:
-      'Awards & Achievements | Award-Winning Maruti Suzuki Dealer in Hyderabad',
+      'Awards & Achievements | Ugadi 2026 Offers at Award-Winning Maruti Dealer Hyderabad',
     description:
-      'Popular RKS Maruti Suzuki is a multi-award-winning dealership recognized for sales, service excellence, and customer satisfaction across Hyderabad and Telangana.',
+      'Popular RKS Maruti Suzuki is a multi-award-winning dealership. Celebrate Ugadi 2026 with best car offers, recognized for sales excellence and customer satisfaction in Hyderabad.',
     keywords:
-      'Maruti Suzuki award winning dealer, Popular RKS achievements, best Maruti dealer Hyderabad, Maruti Platinum dealer',
+      'Maruti award winning dealer, Ugadi offers Maruti Hyderabad, Popular RKS achievements, best Maruti dealer Hyderabad',
     canonicalUrl: 'https://www.saboomaruti.in/',
     ogImage: '/img/og-tags/awards_banner.webp',
     twitterUrl: 'https://x.com/saboorksmaruti',
@@ -55,11 +55,11 @@ export const SEOPages = {
 
   BookAService: {
     title:
-      'Maruti Suzuki Service Center in Hyderabad | Book Car Service Online – Popular RKS',
+      'Book Maruti Service Hyderabad | Ugadi 2026 Car Service Offers – Popular RKS',
     description:
-      'Book Maruti Suzuki car service online at Popular RKS. Visit 12 authorized service centers in Hyderabad for expert servicing, genuine parts, insurance & car care packages.',
+      'Book Maruti Suzuki car service online at Popular RKS this Ugadi 2026. Get special service offers, genuine parts, expert care and maintenance across Hyderabad.',
     keywords:
-      'Maruti Suzuki service center Hyderabad, book Maruti car service, Maruti authorized service near me, Maruti car maintenance Hyderabad',
+      'Maruti service Hyderabad, Ugadi service offers Maruti, car service booking Hyderabad, Maruti maintenance offers',
     canonicalUrl: 'https://www.saboomaruti.in/',
     ogImage: '/img/og-tags/saboo_rks.jpg',
     twitterUrl: 'https://x.com/saboorksmaruti',
@@ -67,11 +67,11 @@ export const SEOPages = {
 
   offers: {
     title:
-      'Maruti Suzuki Car Offers 2026 in Hyderabad | Best Deals & Discounts – Popular RKS',
+      'Ugadi 2026 Maruti Suzuki Car Offers in Hyderabad | Best Deals – Popular RKS',
     description:
-      'Get the best Maruti Suzuki car offers in Hyderabad for 2026 at Popular RKS. Enjoy exclusive discounts, exchange bonus, low EMI finance & limited-time deals on Swift, Dzire, Brezza, Alto & more.',
+      'Celebrate Ugadi 2026 with best Maruti Suzuki offers in Hyderabad at Popular RKS. Get exclusive discounts, exchange bonus, low EMI and festive deals on Swift, Dzire, Brezza, Alto, WagonR & more.',
     keywords:
-      'Maruti Suzuki offers 2026, Maruti car discounts Hyderabad, Swift offers Hyderabad, Dzire best price, Brezza deals Hyderabad, Alto K10 offers, WagonR discounts, Maruti exchange bonus',
+      'Ugadi offers 2026 Maruti Suzuki, Maruti car discounts Hyderabad, Swift Ugadi offer, Dzire discount, Brezza deals, Alto K10 offers, WagonR offers',
     canonicalUrl: 'https://www.saboomaruti.in/',
     ogImage: '/img/og-tags/offers.webp',
     twitterUrl: 'https://www.saboomaruti.in/',
@@ -81,11 +81,11 @@ export const SEOPages = {
 export const VehicleSEO = {
   AltoK10: {
     title:
-      'Maruti Alto K10 On-Road Price in Hyderabad 2026 | Best Offers & EMI – Popular RKS',
+      'Maruti Alto K10 On-Road Price in Hyderabad 2026 | Ugadi Offers & EMI – Popular RKS',
     description:
-      'Buy Maruti Alto K10 in Hyderabad at the best on-road price from Popular RKS. Get latest 2026 offers, exchange bonus, low EMI options, road tax benefits & fast delivery. Book your Alto K10 today!',
+      'Celebrate Ugadi 2026 with best Maruti Alto K10 offers in Hyderabad at Popular RKS. Get lowest on-road price, exchange bonus, low EMI & instant delivery benefits.',
     keywords:
-      'Maruti Alto K10 on road price Hyderabad, Alto K10 offers 2026, Alto K10 EMI Hyderabad, Alto K10 exchange bonus, Alto K10 price Telangana',
+      'Alto K10 Ugadi offers 2026, Maruti Alto K10 price Hyderabad, Alto K10 EMI, Alto K10 exchange bonus, Ugadi car offers Hyderabad',
     canonicalUrl:
       'https://www.saboomaruti.in/all-new-maruti-alto-k10-on-road-price-in-hyderabad',
     ogImage:
@@ -94,11 +94,11 @@ export const VehicleSEO = {
 
   Brezza: {
     title:
-      'Maruti Brezza On-Road Price in Hyderabad 2026 | Best SUV Offers – Popular RKS',
+      'Maruti Brezza On-Road Price in Hyderabad 2026 | Ugadi SUV Offers – Popular RKS',
     description:
-      'Explore Maruti Brezza on-road price in Hyderabad with exclusive 2026 offers at Popular RKS. Enjoy attractive EMI plans, exchange bonus & limited-time SUV deals.',
+      'Get best Ugadi 2026 offers on Maruti Brezza in Hyderabad at Popular RKS. Enjoy SUV deals, exchange bonus, low EMI & limited-time festive discounts.',
     keywords:
-      'Maruti Brezza on road price Hyderabad, Brezza offers 2026, Brezza EMI Hyderabad, Brezza exchange bonus, compact SUV price Telangana',
+      'Brezza Ugadi offers 2026, Maruti Brezza price Hyderabad, Brezza EMI, SUV offers Hyderabad Ugadi, Brezza exchange bonus',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-new-brezza-on-road-price-in-hyderabad',
     ogImage: '/img/og-tags/breeza.webp',
@@ -106,22 +106,22 @@ export const VehicleSEO = {
 
   Celerio: {
     title:
-      'Maruti Celerio On-Road Price in Hyderabad 2026 | Best Mileage Car Offers',
+      'Maruti Celerio On-Road Price in Hyderabad 2026 | Ugadi Offers & Mileage Benefits',
     description:
-      'Get Maruti Celerio in Hyderabad at best price from Popular RKS. Avail latest offers, low EMI schemes, exchange bonus & excellent mileage benefits.',
+      'Celebrate Ugadi 2026 with best Maruti Celerio offers in Hyderabad. Get high mileage car benefits, exchange bonus, EMI options & festive discounts.',
     keywords:
-      'Maruti Celerio on road price Hyderabad, Celerio offers 2026, Celerio EMI Hyderabad, best mileage Maruti car',
+      'Celerio Ugadi offers 2026, Maruti Celerio price Hyderabad, mileage car offers Ugadi, Celerio EMI Hyderabad',
     canonicalUrl: 'https://www.saboomaruti.in/the-all-new-celerio',
     ogImage: '/img/og-tags/celerio.webp',
   },
 
   Dzire: {
     title:
-      'Maruti Dzire On-Road Price in Hyderabad 2026 | Best Sedan Offers – Popular RKS',
+      'Maruti Dzire On-Road Price in Hyderabad 2026 | Ugadi Sedan Offers – Popular RKS',
     description:
-      'Check Maruti Dzire on-road price in Hyderabad with best 2026 offers. Get low EMI, exchange bonus & limited-time deals at Popular RKS.',
+      'Buy Maruti Dzire in Hyderabad with best Ugadi 2026 offers at Popular RKS. Get sedan discounts, exchange bonus, EMI plans & festive benefits.',
     keywords:
-      'Maruti Dzire on road price Hyderabad, Dzire offers 2026, Dzire EMI Hyderabad, Dzire exchange bonus, Maruti sedan price',
+      'Dzire Ugadi offers 2026, Maruti Dzire price Hyderabad, Dzire EMI, sedan offers Hyderabad Ugadi',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-swift-dzire-on-road-price-in-hyderabad',
     ogImage: '/img/og-tags/dzire.webp',
@@ -129,11 +129,11 @@ export const VehicleSEO = {
 
   Ecco: {
     title:
-      'Maruti Eeco On-Road Price in Hyderabad 2026 | Best Family Car Offers',
+      'Maruti Eeco On-Road Price in Hyderabad 2026 | Ugadi Family Car Offers',
     description:
-      'Buy Maruti Eeco in Hyderabad at best price from Popular RKS. Ideal family & commercial car with low EMI options, exchange bonus & fast delivery.',
+      'Get best Ugadi 2026 offers on Maruti Eeco in Hyderabad at Popular RKS. Ideal family & commercial vehicle with exchange bonus, EMI & festive discounts.',
     keywords:
-      'Maruti Eeco on road price Hyderabad, Eeco offers 2026, Eeco EMI Hyderabad, family car price Telangana',
+      'Eeco Ugadi offers 2026, Maruti Eeco price Hyderabad, family car offers Ugadi, Eeco EMI Hyderabad',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-eeco-on-road-price-in-hyderabad',
     ogImage: '/img/og-tags/eeco.webp',
@@ -141,11 +141,11 @@ export const VehicleSEO = {
 
   Ertiga: {
     title:
-      'Maruti Ertiga On-Road Price in Hyderabad 2026 | Best MPV Offers – Popular RKS',
+      'Maruti Ertiga On-Road Price in Hyderabad 2026 | Ugadi MPV Offers – Popular RKS',
     description:
-      'Discover Maruti Ertiga on-road price in Hyderabad with best MPV offers. Enjoy exchange bonus, easy EMI plans & spacious family comfort.',
+      'Celebrate Ugadi 2026 with best Maruti Ertiga offers in Hyderabad. Get spacious MPV deals, exchange bonus, EMI benefits & festive discounts.',
     keywords:
-      'Maruti Ertiga on road price Hyderabad, Ertiga offers 2026, Ertiga EMI Hyderabad, MPV car price Telangana',
+      'Ertiga Ugadi offers 2026, Maruti Ertiga price Hyderabad, MPV offers Ugadi, Ertiga EMI Hyderabad',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-ertiga-on-road-price-in-hyderabad',
     ogImage: '/img/og-tags/ertiga.webp',
@@ -153,11 +153,11 @@ export const VehicleSEO = {
 
   Spresso: {
     title:
-      'Maruti S-Presso On-Road Price in Hyderabad 2026 | Best Entry Car Offers',
+      'Maruti S-Presso On-Road Price in Hyderabad 2026 | Ugadi Entry Car Offers',
     description:
-      'Check Maruti S-Presso on-road price in Hyderabad at Popular RKS. Get attractive offers, EMI benefits & exchange bonus on this compact city car.',
+      'Buy Maruti S-Presso in Hyderabad with Ugadi 2026 offers at Popular RKS. Get best price, EMI options, exchange bonus & festive discounts.',
     keywords:
-      'Maruti S-Presso on road price Hyderabad, S-Presso offers 2026, S-Presso EMI Hyderabad, entry level Maruti car',
+      'S-Presso Ugadi offers 2026, Maruti S-Presso price Hyderabad, entry car offers Ugadi, S-Presso EMI',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-s-presso-on-road-price-in-hyderabad',
     ogImage: '/img/og-tags/s-presso.webp',
@@ -165,11 +165,11 @@ export const VehicleSEO = {
 
   Swift: {
     title:
-      'Maruti Swift On-Road Price in Hyderabad 2026 | Best Hatchback Offers',
+      'Maruti Swift On-Road Price in Hyderabad 2026 | Ugadi Offers & Deals – Popular RKS',
     description:
-      'Buy Maruti Swift in Hyderabad at best price from Popular RKS. Avail latest 2026 offers, sporty design, low EMI & exchange bonus.',
+      'Celebrate Ugadi 2026 with best Maruti Swift offers in Hyderabad. Get sporty hatchback deals, exchange bonus, EMI & exclusive festive discounts.',
     keywords:
-      'Maruti Swift on road price Hyderabad, Swift offers 2026, Swift EMI Hyderabad, best hatchback Maruti',
+      'Swift Ugadi offers 2026, Maruti Swift price Hyderabad, Swift EMI, hatchback offers Hyderabad Ugadi',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-swift-car-on-road-price-in-hyderabad',
     ogImage:
@@ -178,11 +178,11 @@ export const VehicleSEO = {
 
   Wagonr: {
     title:
-      'Maruti WagonR On-Road Price in Hyderabad 2026 | Best Family Hatchback',
+      'Maruti WagonR On-Road Price in Hyderabad 2026 | Ugadi Family Offers',
     description:
-      'Explore Maruti WagonR on-road price in Hyderabad with best offers at Popular RKS. Spacious, reliable & affordable with EMI and exchange benefits.',
+      'Get best Ugadi 2026 offers on Maruti WagonR in Hyderabad at Popular RKS. Spacious family hatchback with EMI benefits, exchange bonus & festive deals.',
     keywords:
-      'Maruti WagonR on road price Hyderabad, WagonR offers 2026, WagonR EMI Hyderabad, family hatchback Maruti',
+      'WagonR Ugadi offers 2026, Maruti WagonR price Hyderabad, WagonR EMI, family car offers Ugadi',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-wagon-r-on-road-price-in-hyderabad',
     ogImage: '/img/og-tags/wagonr.webp',
@@ -190,26 +190,25 @@ export const VehicleSEO = {
 
   Victoris: {
     title:
-      'Maruti Victoris Price in Hyderabad 2026 | New Maruti Car Booking & Offers',
+      'Maruti Victoris Price in Hyderabad 2026 | Ugadi Booking Offers – Popular RKS',
     description:
-      'Book the new Maruti Victoris in Hyderabad at Popular RKS. Get priority delivery, booking benefits, exchange bonus & upcoming launch offers.',
+      'Book the new Maruti Victoris in Hyderabad with Ugadi 2026 offers at Popular RKS. Get priority delivery, booking benefits, exchange bonus & launch deals.',
     keywords:
-      'Maruti Victoris price Hyderabad, Victoris booking offers, new Maruti car 2026, upcoming Maruti models',
+      'Victoris Ugadi offers 2026, Maruti Victoris price Hyderabad, new Maruti booking offers, upcoming Maruti cars',
     canonicalUrl: 'https://www.saboomaruti.in/victoris',
     ogImage: '/img/og-tags/wagonr.webp',
   },
 };
 
 
-
 export const CNGvehicleSeo = {
   AltoK10CNG: {
     title:
-      'Maruti Alto K10 CNG On-Road Price in Hyderabad 2026 | Best CNG Offers',
+      'Maruti Alto K10 CNG On-Road Price in Hyderabad 2026 | Ugadi Offers & EMI',
     description:
-      'Buy Maruti Alto K10 CNG in Hyderabad at best on-road price from Popular RKS. Get latest 2026 CNG offers, excellent mileage, low EMI options & exchange bonus.',
+      'Celebrate Ugadi 2026 with best Maruti Alto K10 CNG offers in Hyderabad at Popular RKS. Get highest mileage, low EMI, exchange bonus & lowest running cost benefits.',
     keywords:
-      'Alto K10 CNG on road price Hyderabad, Alto K10 CNG offers 2026, Alto K10 CNG mileage, Alto K10 CNG EMI Hyderabad, best CNG car Telangana',
+      'Alto K10 CNG Ugadi offers 2026, Alto K10 CNG price Hyderabad, CNG mileage car offers Ugadi, Alto K10 CNG EMI Hyderabad',
     canonicalUrl: 'https://www.saboomaruti.in/alto-k10-cng',
     ogImage:
       'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/new-alto-k10/colors/color_range_688x360_red.webp',
@@ -217,11 +216,11 @@ export const CNGvehicleSeo = {
 
   BrezzaCNG: {
     title:
-      'Maruti Brezza CNG On-Road Price in Hyderabad 2026 | Best SUV CNG Deals',
+      'Maruti Brezza CNG On-Road Price in Hyderabad 2026 | Ugadi SUV CNG Offers',
     description:
-      'Check Maruti Brezza CNG on-road price in Hyderabad at Popular RKS. Enjoy SUV comfort with low running cost, attractive EMI plans & exchange benefits.',
+      'Get best Ugadi 2026 offers on Maruti Brezza CNG in Hyderabad at Popular RKS. Enjoy SUV comfort with low running cost, EMI benefits & festive discounts.',
     keywords:
-      'Maruti Brezza CNG on road price Hyderabad, Brezza CNG offers 2026, Brezza CNG mileage, Brezza CNG EMI Hyderabad, SUV CNG car',
+      'Brezza CNG Ugadi offers 2026, Maruti Brezza CNG price Hyderabad, SUV CNG offers Ugadi, Brezza CNG EMI',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-brezza-cng-on-road-price',
     ogImage: '/img/og-tags/alto.webp',
@@ -229,11 +228,11 @@ export const CNGvehicleSeo = {
 
   CelerioCNG: {
     title:
-      'Maruti Celerio CNG On-Road Price in Hyderabad 2026 | Best Mileage CNG Car',
+      'Maruti Celerio CNG On-Road Price in Hyderabad 2026 | Ugadi Mileage Offers',
     description:
-      'Get Maruti Celerio CNG in Hyderabad at best price from Popular RKS. Known for excellent mileage, low running cost, EMI options & exchange bonus.',
+      'Buy Maruti Celerio CNG in Hyderabad with Ugadi 2026 offers at Popular RKS. Get best mileage benefits, EMI options, exchange bonus & festive discounts.',
     keywords:
-      'Maruti Celerio CNG on road price Hyderabad, Celerio CNG offers 2026, Celerio CNG mileage, Celerio CNG EMI Hyderabad',
+      'Celerio CNG Ugadi offers 2026, Maruti Celerio CNG price Hyderabad, best mileage CNG car, Celerio CNG EMI',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-celerio-cng-on-road-price-in-hyderabad',
     ogImage: '/img/og-tags/alto.webp',
@@ -241,11 +240,11 @@ export const CNGvehicleSeo = {
 
   DzireCNG: {
     title:
-      'Maruti Dzire CNG On-Road Price in Hyderabad 2026 | Best Sedan CNG Offers',
+      'Maruti Dzire CNG On-Road Price in Hyderabad 2026 | Ugadi Sedan CNG Offers',
     description:
-      'Explore Maruti Dzire CNG on-road price in Hyderabad with best 2026 offers. Enjoy sedan comfort, high mileage, easy EMI & exchange benefits.',
+      'Celebrate Ugadi 2026 with best Maruti Dzire CNG offers in Hyderabad. Enjoy sedan comfort, high mileage, EMI plans & exchange bonus.',
     keywords:
-      'Maruti Dzire CNG on road price Hyderabad, Dzire CNG offers 2026, Dzire CNG mileage, Dzire CNG EMI Hyderabad',
+      'Dzire CNG Ugadi offers 2026, Maruti Dzire CNG price Hyderabad, sedan CNG offers Ugadi, Dzire CNG EMI',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-swift-dzire-cng-on-road-price-in-hyderabad',
     ogImage: '/img/og-tags/dzire.webp',
@@ -253,11 +252,11 @@ export const CNGvehicleSeo = {
 
   EccoCNG: {
     title:
-      'Maruti Eeco CNG On-Road Price in Hyderabad 2026 | Best CNG Van Deals',
+      'Maruti Eeco CNG On-Road Price in Hyderabad 2026 | Ugadi Van Offers',
     description:
-      'Buy Maruti Eeco CNG in Hyderabad from Popular RKS. Ideal for family & commercial use with low running cost, EMI options & fast delivery.',
+      'Get best Ugadi 2026 offers on Maruti Eeco CNG in Hyderabad at Popular RKS. Ideal for family & commercial use with low running cost, EMI & exchange bonus.',
     keywords:
-      'Maruti Eeco CNG on road price Hyderabad, Eeco CNG offers 2026, Eeco CNG mileage, Eeco CNG EMI Hyderabad, CNG van price',
+      'Eeco CNG Ugadi offers 2026, Maruti Eeco CNG price Hyderabad, CNG van offers, Eeco CNG EMI',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-eeco-cng-on-road-price-in-hyderabad',
     ogImage: '/img/og-tags/eeco.webp',
@@ -265,11 +264,11 @@ export const CNGvehicleSeo = {
 
   ErtigaCNG: {
     title:
-      'Maruti Ertiga CNG On-Road Price in Hyderabad 2026 | Best MPV CNG Offers',
+      'Maruti Ertiga CNG On-Road Price in Hyderabad 2026 | Ugadi MPV CNG Offers',
     description:
-      'Discover Maruti Ertiga CNG on-road price in Hyderabad with best MPV offers. Spacious family car with low running cost, EMI & exchange bonus.',
+      'Buy Maruti Ertiga CNG in Hyderabad with Ugadi 2026 offers at Popular RKS. Spacious MPV with high mileage, EMI options & festive benefits.',
     keywords:
-      'Maruti Ertiga CNG on road price Hyderabad, Ertiga CNG offers 2026, Ertiga CNG mileage, Ertiga CNG EMI Hyderabad',
+      'Ertiga CNG Ugadi offers 2026, Maruti Ertiga CNG price Hyderabad, MPV CNG offers Ugadi, Ertiga CNG EMI',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-ertiga-cng-on-road-price-in-hyderabad',
     ogImage: '/img/og-tags/ertiga.webp',
@@ -277,11 +276,11 @@ export const CNGvehicleSeo = {
 
   SpressoCNG: {
     title:
-      'Maruti S-Presso CNG On-Road Price in Hyderabad 2026 | Best Entry CNG Car',
+      'Maruti S-Presso CNG On-Road Price in Hyderabad 2026 | Ugadi Entry CNG Offers',
     description:
-      'Check Maruti S-Presso CNG on-road price in Hyderabad at Popular RKS. Affordable entry-level CNG car with EMI benefits & exchange offers.',
+      'Check Maruti S-Presso CNG in Hyderabad with Ugadi 2026 offers at Popular RKS. Affordable entry car with EMI benefits, exchange bonus & festive discounts.',
     keywords:
-      'Maruti S-Presso CNG on road price Hyderabad, S-Presso CNG offers 2026, S-Presso CNG mileage, S-Presso CNG EMI Hyderabad',
+      'S-Presso CNG Ugadi offers 2026, Maruti S-Presso CNG price Hyderabad, entry CNG car offers Ugadi, S-Presso CNG EMI',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-s-presso-cng-on-road-price-in-hyderabad',
     ogImage: '/img/og-tags/s-presso.webp',
@@ -289,11 +288,11 @@ export const CNGvehicleSeo = {
 
   SwiftCNG: {
     title:
-      'Maruti Swift CNG On-Road Price in Hyderabad 2026 | Best Hatchback CNG',
+      'Maruti Swift CNG On-Road Price in Hyderabad 2026 | Ugadi Hatchback Offers',
     description:
-      'Buy Maruti Swift CNG in Hyderabad at best price from Popular RKS. Sporty hatchback with high mileage, low EMI options & exchange bonus.',
+      'Celebrate Ugadi 2026 with best Maruti Swift CNG offers in Hyderabad. Get sporty hatchback, high mileage, EMI & exchange bonus.',
     keywords:
-      'Maruti Swift CNG on road price Hyderabad, Swift CNG offers 2026, Swift CNG mileage, Swift CNG EMI Hyderabad',
+      'Swift CNG Ugadi offers 2026, Maruti Swift CNG price Hyderabad, hatchback CNG offers Ugadi, Swift CNG EMI',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-swift-cng-on-road-price-in-hyderabad',
     ogImage: '/img/og-tags/swift-cng.webp',
@@ -301,11 +300,11 @@ export const CNGvehicleSeo = {
 
   WagonrCNG: {
     title:
-      'Maruti WagonR CNG On-Road Price in Hyderabad 2026 | Best Family CNG Car',
+      'Maruti WagonR CNG On-Road Price in Hyderabad 2026 | Ugadi Family CNG Offers',
     description:
-      'Explore Maruti WagonR CNG on-road price in Hyderabad with best offers. Spacious family hatchback with excellent mileage, EMI & exchange benefits.',
+      'Get best Ugadi 2026 offers on Maruti WagonR CNG in Hyderabad at Popular RKS. Spacious family car with excellent mileage, EMI & exchange benefits.',
     keywords:
-      'Maruti WagonR CNG on road price Hyderabad, WagonR CNG offers 2026, WagonR CNG mileage, WagonR CNG EMI Hyderabad',
+      'WagonR CNG Ugadi offers 2026, Maruti WagonR CNG price Hyderabad, family CNG car offers Ugadi, WagonR CNG EMI',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-wagonr-cng-on-road-price-in-hyderabad',
     ogImage: '/img/og-tags/wagonr.webp',

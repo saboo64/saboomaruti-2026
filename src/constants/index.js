@@ -1,9 +1,9 @@
 export const sliders = [
-  {
-   img: require('../assets/banners/Website_Maruti_Suzuki_Arena_Ugadi_Offers_mobile.webp'),
-    alt: "Website Maruti Suzuki Dzire Festive November Yearend Offers Saboo RKS Motor, Website_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor",
-    link: "/maruti-suzuki-car-offers-page",
-  },
+  // {
+  //  img: require('../assets/banners/Website_Maruti_Suzuki_Arena_Ugadi_Offers_mobile.webp'),
+  //   alt: "Website Maruti Suzuki Dzire Festive November Yearend Offers Saboo RKS Motor, Website_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor",
+  //   link: "/maruti-suzuki-car-offers-page",
+  // },
 
   {
     img: require('../assets/banners/Saboo RKS Maruti Suzuki Victoris Web Banner.webp'),
@@ -111,11 +111,11 @@ export const sliders = [
 ];
 
 export const mobileSliders = [
-  {
-    img: require("../assets/banners/Website_Maruti_Suzuki_Arena_Ugadi_Offers.webp"),
-    alt: 'Maruti_Suzuki_Arena_Valentines_Day_2025_Febrauary_offers',
-    link: '/maruti-suzuki-car-offers-page',
-  },
+  // {
+  //   img: require("../assets/banners/Website_Maruti_Suzuki_Arena_Ugadi_Offers.webp"),
+  //   alt: 'Maruti_Suzuki_Arena_Valentines_Day_2025_Febrauary_offers',
+  //   link: '/maruti-suzuki-car-offers-page',
+  // },
 
   // {
   //   img: require("../assets/banners/WM_Maruti_Suzuki_Arena_Summer_Offers_May_offers_Now_Six_6_Airbags_Saboo_RKS_Motor.webp"),
@@ -200,10 +200,10 @@ export const mobileSliders = [
 ];
 
 export const offersSliders = [
-  {
-    img: require('../assets/banners/Website_Maruti_Suzuki_Arena_February_Offers_Saboo_RKS_Popular_Vehicles.webp'),
-    alt: 'summer may offers',
-  },
+  // {
+  //  img: require('../assets/banners/Website_Maruti_Suzuki_Arena_Ugadi_Offers_mobile.webp'),
+  //   alt: 'summer may offers',
+  // },
   // {
   //   img: require("../assets/banners/Website_Maruti_Suzuki_Arena_Summer_Offers_April_offers_are_live_at_Saboo_RKS_Motor.webp"),
   //   alt: "summer",
@@ -256,7 +256,7 @@ export const offersSliders = [
 
 export const mobileOffersSliders = [
   {
-    img: require('../assets/banners/WM_Maruti_Suzuki_Arena_February_Offers_Saboo_RKS_Popular_Vehicles.webp'),
+    img: require("../assets/banners/Website_Maruti_Suzuki_Arena_Ugadi_Offers.webp"),
     alt: 'Maruti_Suzuki_Arena may offers',
   },
   // {

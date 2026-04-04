@@ -29,7 +29,7 @@ function Faq() {
       </p>
       <p className='max-w-3xl px-5 mx-auto mb-5 text-center md:px-0'>
         Have any questions? Take a look & maybe we can answer them right now. If
-        not, write to us at info@saboomaruti.in
+        not, write to us at smg.crc.cm@popularv.com
       </p>
 
       <div className='w-full max-w-6xl p-2 mx-auto bg-white rounded-2xl'>

@@ -233,10 +233,10 @@ function Footer() {
               </div>
               <p className='py-2'>
                 <a
-                  href='mailto:info@saboomaruti.in'
+                  href='mailto:smg.crc.cm@popularv.com'
                   className='bg-white text-blue-700 px-3 py-1.5 rounded-full shadow-sm text-sm mt-3 hover:bg-gray-300'
                 >
-                  info@saboomaruti.in
+                  smg.crc.cm@popularv.com
                 </a>
               </p>
               <a

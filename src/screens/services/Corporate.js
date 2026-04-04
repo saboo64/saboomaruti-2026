@@ -453,11 +453,11 @@ function Corporate() {
               98488 98488
             </a>
             <a
-              href="mailto:info@saboomaruti.in"
+              href="mailto:smg.crc.cm@popularv.com"
               className="bg-blue-800 rounded-full text-white px-4 py-1.5 flex items-center"
             >
               <FaEnvelope className="mr-2" size={15} />
-              info@saboomaruti.in
+              smg.crc.cm@popularv.com
             </a>
           </div>
           <iframe
