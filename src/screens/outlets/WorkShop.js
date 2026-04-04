@@ -76,8 +76,8 @@ const Banner = () => {
         <div className='py-6 my-auto text-2xl text-center sm:text-left sm:text-5xl'>
           Wherever you are <br />{' '}
           <span className='font-bold uppercase'>
-            saboo <span className='text-red-600'>rks</span>
-          </span>{' '}
+            Popular <span className='text-red-600'>rks</span>
+          </span>
           <br /> is by your side.
         </div>
         <div>
