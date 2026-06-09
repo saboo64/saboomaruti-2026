@@ -43,38 +43,47 @@ const wagonrColors = [
   {
     id: 1,
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/data/wagonr/colors/PREMIUM-GALLANT-RED_Dual.webp',
+    hex: "#A8191A"
   },
   {
     id: 2,
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/data/wagonr/colors/NUTMEG-BROWN.webp',
+    hex: "#534132"
   },
   {
     id: 3,
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/data/wagonr/colors/SILKY-SILVER.webp',
+    hex: "#D2D5D8"
   },
   {
     id: 4,
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/data/wagonr/colors/METALLIC-MAGMA-GREY.webp',
+    hex: "#454545"
   },
   {
     id: 5,
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/data/wagonr/colors/POOLSIDE-BLUE.webp',
+    hex: "#3C669A"
   },
   {
     id: 6,
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/data/wagonr/colors/PREMIUM-GALLANT_RED.webp',
+    hex: "#AF2123"
   },
   {
     id: 7,
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/data/wagonr/colors/METALLIC-MAGMA-GREY_Dual.webp',
+    hex: "#282828"
   },
   {
     id: 8,
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/data/wagonr/colors/SOLID-WHITE.webp',
+    hex: "#C6C7CB"
   },
   {
     id: 9,
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/cars/wagon-r/wagonr-black.webp',
+    hex: "#191A21"
   },
 ];
 

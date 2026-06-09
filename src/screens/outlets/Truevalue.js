@@ -17,7 +17,7 @@ function Truevalue() {
       />
 
       <Header />
-      <Banner />
+      {/* <Banner /> */}
       {/* <div className="my-8">
         <p className="text-3xl font-semibold text-center">True Value</p>
         <div className="container pt-16 mx-auto">
@@ -39,7 +39,7 @@ function Truevalue() {
           </div>
         </div>
       </div> */}
-      <div className='my-8'>
+      <div className='my-28'>
         <p className='text-3xl font-semibold text-center'>True Value</p>
         <div className='container pt-16 mx-auto'>
           <div className='grid grid-cols-1 gap-5 px-3 lg:grid-cols-4 md:grid-cols-2 md:px-0'>

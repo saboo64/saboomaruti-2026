@@ -16,7 +16,7 @@ function Arena() {
   ogImage="/img/og-tags/saboo_rks.webp"
 />
 
-      <Banner />
+      {/* <Banner /> */}
       {/* <div className='my-8'>
         <p className='text-3xl font-semibold text-center'>Arena</p>
         <div className='container pt-16 mx-auto'>
@@ -38,7 +38,7 @@ function Arena() {
           </div>
         </div>
       </div> */}
-      <div className='my-8' id='showrooms'>
+      <div className='my-28' id='showrooms'>
         <p className='text-3xl font-semibold text-center'>Showrooms</p>
         <div className='container pt-16 mx-auto'>
           <div className='grid grid-cols-1 gap-5 px-3 lg:grid-cols-4 md:grid-cols-2 md:px-0'>

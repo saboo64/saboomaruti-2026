@@ -17,7 +17,7 @@ function WorkShop() {
       />
 
       <Header />
-      <Banner />
+      {/* <Banner /> */}
       {/* <div className="my-8">
         <p className="text-3xl font-semibold text-center">Workshop</p>
         <div className="container pt-16 mx-auto">
@@ -39,7 +39,7 @@ function WorkShop() {
           </div>
         </div>
       </div> */}
-      <div className='my-8' id='workshop'>
+      <div className='my-28' id='workshop'>
         <p className='text-3xl font-semibold text-center'>WorkShop</p>
         <div className='container pt-16 mx-auto'>
           <div className='grid grid-cols-1 gap-5 px-3 lg:grid-cols-3 md:grid-cols-2 md:px-0'>

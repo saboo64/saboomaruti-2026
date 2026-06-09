@@ -4,7 +4,7 @@ import { CgSpinner } from 'react-icons/cg';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footer from './components/footer/Footer';
-import About from './screens/about/About';
+import About from './screens/about-us/about-us';
 import Offers from './screens/more/Offers';
 import Arena from './screens/outlets/Arena';
 import Truevalue from './screens/outlets/Truevalue';

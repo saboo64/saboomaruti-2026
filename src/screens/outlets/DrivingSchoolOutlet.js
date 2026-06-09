@@ -16,7 +16,7 @@ function DrivingSchoolOutlet() {
       />
 
       <Header />
-      <Banner />
+      {/* <Banner /> */}
       {/* <div className="my-8">
         <p className="text-3xl font-semibold text-center">Driving School</p>
         <div className="container pt-16 mx-auto">
@@ -38,7 +38,7 @@ function DrivingSchoolOutlet() {
           </div>
         </div>
       </div> */}
-      <div className='my-8 '>
+      <div className='my-28 '>
         <p className='flex justify-center text-3xl font-semibold '>
           Driving School
         </p>

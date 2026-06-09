@@ -20,6 +20,12 @@ import { SEOPages } from '../../constants/SEOData';
 
 const offer_products = [
   {
+    name: 'Victoris',
+    price: '1,15,000',
+    img: 'https://ik.imagekit.io/hsukyjske/Nivya-automobiles/Victoris/Colors/sizzling_red-min.png?updatedAt=1762336384483',
+    explore: '/victoris',
+  },
+  {
     name: 'Swift ',
     price: '1,29,600',
     // desc:"on 2024 model (with old Alto & Wagonr exchange) ",
@@ -28,7 +34,7 @@ const offer_products = [
   },
   {
     name: 'Brezza ',
-    price: '1,73,700',
+    price: '1,82,500',
     //desc: ' (with old Swift & Dzire exchange)',
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-brezza.webp',
     // img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/offers/maruti-suzuki-brezza.webp",
@@ -37,7 +43,7 @@ const offer_products = [
   {
     name: 'Alto K10',
 
-    price: '1,44,700',
+    price: '1,49,700',
     logo: 'Alto k10',
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-k10.webp',
     explore: '/maruti-alto-800-on-road-price-in-hyderabad',
@@ -50,7 +56,7 @@ const offer_products = [
   },
   {
     name: 'WagonR ',
-    price: '1,66,700',
+    price: '1,26,700',
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-wagonr.webp',
     explore: '/maruti-wagon-r-on-road-price-in-hyderabad',
   },
@@ -70,23 +76,18 @@ const offer_products = [
   },
   {
     name: 'Ertiga',
-    price: '51,400',
+    price: '46,400',
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-ertiga.webp',
     explore: '/maruti-ertiga-on-road-price-in-hyderabad',
   },
 
-    {
+  {
     name: 'Dzire',
-    price: '90,200',
+    price: '87,700',
     img: 'https://www.marutisuzuki.com/images/dzire_brand/images/threesixty/blue/suzuki_swift_ext_360_oragne_v-1_6.webp',
     explore: '/maruti-swift-dzire-on-road-price-in-hyderabad',
   },
-  // {
-  //   name: 'Old Dzire',
-  //   price: '38,000',
-  //   img: swiftDzireImg,
-  //   explore: '/maruti-swift-dzire-on-road-price-in-hyderabad',
-  // },
+
 ];
 
 function Offers() {
