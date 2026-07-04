@@ -1,12 +1,29 @@
+import bannerMonsoonDesktop from '../assets/banners/Website_Maruti_Suzuki_Arena_Monsoon_Offers_July_offers_Now_Six_6_Airbags_Popular_RKS_Vehicles_Services.webp';
+import bannerVictoris from '../assets/banners/Saboo RKS Maruti Suzuki Victoris Web Banner.webp';
+import bannerBrezzaDesktop from '../assets/banners/Saboo-RKS-Maruti-Suzuki-Brezza-Now-6-Airbags.webp';
+import bannerSwiftDesktop from '../assets/banners/Arena new Swift banner.webp';
+import bannerSUVMaker from '../assets/banners/new/Website_Maruti_Suzuki_No1_SUV_Maker_Saboo_RKS_Motor_October_Offers.webp';
+import bannerAltoK10Desktop from '../assets/banners/Saboo-RKS-Maruti-Suzuki-Alto-k10-Now-6-Airbags.webp';
+import bannerMonsoonMobile from '../assets/banners/WM_Maruti_Suzuki_Arena_Monsoon_Offers_July_offers_Now_Six_6_Airbags_Popular_RKS_Vehicles_Services.webp';
+import bannerDzireMobile from '../assets/banners/vehicles/banners-2024/Website_Mobile_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor.webp';
+import bannerBrezzaMobile from '../assets/banners/Website_Mobile_Maruti_Suzuki_Arena_Brezza_Urbano_Edition_Offers_Saboo_RKS_Motor_Hyderabad_Favoruite_Maruti_Suzuki_Dealer.webp';
+import bannerSwiftMobile from '../assets/banners/Arena new Swift banner_mobile.webp';
+import reward1 from '../assets/banners/RewardSlider/1.png';
+import reward2 from '../assets/banners/RewardSlider/2.png';
+import reward3 from '../assets/banners/RewardSlider/3.png';
+import reward4 from '../assets/banners/RewardSlider/4.png';
+import reward8 from '../assets/banners/RewardSlider/8.png';
+import bannerAccessories from '../assets/banners/Maruti_Suzuki_Genuine_Accessories_Summer_cool_offers_Saboo_RKS_Nexa_Banner-01.webp';
+
 export const sliders = [
   {
-    img: require('../assets/banners/Website_Maruti_Suzuki_Arena_Monsoon_Offers_June_offers_Now_Six_6_Airbags_Popular_RKS_Vehicles_Services.webp'),
+    img: bannerMonsoonDesktop,
     alt: "Website Maruti Suzuki Dzire Festive November Yearend Offers Saboo RKS Motor, Website_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor",
     link: "/maruti-suzuki-car-offers-page",
   },
 
   {
-    img: require('../assets/banners/Saboo RKS Maruti Suzuki Victoris Web Banner.webp'),
+    img: bannerVictoris,
     alt: 'Website Maruti Suzuki Dzire Festive November Yearend Offers Saboo RKS Motor, Website_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor',
     link: '/victoris',
   },
@@ -37,7 +54,7 @@ export const sliders = [
   // },
 
   {
-    img: require('../assets/banners/Saboo-RKS-Maruti-Suzuki-Brezza-Now-6-Airbags.webp'),
+    img: bannerBrezzaDesktop,
     alt: 'Maruti Suzuki Arena Brezza Urbano Edition Offers Saboo RKS Motor Hyderabad Favourite Maruti Suzuki Dealer',
     link: '/maruti-new-brezza-on-road-price-in-hyderabad',
   },
@@ -51,7 +68,7 @@ export const sliders = [
   //   alt: "Buy Dream Series Edition @ 4.99 Lakh",
   // },
   {
-    img: require('../assets/banners/Arena new Swift banner.webp'),
+    img: bannerSwiftDesktop,
     alt: 'Unveleing New Maruti Suzuki Swift 2024, Coming Soon. Saboo RKS Motors Hyderabad',
     link: '/maruti-swift-car-on-road-price-in-hyderabad',
   },
@@ -72,7 +89,7 @@ export const sliders = [
   // },
 
   {
-    img: require('../assets/banners/new/Website_Maruti_Suzuki_No1_SUV_Maker_Saboo_RKS_Motor_October_Offers.webp'),
+    img: bannerSUVMaker,
     alt: 'Maruti Suzuki No1 SUV Maker Saboo RKS Motor October Offers',
     link: '/maruti-suzuki-car-offers-page',
   },
@@ -99,7 +116,7 @@ export const sliders = [
   //   alt: "new alto k10",
   // },
   {
-    img: require('../assets/banners/Saboo-RKS-Maruti-Suzuki-Alto-k10-Now-6-Airbags.webp'),
+    img: bannerAltoK10Desktop,
     alt: 'Maruti Suzuki No1 SUV Maker Saboo RKS Motor October Offers',
     link: '/maruti-suzuki-car-offers-page',
   },
@@ -112,7 +129,7 @@ export const sliders = [
 
 export const mobileSliders = [
   {
-    img: require("../assets/banners/WM_Maruti_Suzuki_Arena_Monsoon_Offers_June_offers_Now_Six_6_Airbags_Popular_RKS_Vehicles_Services.webp"),
+    img: bannerMonsoonMobile,
     alt: 'Maruti_Suzuki_Arena_Valentines_Day_2025_Febrauary_offers',
     link: '/maruti-suzuki-car-offers-page',
   },
@@ -129,7 +146,7 @@ export const mobileSliders = [
   // },
 
   {
-    img: require('../assets/banners/vehicles/banners-2024/Website_Mobile_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor.webp'),
+    img: bannerDzireMobile,
     alt: 'Mobile Maruti Suzuki Dezire Festive december Yearend Offers Saboo RKS Motor, Mobile_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor.webp',
     link: '/maruti-swift-dzire-on-road-price-in-hyderabad',
   },
@@ -151,7 +168,7 @@ export const mobileSliders = [
   //  },
 
   {
-    img: require('../assets/banners/Website_Mobile_Maruti_Suzuki_Arena_Brezza_Urbano_Edition_Offers_Saboo_RKS_Motor_Hyderabad_Favoruite_Maruti_Suzuki_Dealer.webp'),
+    img: bannerBrezzaMobile,
     alt: 'Maruti Suzuki Arena Brezza Urbano Edition Offers Saboo RKS Motor Hyderabad Favourite Maruti Suzuki Dealer',
     link: '/maruti-new-brezza-on-road-price-in-hyderabad',
   },
@@ -164,7 +181,7 @@ export const mobileSliders = [
   //   alt: "Buy Dream Series Edition @ 4.99 Lakh",
   // },
   {
-    img: require('../assets/banners/Arena new Swift banner_mobile.webp'),
+    img: bannerSwiftMobile,
     alt: 'Unveleing New Maruti Suzuki Swift 2024, Coming Soon. Saboo RKS Motors Hyderabad',
     link: '/maruti-swift-car-on-road-price-in-hyderabad',
   },
@@ -202,7 +219,7 @@ export const mobileSliders = [
 export const offersSliders = [
 
   {
-    img: require('../assets/banners/Website_Maruti_Suzuki_Arena_Monsoon_Offers_June_offers_Now_Six_6_Airbags_Popular_RKS_Vehicles_Services.webp'),
+    img: bannerMonsoonDesktop,
     alt: "Website Maruti Suzuki Dzire Festive November Yearend Offers Saboo RKS Motor, Website_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor",
     link: "/maruti-suzuki-car-offers-page",
   },
@@ -254,7 +271,7 @@ export const offersSliders = [
 
 export const mobileOffersSliders = [
   {
-    img: require("../assets/banners/WM_Maruti_Suzuki_Arena_Monsoon_Offers_June_offers_Now_Six_6_Airbags_Popular_RKS_Vehicles_Services.webp"),
+    img: bannerMonsoonMobile,
     alt: 'Maruti_Suzuki_Arena_Valentines_Day_2025_Febrauary_offers',
     link: '/maruti-suzuki-car-offers-page',
   },
@@ -747,23 +764,23 @@ export const showrooms = [
 
 export const RewardSliderImages = [
   {
-    img: require('../assets/banners/RewardSlider/1.png'),
+    img: reward1,
     alt: 'Reward Points slider 1',
   },
   {
-    img: require('../assets/banners/RewardSlider/2.png'),
+    img: reward2,
     alt: 'Reward Points slider 2',
   },
   {
-    img: require('../assets/banners/RewardSlider/3.png'),
+    img: reward3,
     alt: 'Reward Points slider 3',
   },
   {
-    img: require('../assets/banners/RewardSlider/4.png'),
+    img: reward4,
     alt: 'Reward Points slider 4',
   },
   {
-    img: require('../assets/banners/RewardSlider/8.png'),
+    img: reward8,
     alt: 'Reward Points slider 5',
   },
 ];
@@ -780,7 +797,7 @@ export const RewardMobileSliderImages = [
   },
 ];
 
-<iframe
+{/* <iframe
   title='Embedded Video'
   src=''
   width='600'
@@ -789,7 +806,7 @@ export const RewardMobileSliderImages = [
   allowfullscreen=''
   loading='lazy'
   referrerpolicy='no-referrer-when-downgrade'
-></iframe>;
+></iframe>; */}
 
 // export const truevalue = [
 //   {
@@ -1025,7 +1042,7 @@ export const Newaccesoriessliders = [
   //   alt: "banner-1",
   // },
   {
-    img: require('../assets/banners/Maruti_Suzuki_Genuine_Accessories_Summer_cool_offers_Saboo_RKS_Nexa_Banner-01.webp'),
+    img: bannerAccessories,
     alt: 'Maruti Suzuki Genuine Accessories Summer cool offers Saboo RKS Hyderabad April 2024',
   },
   {

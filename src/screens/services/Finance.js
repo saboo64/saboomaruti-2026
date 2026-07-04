@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import financeBanner from '../../assets/banners/Saboo-Maruti-Suzuki-Finance-Banner.b458befc73e9d9d51ea6.webp';
 import { useEffect } from 'react';
 import { toast } from 'react-toastify';
 import Header from '../../components/header/Header';
@@ -282,7 +283,7 @@ function Finance() {
       />
 
       <img
-        src={require('../../assets/banners/Saboo-Maruti-Suzuki-Finance-Banner.b458befc73e9d9d51ea6.webp')}
+        src={financeBanner}
         className='w-full max-w-full lg:mt-16'
         alt='finance banner'
         id='finance'

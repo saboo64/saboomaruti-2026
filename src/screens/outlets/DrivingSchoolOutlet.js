@@ -1,4 +1,5 @@
 import React from 'react';
+// import outletsBanner from '../../assets/banners/outlets-banner.webp';
 // import { Helmet } from 'react-helmet';
 import Header from '../../components/header/Header';
 import { school } from '../../constants';
@@ -11,7 +12,7 @@ function DrivingSchoolOutlet() {
         title='Maruti Driving School Locations in Hyderabad | Fees & Offers on Maruti Driving School'
         description='Maruti Driving School Locations in Hyderabad. Vist our site to know your nearest Maruti Driving School Locationor  Call now 9848898488.'
         keywords='maruti driving school, maruti authorized driving school, maruti driving school near me'
-        canonicalUrl='https://www.saboomaruti.in/'
+        canonicalUrl='https://www.saboomaruti.in/maruti-driving-school-locations'
         ogImage='' // You can replace this with a valid image path like "/img/og-tags/driving_school.webp"
       />
 
@@ -44,8 +45,8 @@ function DrivingSchoolOutlet() {
         </p>
         <div className='container pt-16 mx-auto '>
           <div className='grid justify-center grid-cols-1 gap-5 px-3 lg:grid-cols-3 md:grid-cols-2 md:px-0'>
-            {school.map((item, index) => (
-              <div className='w-full  h-60 pt-1 px-4 text-left py-3 p hover:text-white shadow-xl shadow-[#B0B0B0] group duration-500 border-t rounded-3xl relative overflow-hidden'>
+            {school.map((item) => (
+              <div key={item.address} className='w-full  h-60 pt-1 px-4 text-left py-3 p hover:text-white shadow-xl shadow-[#B0B0B0] group duration-500 border-t rounded-3xl relative overflow-hidden'>
                 <div className='bg-blue-800  h-16 w-20 duration-500 group-hover:h-[130%] group-hover:w-[170%] group-hover:-top-11 group-hover:-right-20 rounded-full absolute -top-20 -right-20 -z-10'></div>
                 <div className='mt-2 mb-2 text-base font-medium uppercase'>
                   {item.address}
@@ -69,27 +70,5 @@ function DrivingSchoolOutlet() {
     </>
   );
 }
-
-const Banner = () => {
-  return (
-    <div className='bg-[#40a7e4]'>
-      <div className='container grid grid-cols-1 px-5 mx-auto text-white md:grid-cols-2 md:px-0 lg:mt-16'>
-        <div className='py-6 my-auto text-2xl text-center sm:text-left sm:text-5xl'>
-          Wherever you are <br />{' '}
-          <span className='font-bold uppercase'>
-            Popular <span className='text-red-600'>rks</span>
-          </span>{' '}
-          <br /> is by your side.
-        </div>
-        <div>
-          <img
-            src={require('../../assets/banners/../../assets/banners/outlets-banner.webp')}
-            alt='Saboo-Maruti-Suzuki-Outlet'
-          />
-        </div>
-      </div>
-    </div>
-  );
-};
 
 export default DrivingSchoolOutlet;

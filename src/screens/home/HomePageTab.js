@@ -1,5 +1,7 @@
 import React from 'react';
 import { Fragment, useState, useEffect } from 'react';
+import insuranceBanner from '../../assets/banners/RewardSlider/Website_Titles_Maruti_Suzuki_Insurance_Service__Saboo_RKS_Motor_Insurance_Renewal (1).webp';
+import serviceDiwaliBanner from '../../assets/banners/Website_Tile_Maruti_Suzuki_Service_diwali_offer_with_Saboo_RKS_Motor_October_Service.webp';
 import { Tab } from '@headlessui/react';
 import { BiRupee } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
@@ -212,7 +214,7 @@ const ArenaCars = () => {
         <a href='/maruti-suzuki-car-insurance-renewal'>
           <div className=''>
             <LazyImage
-              src={require('../../assets/banners/RewardSlider/Website_Titles_Maruti_Suzuki_Insurance_Service__Saboo_RKS_Motor_Insurance_Renewal (1).webp')}
+              src={insuranceBanner}
               className='object-cover w-full h-full duration-500 hover:scale-95 rounded-xl'
               alt='banner'
             />
@@ -221,7 +223,7 @@ const ArenaCars = () => {
         <a href='/maruti-car-service-centers-near-me'>
           <div className=''>
             <LazyImage
-              src={require('../../assets/banners/Website_Tile_Maruti_Suzuki_Service_diwali_offer_with_Saboo_RKS_Motor_October_Service.webp')}
+              src={serviceDiwaliBanner}
               className='object-cover w-full h-full duration-500 rounded-xl hover:scale-95'
               alt='banner'
             />

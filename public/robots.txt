@@ -1,48 +1,11 @@
-User-agent: Googlebot
+User-agent: *
+Allow: /
 Disallow: /sign-in
 Disallow: /admin/
-Disallow: /thank-you
+Disallow: /login
+Disallow: /payment
+Disallow: /thank-you-for-contact-us
+Disallow: /Abdul-Hameed
+Disallow: /header
 
-User-agent: Bingbot
-Disallow: /auth/sign-in
-Disallow: /admin/
-Disallow: /thank-you
-
-User-agent: DuckDuckBot
-Disallow: /sign-in
-Disallow: /admin/
-Disallow: /thank-you
-
-User-agent: Slurp
-Disallow: /sign-in
-Disallow: /admin/
-Disallow: /thank-you
-
-User-agent: SemrushBot
-Disallow: /sign-in
-Disallow: /admin/
-Disallow: /thank-you
-
-User-agent: AhrefsBot
-Disallow: /sign-in
-Disallow: /admin/
-Disallow: /thank-you
-
-User-agent: Googlebot-Image
-Disallow: /sign-in
-Disallow: /admin/
-Disallow: /thank-you
-
-User-agent: Googlebot-News
-Disallow: /sign-in
-Disallow: /admin/
-Disallow: /thank-you
-
-User-agent: Googlebot-Ads
-Disallow: /sign-in
-Disallow: /admin/
-Disallow: /thank-you
-
-# Block all other bots
-User-agent: *
-Disallow: /
+Sitemap: https://www.saboomaruti.in/sitemap.xml

@@ -1,4 +1,5 @@
 import React from 'react';
+import pvslLogo from '../../assets/pvsl_logo.png';
 import { useState } from 'react';
 // import { Link } from 'react-router-dom';
 // import { Select, Option } from '@material-tailwind/react';
@@ -24,7 +25,7 @@ const PriceList = () => {
               {' '}
               <img
                 className='w-auto h-12'
-                src={require('../../assets/pvsl_logo.png')}
+                src={pvslLogo}
                 alt='logo'
               />
             </a>

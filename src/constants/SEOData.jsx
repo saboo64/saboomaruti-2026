@@ -38,7 +38,7 @@ export const SEOPages = {
       'Sitemap | Monsoon 2026 Maruti Offers, Cars & Services – Popular RKS Hyderabad',
     description:
       'Explore Popular RKS sitemap for Monsoon 2026 Maruti Suzuki offers, cars, service centers, finance, insurance and dealership details across Hyderabad.',
-    canonicalUrl: 'https://www.saboomaruti.in/',
+    canonicalUrl: 'https://www.saboomaruti.in/arenasitemap',
     ogImage: '/img/og-tags/alto.webp',
     twitterUrl: 'https://x.com/saboorksmaruti',
   },
@@ -50,7 +50,7 @@ export const SEOPages = {
       'Popular RKS Maruti Suzuki is a multi-award-winning dealership. Celebrate Monsoon 2026 with best car offers, recognized for sales excellence and customer satisfaction in Hyderabad.',
     keywords:
       'Maruti award winning dealer, Monsoon offers Maruti Hyderabad, Popular RKS achievements, best Maruti dealer Hyderabad',
-    canonicalUrl: 'https://www.saboomaruti.in/',
+    canonicalUrl: 'https://www.saboomaruti.in/awards',
     ogImage: '/img/og-tags/awards_banner.webp',
     twitterUrl: 'https://x.com/saboorksmaruti',
   },
@@ -62,7 +62,7 @@ export const SEOPages = {
       'Book Maruti Suzuki car service online at Popular RKS this Monsoon 2026. Get special service offers, genuine parts, expert care and maintenance across Hyderabad.',
     keywords:
       'Maruti service Hyderabad, Monsoon service offers Maruti, car service booking Hyderabad, Maruti maintenance offers',
-    canonicalUrl: 'https://www.saboomaruti.in/',
+    canonicalUrl: 'https://www.saboomaruti.in/maruti-car-service-centers-near-me',
     ogImage: '/img/og-tags/saboo_rks.jpg',
     twitterUrl: 'https://x.com/saboorksmaruti',
   },
@@ -76,9 +76,9 @@ export const SEOPages = {
 
     keywords:
       'Monsoon offers 2026 Maruti Suzuki, Maruti car discounts Hyderabad, Swift Monsoon offer, Dzire discount, Brezza deals, Alto K10 offers, WagonR offers',
-    canonicalUrl: 'https://www.saboomaruti.in/',
+    canonicalUrl: 'https://www.saboomaruti.in/maruti-suzuki-car-offers-page',
     ogImage: '/img/og-tags/offers.webp',
-    twitterUrl: 'https://www.saboomaruti.in/',
+    twitterUrl: 'https://x.com/saboorksmaruti',
   },
 };
 

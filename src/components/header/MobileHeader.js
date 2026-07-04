@@ -1,10 +1,10 @@
-import { Fragment, useState } from 'react';
+import React, { Fragment, useState } from 'react';
+import pvslLogo from '../../assets/pvsl_logo.png';
 import { Dialog, Tab, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 
 import './mobile.css';
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
 
 const navigation = {
   pages: [
@@ -88,7 +88,6 @@ const navigation = {
 };
 
 function MobileHeader() {
-  const [tabs, setTabs] = useState(1);
   const [open, setOpen] = useState(false);
   const [navbar, setNavbar] = useState(false);
   const fixedNavbar = () => {
@@ -99,19 +98,13 @@ function MobileHeader() {
     }
   };
 
-  const location = window.location.pathname;
   window.addEventListener('scroll', fixedNavbar);
 
 
 
-  useEffect(() => {
-    if (location === '/maruti-suzuki-car-offers-page') {
-      setTabs(4);
-    }
-  }, [location]);
 
   return (
-    <>
+   <div>
     <div className="main_header">
       {/* Mobile menu */}
       <Transition.Root show={open} as={Fragment}>
@@ -155,13 +148,13 @@ function MobileHeader() {
               <div className="flex items-center justify-center p-2">
                 {/* Logo for larger screens (hidden on smaller screens) */}
                 <img
-                  src={require("../../assets/pvsl_logo.png")}
+                  src={pvslLogo}
                   alt="Logo"
                   className="hidden h-auto max-w-full sm:block"
                 />
                 {/* Logo for smaller screens (hidden on larger screens) */}
                 <img
-                  src={require("../../assets/pvsl_logo.png")}
+                  src={pvslLogo}
                   alt="Logo"
                   className="h-10 max-w-full sm:hidden"
                 />
@@ -294,7 +287,7 @@ function MobileHeader() {
                 <Link to="/">
                   <img
                     className="w-auto h-12 mx-auto"
-                    src={require("../../assets/pvsl_logo.png")}
+                    src={pvslLogo}
                     alt="logo"
                   />
                 </Link>
@@ -369,7 +362,7 @@ function MobileHeader() {
           </a>
         </div>
       </div> */}
-    </div></>
+    </div></div>
   );
 }
 

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import drivingSchoolBanner from '../../assets/banners/vehicles/banners-2024/Maruti_Suzuki_Driving_School.webp';
 
 import axios from 'axios';
 import { CgSpinner } from 'react-icons/cg';
@@ -72,7 +73,7 @@ function DrivingSchool() {
         className='hidden w-full mt-14 sm:block'
       />
       <LazyImage
-        src={require('../../assets/banners/vehicles/banners-2024/Maruti_Suzuki_Driving_School.webp')}
+        src={drivingSchoolBanner}
         alt='Maruti Suzuki Driving School October Dussehra Diwali Offers Popular RKS Learn Driving Driving School'
         className='w-full sm:hidden'
       />

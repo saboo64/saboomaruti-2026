@@ -222,7 +222,7 @@ function Contact() {
         title='Popular Maruti | Contact us for any Maruti Car Sales, Feedback & Complaints'
         description='Contact your nearest Popular Maruti showroom for any Maruti Suzuki vehicle enquiry. For queries about any of the Maruti cars, feedback or complaints call now 9848898488.'
         keywords='car showrooms, saboo contact us, Popular true value'
-        canonicalUrl='https://www.saboomaruti.in/'
+        canonicalUrl='https://www.saboomaruti.in/contact-maruti-suzuki-showroom'
         ogImage='/img/og-tags/contact_us.webp'
         twitterUrl='https://x.com/saboorksmaruti'
       />

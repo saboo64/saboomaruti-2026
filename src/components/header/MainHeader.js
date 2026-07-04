@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import pvslLogo from "../../assets/pvsl_logo.png";
 import { Link } from "react-router-dom";
 import { ChevronDownIcon } from "@heroicons/react/outline";
 // import Metaverse from '../../screens/services/Metaverse';
@@ -186,7 +187,7 @@ function MainHeader() {
         <Link to="/" className="logo">
           <img
             className="w-auto h-16"
-            src={require("../../assets/pvsl_logo.png")}
+            src={pvslLogo}
             alt="logo"
           />
         </Link>

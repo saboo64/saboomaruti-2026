@@ -1,4 +1,5 @@
 import React from 'react';
+import outletsBanner from '../../assets/banners/outlets-banner.webp';
 // import { Helmet } from 'react-helmet';
 import Header from '../../components/header/Header';
 import { truevalue } from '../../constants';
@@ -82,7 +83,7 @@ const Banner = () => {
         </div>
         <div>
           <img
-            src={require('../../assets/banners/outlets-banner.webp')}
+            src={outletsBanner}
             alt='Saboo-Maruti-Suzuki-Outlet'
           />
         </div>

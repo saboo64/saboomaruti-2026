@@ -1,4 +1,5 @@
 import React from 'react';
+// import outletsBanner from '../../assets/banners/outlets-banner.webp';
 // import { Helmet } from 'react-helmet';
 import Header from '../../components/header/Header';
 import { workshop } from '../../constants';
@@ -11,7 +12,7 @@ function WorkShop() {
         title='Maruti Suzuki Authorized Service Center in Hyderabad | Saboo Maruti'
         description='Saboo Maruti Authorized Maruti Suzuki Service Center in Hyderabad. Visit our nearest Saboo Maruti workshop for Maruti car Servicing, Repairing, Painting, Battery repair. Free pickup & Drop facility available. Call now 9848898488'
         keywords='maruti service cente near me, maruti car service locations, maruti service center address, car service center'
-        canonicalUrl='https://www.saboomaruti.in/'
+        canonicalUrl='https://www.saboomaruti.in/maruti-suzuki-car-service-center'
         ogImage='/img/og-tags/saboo_rks.webp'
         twitterUrl='https://x.com/saboorksmaruti'
       />
@@ -43,8 +44,8 @@ function WorkShop() {
         <p className='text-3xl font-semibold text-center'>WorkShop</p>
         <div className='container pt-16 mx-auto'>
           <div className='grid grid-cols-1 gap-5 px-3 lg:grid-cols-3 md:grid-cols-2 md:px-0'>
-            {workshop.map((item, index) => (
-              <div className='w-full  h-80 pt-1 px-4 text-left py-3 hover:text-white shadow-xl shadow-[#B0B0B0] group duration-500 border-t rounded-3xl relative overflow-hidden'>
+            {workshop.map((item) => (
+              <div key={item.address} className='w-full  h-80 pt-1 px-4 text-left py-3 hover:text-white shadow-xl shadow-[#B0B0B0] group duration-500 border-t rounded-3xl relative overflow-hidden'>
                 <div className='bg-blue-800  h-16 w-20 duration-500 group-hover:h-[130%] group-hover:w-[170%] group-hover:-top-11 group-hover:-right-20 rounded-full absolute -top-20 -right-20 -z-10'></div>
                 <div className='mt-2 mb-2 ml-3 text-2xl font-semibold'>
                   {item.address}
@@ -68,27 +69,5 @@ function WorkShop() {
     </>
   );
 }
-
-const Banner = () => {
-  return (
-    <div className='bg-[#40a7e4]'>
-      <div className='container grid grid-cols-1 px-5 mx-auto text-white md:grid-cols-2 md:px-0 lg:mt-16'>
-        <div className='py-6 my-auto text-2xl text-center sm:text-left sm:text-5xl'>
-          Wherever you are <br />{' '}
-          <span className='font-bold uppercase'>
-            Popular <span className='text-red-600'>rks</span>
-          </span>
-          <br /> is by your side.
-        </div>
-        <div>
-          <img
-            src={require('../../assets/banners/outlets-banner.webp')}
-            alt='Saboo-Maruti-Suzuki-Outlet'
-          />
-        </div>
-      </div>
-    </div>
-  );
-};
 
 export default WorkShop;

@@ -1,4 +1,5 @@
 import React from 'react';
+import blogBanner from '../../assets/banners/Website_Maruti_Suzuki_Arena_Monsoon_Offers_June_offers_Now_Six_6_Airbags_Popular_RKS_Vehicles_Services.webp';
 // import { Helmet } from 'react-helmet';
 import Header from '../../components/header/Header';
 import { blogsData } from '../../constants/blogsData';
@@ -18,7 +19,7 @@ function Blog() {
 
       <Header />
       <img
-        src={require('../../assets/banners/arena-blog-popup-banner.cd48ae712a6e99c6065c.webp')}
+        src={blogBanner}
         className='w-full lg:mt-16'
         alt='blog-screen-banner'
       />

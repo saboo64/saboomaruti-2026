@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import corporateBanner from "../../assets/banners/Saboo-Maruti-Suzuki-corporate.webp";
 import { useEffect } from "react";
 // import { Helmet } from "react-helmet";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
@@ -156,7 +157,7 @@ function Corporate() {
 />
 
       <img
-        src={require("../../assets/banners/Saboo-Maruti-Suzuki-corporate.webp")}
+        src={corporateBanner}
         className="w-full lg:mt-16"
         alt="1"
       />

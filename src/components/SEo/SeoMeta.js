@@ -19,6 +19,8 @@ const SeoMeta = ({
       <meta name="description" content={description} />
       {keywords && <meta name="keywords" content={keywords} />}
       <meta name="author" content={author} />
+      <meta name="robots" content="index, follow" />
+      <meta name="googlebot" content="index, follow" />
       <link rel="canonical" href={canonicalUrl} />
 
       {/* Open Graph tags */}

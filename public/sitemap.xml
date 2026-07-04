@@ -1,248 +1,328 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Homepage -->
   <url>
-    <loc>https://saboomaruti.in/</loc>
-    <lastmod>2025-09-09</lastmod>
+    <loc>https://www.saboomaruti.in/</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
+
+  <!-- About -->
   <url>
-    <loc>https://saboomaruti.in/about-maruti-suzuki-dealers</loc>
-    <lastmod>2025-09-09</lastmod>
+    <loc>https://www.saboomaruti.in/about-maruti-suzuki-dealers</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
+
+  <!-- Arena Cars -->
   <url>
-    <loc>https://saboomaruti.in/maruti-alto-800-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
-  </url>
-  <url>
-    <loc>https://saboomaruti.in/all-new-maruti-alto-k10-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
-  </url>
-  <!-- Add more URLs for other cars -->
-  <url>
-    <loc>https://saboomaruti.in/maruti-wagon-r-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
-  </url>
-  <url>
-    <loc>https://saboomaruti.in/the-all-new-celerio</loc>
-    <lastmod>2025-09-09</lastmod>
-  </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-swift-car-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
-  </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-swift-dzire-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
-  </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-s-presso-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
-  </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-ertiga-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
-  </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-new-brezza-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
-  </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-eeco-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
-  </url>
-    <url>
     <loc>https://www.saboomaruti.in/victoris</loc>
-    <lastmod>2025-09-09</lastmod>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-  
-  <!-- CNG Cars -->
-   <url>
-    <loc>https://saboomaruti.in/maruti-suzuki-cng-cars</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/all-new-maruti-alto-k10-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-  
-   <url>
-    <loc>https://saboomaruti.in/maruti-new-swift-cng</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-wagon-r-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.saboomaruti.in/the-all-new-celerio</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-swift-car-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-swift-dzire-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-s-presso-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-ertiga-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-new-brezza-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-eeco-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 
-   <url>
-    <loc>https://saboomaruti.in/maruti-brezza-cng-on-road-price</loc>
-    <lastmod>2025-09-09</lastmod>
+  <!-- CNG Cars -->
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-suzuki-cng-cars</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/alto-k10-cng</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/alto-k10-cng</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-wagonr-cng-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-brezza-cng-on-road-price</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-swift-dzire-cng-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-wagonr-cng-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-s-presso-cng-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-swift-cng-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-ertiga-cng-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-swift-dzire-cng-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-eeco-cng-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-s-presso-cng-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-celerio-cng-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-ertiga-cng-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-  <!-- Tour -->
-<url>
-    <loc>https://saboomaruti.in/maruti-alto-tour-h1-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-eeco-cng-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-wagnor-tour-h3-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-celerio-cng-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-dzire-tour-s-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
+
+  <!-- Tour Cars -->
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-suzuki-tour-cars</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-eeco-tour-v-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-wagnor-tour-h3-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-ertiga-tour-m-on-road-price-in-hyderabad</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-dzire-tour-s-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-  
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-eeco-tour-v-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-ertiga-tour-m-on-road-price-in-hyderabad</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Outlets -->
-   <url>
-    <loc>https://saboomaruti.in/showrooms</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/showrooms</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/true-value</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/true-value</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-suzuki-car-service-center</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-suzuki-car-service-center</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-driving-school-locations</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-driving-school-locations</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-  
+
   <!-- Services -->
   <url>
-    <loc>https://saboomaruti.in/maruti-suzuki-car-insurance-renewal</loc>
-    <lastmod>2025-09-09</lastmod>
+    <loc>https://www.saboomaruti.in/maruti-suzuki-car-insurance-renewal</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://saboomaruti.in/maruti-suzuki-car-finance-services</loc>
-    <lastmod>2025-09-09</lastmod>
+    <loc>https://www.saboomaruti.in/maruti-suzuki-car-finance-services</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/corporate</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/corporate</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/subscribe</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-suzuki-driving-school</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-suzuki-driving-school</loc>
-    <lastmod>2025-09-09</lastmod>
+
+  <!-- All Cars Listing Pages -->
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-suzuki-new-cars</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-  
-  <!-- Arena Cars -->
-   <url>
-    <loc>https://saboomaruti.in/maruti-suzuki-new-cars</loc>
-    <lastmod>2025-09-09</lastmod>
+
+  <!-- Offers & Key Pages -->
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-suzuki-car-offers-page</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-suzuki-cng-cars</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-car-service-centers-near-me</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-suzuki-tour-cars</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/compare-cars</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-  
-  <!-- More -->
-   <url>
-    <loc>https://saboomaruti.in/marutirewards</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/blog</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/arenasitemap</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/awards</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
- 
-   <url>
-    <loc>https://saboomaruti.in/maruti-suzuki-car-offers-page</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/gallery</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-car-service-centers-near-me</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/contact-maruti-suzuki-showroom</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/payment</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-genuine-accessories</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/metaverse</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/careers</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
-     <url>
-    <loc>https://saboomaruti.in/covid-19</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/faq</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/blog</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/pricelist</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/awards</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/arenasitemap</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/gallery</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/marutirewards</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/contact-maruti-suzuki-showroom</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-car-terms-and-conditions</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
-     <url>
-    <loc>https://saboomaruti.in/maruti-genuine-accessories</loc>
-    <lastmod>2025-09-09</lastmod>
+  <url>
+    <loc>https://www.saboomaruti.in/maruti-car-privacy-policy</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
   </url>
-   <url>
-    <loc>https://saboomaruti.in/maruti-car-terms-and-conditions</loc>
-    <lastmod>2025-09-09</lastmod>
-  </url>
-   <url>
-    <loc>https://saboomaruti.in/thank-you-for-contact-us</loc>
-    <lastmod>2025-09-09</lastmod>
-  </url>
-   <url>
-    <loc>https://saboomaruti.in/faq</loc>
-    <lastmod>2025-09-09</lastmod>
-  </url>
-     <url>
-    <loc>https://saboomaruti.in/pricelist</loc>
-    <lastmod>2025-09-09</lastmod>
-  </url>
+
 </urlset>
