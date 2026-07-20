@@ -14,9 +14,6 @@ const puppeteer = require('puppeteer');
 
 const BUILD_DIR = path.join(__dirname, 'build');
 const PORT = 45679;
-const CHROME_PATH =
-  process.env.PRERENDER_CHROME_PATH ||
-  'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
 
 const ROUTES = [
   '/',
@@ -111,8 +108,7 @@ async function prerenderRoute(page, route) {
 async function main() {
   const server = await startServer();
   const browser = await puppeteer.launch({
-    executablePath: CHROME_PATH,
-    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
   });
   const page = await browser.newPage();
 
