@@ -21,13 +21,13 @@ import { SEOPages } from '../../constants/SEOData';
 const offer_products = [
   {
     name: 'Victoris',
-    price: '1,55,000',
+    price: '1,80,000',
     img: 'https://ik.imagekit.io/hsukyjske/Nivya-automobiles/Victoris/Colors/sizzling_red-min.png?updatedAt=1762336384483',
     explore: '/victoris',
   },
   {
     name: 'Swift ',
-    price: '45,000',
+    price: '40,000',
     // desc:"on 2024 model (with old Alto & Wagonr exchange) ",
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/Swift+Tile+Image.webp',
     explore: '/maruti-swift-car-on-road-price-in-hyderabad',

@@ -19,8 +19,10 @@ import { CarEnquiryDown } from '../Forms/CarEnquiryDown';
 import PriceTable from '../reusable/pricetable';
 import CarDetails from '../reusable/cardslider';
 import SeoMeta from '../../components/SEo/SeoMeta';
+import StructuredData from '../../components/SEo/StructuredData';
 import { LazyImage } from '../about/About';
-import { VehicleSEO } from '../../constants/SEOData';
+import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
+import CarFaq from '../../components/SEo/CarFaq';
 
 function Celerio() {
   const carEnquiryRef = useRef(null);
@@ -32,6 +34,7 @@ function Celerio() {
   return (
     <>
       <SeoMeta {...VehicleSEO.Celerio} />
+      <StructuredData data={vehicleSchema(VehicleSEO.Celerio, 'Maruti Suzuki Celerio')} />
       <Header />
 
       <LazyImage
@@ -39,6 +42,9 @@ function Celerio() {
         className='w-full max-w-full lg:mt-16'
         alt='Buy Maruti Suzuki Celerio 2025 in Hyderabad'
       />
+      <h1 className='px-5 pt-4 text-xl font-semibold text-center md:text-2xl lg:text-3xl'>
+        Maruti Celerio On-Road Price in Hyderabad
+      </h1>
       <div className='container grid grid-cols-1 gap-5 px-5 mx-auto my-8 sm:grid-cols-2 sm:px-0'>
         <div>
           <ImageGallery
@@ -91,6 +97,7 @@ function Celerio() {
       </div>
 
       <div className='mt-8'>
+        
         <img
           // src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/maruti-new-celerio/New_Celerio_Product_Brand_Brochure.webp"
           src='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/maruti-new-celerio/New_Celerio_Product_Brand_Brochure.webp'
@@ -98,6 +105,11 @@ function Celerio() {
           className='w-full'
         />
       </div>
+
+      <CarFaq
+        carName='Maruti Celerio'
+        cngUrl='/maruti-celerio-cng-on-road-price-in-hyderabad'
+      />
     </>
   );
 }

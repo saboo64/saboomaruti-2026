@@ -4,6 +4,20 @@ import { ChevronDownIcon } from '@heroicons/react/solid';
 import Header from '../../components/header/Header';
 import { faqData } from '../../constants/faqData';
 import SeoMeta from '../../components/SEo/SeoMeta';
+import StructuredData from '../../components/SEo/StructuredData';
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqData.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.answer,
+    },
+  })),
+};
 
 function Faq() {
   return (
@@ -18,6 +32,7 @@ function Faq() {
         ogImage='/img/og-tags/FAQ.webp'
         twitterUrl='https://www.saboomaruti.in/faq'
       />
+      <StructuredData data={faqSchema} />
 
       <img
         src='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/local/privacy_banner.webp'

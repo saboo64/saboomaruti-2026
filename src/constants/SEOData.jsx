@@ -315,4 +315,71 @@ export const CNGvehicleSeo = {
   },
 };
 
+const SITE_URL = 'https://www.saboomaruti.in';
+
+function absoluteUrl(url) {
+  if (!url) return undefined;
+  return url.startsWith('http') ? url : `${SITE_URL}${url}`;
+}
+
+export const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'AutomotiveDealer',
+  name: 'Popular RKS Maruti Suzuki',
+  url: SITE_URL,
+  logo: `${SITE_URL}/favicon.png`,
+  image: `${SITE_URL}/img/og-tags/saboo_rks.webp`,
+  telephone: '+91-98488-98488',
+  priceRange: '₹₹',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Hyderabad',
+    addressRegion: 'Telangana',
+    addressCountry: 'IN',
+  },
+  areaServed: [
+    'Hyderabad',
+    'Secunderabad',
+    'Somajiguda',
+    'Malakpet',
+    'Kushaiguda',
+    'Kompally',
+    'Shamirpet',
+    'Narsingi',
+    'Kodangal',
+  ],
+  brand: {
+    '@type': 'Brand',
+    name: 'Maruti Suzuki',
+  },
+  sameAs: ['https://x.com/saboorksmaruti'],
+};
+
+/**
+ * Builds a Vehicle + Offer schema from an existing SeoMeta data object
+ * (VehicleSEO.* / CNGvehicleSeo.*), so every car page gets rich-result
+ * eligibility without duplicating title/description/image data.
+ */
+export function vehicleSchema(seo, modelName) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Vehicle',
+    name: modelName,
+    brand: { '@type': 'Brand', name: 'Maruti Suzuki' },
+    manufacturer: { '@type': 'Organization', name: 'Maruti Suzuki' },
+    description: seo.description,
+    image: absoluteUrl(seo.ogImage),
+    url: seo.canonicalUrl,
+    offers: {
+      '@type': 'Offer',
+      priceCurrency: 'INR',
+      availability: 'https://schema.org/InStock',
+      url: seo.canonicalUrl,
+      seller: {
+        '@type': 'AutomotiveDealer',
+        name: 'Popular RKS Maruti Suzuki',
+      },
+    },
+  };
+}
 

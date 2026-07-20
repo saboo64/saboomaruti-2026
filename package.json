@@ -67,7 +67,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "generate-sitemap": "node generate-sitemap.js",
-    "postbuild": "react-snap"
+    "postbuild": "node prerender.js"
   },
   "eslintConfig": {
     "extends": [

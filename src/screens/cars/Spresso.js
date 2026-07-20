@@ -17,8 +17,10 @@ import { CarEnquiryDown } from '../Forms/CarEnquiryDown';
 import PriceTable from '../reusable/pricetable';
 import CarDetails from '../reusable/cardslider';
 import SeoMeta from '../../components/SEo/SeoMeta';
+import StructuredData from '../../components/SEo/StructuredData';
 import { LazyImage } from '../about/About';
-import { VehicleSEO } from '../../constants/SEOData';
+import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
+import CarFaq from '../../components/SEo/CarFaq';
 
 function Spresso() {
   const carEnquiryRef = useRef(null);
@@ -26,13 +28,17 @@ function Spresso() {
   return (
     <>
       <SeoMeta {...VehicleSEO.Spresso} />
+      <StructuredData data={vehicleSchema(VehicleSEO.Spresso, 'Maruti Suzuki S-Presso')} />
 
       <Header />
       <LazyImage
         src={SpressoBanner}
         className='w-full max-w-full lg:mt-16'
-        alt='1'
+        alt='Buy Maruti Suzuki S-Presso in Hyderabad'
       />
+      <h1 className='px-5 pt-4 text-xl font-semibold text-center md:text-2xl lg:text-3xl'>
+        Maruti S-Presso On-Road Price in Hyderabad
+      </h1>
       <div className='container grid grid-cols-1 gap-5 px-5 mx-auto my-8 sm:grid-cols-2 sm:px-0'>
         <div>
           <ImageGallery
@@ -95,6 +101,11 @@ function Spresso() {
           />
         </div>
       </div>
+
+      <CarFaq
+        carName='Maruti S-Presso'
+        cngUrl='/maruti-s-presso-cng-on-road-price-in-hyderabad'
+      />
     </>
   );
 }

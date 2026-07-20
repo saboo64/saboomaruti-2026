@@ -17,13 +17,16 @@ import PriceTable from '../reusable/pricetable';
 import CarDetails from '../reusable/cardslider';
 import { LazyImage } from '../about/About';
 import SeoMeta from '../../components/SEo/SeoMeta';
-import { VehicleSEO } from '../../constants/SEOData';
+import StructuredData from '../../components/SEo/StructuredData';
+import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
+import CarFaq from '../../components/SEo/CarFaq';
 
 function AltoK10() {
   const carEnquiryRef = useRef(null);
   return (
     <>
       <SeoMeta {...VehicleSEO.AltoK10} />
+      <StructuredData data={vehicleSchema(VehicleSEO.AltoK10, 'Maruti Suzuki Alto K10')} />
 
       <Header />
 
@@ -32,6 +35,9 @@ function AltoK10() {
         className='w-full max-w-full lg:mt-16'
         alt='Buy Maruti Suzuki Alto K10 in Hyderabad'
       />
+      <h1 className='px-5 pt-4 text-xl font-semibold text-center md:text-2xl lg:text-3xl'>
+        Maruti Alto K10 On-Road Price in Hyderabad
+      </h1>
       <div className='container grid grid-cols-1 gap-5 px-5 mx-auto my-8 sm:grid-cols-2 sm:px-0'>
         <div>
           <ImageGallery
@@ -86,6 +92,8 @@ function AltoK10() {
           className='w-full'
         />
       </div>
+
+      <CarFaq carName='Maruti Alto K10' cngUrl='/alto-k10-cng' />
     </>
   );
 }

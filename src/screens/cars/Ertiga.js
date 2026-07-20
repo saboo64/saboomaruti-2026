@@ -16,15 +16,18 @@ import { CarEnquiryDown } from '../Forms/CarEnquiryDown';
 import PriceTable from '../reusable/pricetable';
 import CarDetails from '../reusable/cardslider';
 import SeoMeta from '../../components/SEo/SeoMeta';
+import StructuredData from '../../components/SEo/StructuredData';
 import { LazyImage } from '../about/About';
-import { VehicleSEO } from '../../constants/SEOData';
+import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
+import CarFaq from '../../components/SEo/CarFaq';
 
 function Ertiga() {
   const carEnquiryRef = useRef(null);
 
   return (
     <>
-      <SeoMeta {...VehicleSEO.Eritiga} />
+      <SeoMeta {...VehicleSEO.Ertiga} />
+      <StructuredData data={vehicleSchema(VehicleSEO.Ertiga, 'Maruti Suzuki Ertiga')} />
 
       <Header />
       <LazyImage
@@ -32,6 +35,9 @@ function Ertiga() {
         className='w-full max-w-full lg:mt-16'
         alt='Buy Maruti Suzuki Ertiga 2024 in Hyderabad'
       />
+      <h1 className='px-5 pt-4 text-xl font-semibold text-center md:text-2xl lg:text-3xl'>
+        Maruti Ertiga On-Road Price in Hyderabad
+      </h1>
       <div className='container grid grid-cols-1 gap-5 px-5 mx-auto my-8 sm:grid-cols-2 sm:px-0'>
         <div>
           <ImageGallery
@@ -92,6 +98,11 @@ function Ertiga() {
           className='w-full'
         />
       </div>
+
+      <CarFaq
+        carName='Maruti Ertiga'
+        cngUrl='/maruti-ertiga-cng-on-road-price-in-hyderabad'
+      />
     </>
   );
 }

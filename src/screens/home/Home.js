@@ -22,13 +22,15 @@ import Header from '../../components/header/Header';
 // import { Helmet } from 'react-helmet';
 import { WhyChooseUs } from '../../components/home/About';
 import SeoMeta from '../../components/SEo/SeoMeta';
-import { SEOPages } from '../../constants/SEOData';
+import StructuredData from '../../components/SEo/StructuredData';
+import { SEOPages, organizationSchema } from '../../constants/SEOData';
 // import DussehraFireworks from '../../components/DussehraFireworks';
 
 export default function Home() {
   return (
     <>
       <SeoMeta {...SEOPages.Home} />
+      <StructuredData data={organizationSchema} />
       {/* <DussehraFireworks /> */}
       <Header />
       {/* <Header2 /> */}
@@ -42,6 +44,10 @@ export default function Home() {
       {/* <Slider /> */}
       {/* <Confetti /> */}
       {/* <MobileSlider /> */}
+
+      <h1 className='px-5 pt-4 text-xl font-semibold text-center md:text-2xl lg:text-3xl'>
+        Maruti Suzuki Cars in Hyderabad | Popular RKS
+      </h1>
 
       <CarEnquiry />
 

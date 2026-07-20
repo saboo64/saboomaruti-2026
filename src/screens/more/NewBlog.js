@@ -2,6 +2,21 @@ import React, { useState, useEffect } from 'react';
 import Header from '../../components/header/Header';
 // import { Link } from 'react-router-dom';
 import axios from 'axios';
+import SeoMeta from '../../components/SEo/SeoMeta';
+import StructuredData from '../../components/SEo/StructuredData';
+
+const collectionSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Latest Maruti Suzuki News & Automobile Updates',
+  description:
+    'A curated collection of the latest Maruti Suzuki news, car launches, and automobile industry updates, presented by Popular RKS Maruti Suzuki, Hyderabad.',
+  url: 'https://www.saboomaruti.in/blog',
+  publisher: {
+    '@type': 'AutomotiveDealer',
+    name: 'Popular RKS Maruti Suzuki',
+  },
+};
 
 const NewBlog = () => {
   const [articles, setArticles] = useState([]);
@@ -10,7 +25,7 @@ const NewBlog = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          'https://newsdata.io/api/1/news?apikey=pub_39957196bed819c0bec9a9b01230c205f7b79&q=maruti%20suzuki'
+          `https://newsdata.io/api/1/news?apikey=pub_39957196bed819c0bec9a9b01230c205f7b79&q=maruti%20suzuki`
         );
         setArticles(response.data.results.slice(0, 6) || []);
       } catch (error) {
@@ -23,6 +38,14 @@ const NewBlog = () => {
 
   return (
     <>
+      <SeoMeta
+        title='Latest Maruti Suzuki News & Automobile Updates | Popular RKS Blog'
+        description='Stay updated with the latest Maruti Suzuki news, car launches, and automobile industry updates from Popular RKS, Hyderabad.'
+        keywords='Maruti Suzuki news, automobile news Hyderabad, Popular RKS blog'
+        canonicalUrl='https://www.saboomaruti.in/blog'
+        ogImage='/img/og-tags/saboo_rks.webp'
+      />
+      <StructuredData data={collectionSchema} />
       <Header />
       <div className='container mx-auto mt-10 pt-14 ' id='blog'>
         <div className='flex flex-col items-center bg-white border border-gray-300 rounded-tl-lg rounded-tr-lg rounded-bl-lg rounded-br-lg sm:px-5 md:flex-row'>

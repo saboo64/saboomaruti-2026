@@ -17,9 +17,11 @@ import CarDetails from '../reusable/cardslider';
 import Wagonrbanner from '../../assets/banners/Saboo-RKS-Maruti-Suzuki-WagonR-Now-6-Airbags.webp';
 import Wagonrbanner2 from '../../assets/banners/vehicles/banners-2024/Wesbite_Mobile_Maruti_Suzuki_Arena_WagonR_Waltz_Edition_Saboo_RKS_Motor.webp';
 import SeoMeta from '../../components/SEo/SeoMeta';
+import StructuredData from '../../components/SEo/StructuredData';
 import { LazyImage } from '../about/About';
 import Colors from '../reusable/color';
-import { VehicleSEO } from '../../constants/SEOData';
+import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
+import CarFaq from '../../components/SEo/CarFaq';
 function Wagonr() {
   const carEnquiryRef = useRef(null);
   // const scrollToCarEnquiry = () => {
@@ -31,6 +33,7 @@ function Wagonr() {
     <>
       <Header />
       <SeoMeta {...VehicleSEO.Wagonr} />
+      <StructuredData data={vehicleSchema(VehicleSEO.Wagonr, 'Maruti Suzuki WagonR')} />
 
       <LazyImage
         src={Wagonrbanner}
@@ -42,6 +45,9 @@ function Wagonr() {
         alt='Mobile Maruti Suzuki Arena WagonR Waltz Edition Popular RKS'
         className='w-full sm:hidden'
       />
+      <h1 className='px-5 pt-4 text-xl font-semibold text-center md:text-2xl lg:text-3xl'>
+        Maruti WagonR On-Road Price in Hyderabad
+      </h1>
 
       {/* <img
         src={WagonR}
@@ -106,6 +112,11 @@ function Wagonr() {
           className='w-full'
         />
       </div>
+
+      <CarFaq
+        carName='Maruti WagonR'
+        cngUrl='/maruti-wagonr-cng-on-road-price-in-hyderabad'
+      />
     </>
   );
 }

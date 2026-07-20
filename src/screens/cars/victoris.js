@@ -16,8 +16,10 @@ import { GiReturnArrow } from 'react-icons/gi';
 
 import View360 from '../../components/360degree/View360';
 import SeoMeta from '../../components/SEo/SeoMeta';
-import { VehicleSEO } from '../../constants/SEOData';
+import StructuredData from '../../components/SEo/StructuredData';
+import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
 import PriceTable from '../reusable/pricetable';
+import CarFaq from '../../components/SEo/CarFaq';
 
 const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
@@ -29,7 +31,8 @@ const videoSource = isSafari
 export default function victoris() {
   return (
     <div>
-      <SeoMeta {...VehicleSEO.victoris} />
+      <SeoMeta {...VehicleSEO.Victoris} />
+      <StructuredData data={vehicleSchema(VehicleSEO.Victoris, 'Maruti Suzuki Victoris')} />
       <Header />
       <div className='relative w-full '>
         {/* Video Background */}
@@ -59,14 +62,14 @@ export default function victoris() {
             PRESENTING
           </div>
 
-          <div
+          <h1
             data-aos='fade-right'
             data-aos-delay='400'
             data-aos-duration='500'
             className='font-serif text-4xl uppercase sm:text-5xl md:text-6xl lg:text-8xl'
           >
-            victoris
-          </div>
+            Maruti Suzuki Victoris
+          </h1>
 
           <div
             data-aos='fade-right'
@@ -160,6 +163,8 @@ export default function victoris() {
         alt='brochure'
         className='w-full'
       />
+
+      <CarFaq carName='Maruti Suzuki Victoris' />
     </div>
   );
 }

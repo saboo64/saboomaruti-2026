@@ -21,8 +21,10 @@ import { CarEnquiryDown } from '../Forms/CarEnquiryDown';
 import PriceTable from '../reusable/pricetable';
 import CarDetails from '../reusable/cardslider';
 import SeoMeta from '../../components/SEo/SeoMeta';
+import StructuredData from '../../components/SEo/StructuredData';
 import { LazyImage } from '../about/About';
-import { VehicleSEO } from '../../constants/SEOData';
+import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
+import CarFaq from '../../components/SEo/CarFaq';
 
 function Eeco() {
   const carEnquiryRef = useRef(null);
@@ -34,12 +36,16 @@ function Eeco() {
   return (
     <>
       <SeoMeta {...VehicleSEO.Ecco} />
+      <StructuredData data={vehicleSchema(VehicleSEO.Ecco, 'Maruti Suzuki Eeco')} />
       <Header />
       <img
         src={EecoBanner}
         className='w-full max-w-full lg:mt-16'
         alt='Buy Maruti Suzuki Eeco 2023 in Hyderabad'
       />
+      <h1 className='px-5 pt-4 text-xl font-semibold text-center md:text-2xl lg:text-3xl'>
+        Maruti Eeco On-Road Price in Hyderabad
+      </h1>
       <div className='container grid grid-cols-1 gap-5 px-5 mx-auto my-8 sm:grid-cols-2 sm:px-0'>
         <div>
           <ImageGallery
@@ -101,6 +107,11 @@ function Eeco() {
           className='w-full'
         />
       </div>
+
+      <CarFaq
+        carName='Maruti Eeco'
+        cngUrl='/maruti-eeco-cng-on-road-price-in-hyderabad'
+      />
     </>
   );
 }

@@ -19,8 +19,10 @@ import { CarEnquiryDown } from '../Forms/CarEnquiryDown';
 import PriceTable from '../reusable/pricetable';
 import CarDetails from '../reusable/cardslider';
 import SeoMeta from '../../components/SEo/SeoMeta';
+import StructuredData from '../../components/SEo/StructuredData';
 import { LazyImage } from '../about/About';
-import { VehicleSEO } from '../../constants/SEOData';
+import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
+import CarFaq from '../../components/SEo/CarFaq';
 
 function Dzire() {
   const carEnquiryRef = useRef(null);
@@ -32,6 +34,7 @@ function Dzire() {
   return (
     <>
       <SeoMeta {...VehicleSEO.Dzire} />
+      <StructuredData data={vehicleSchema(VehicleSEO.Dzire, 'Maruti Suzuki Dzire')} />
       <Header />
       {/* <img
         src={require("../../assets/banners/Dzire 2.webp")}
@@ -43,6 +46,9 @@ function Dzire() {
         alt='Website_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor'
         className='hidden w-full max-w-full lg:mt-16 md:block'
       />
+      <h1 className='px-5 pt-4 text-xl font-semibold text-center md:text-2xl lg:text-3xl'>
+        Maruti Swift Dzire On-Road Price in Hyderabad
+      </h1>
       <LazyImage
         src={banner3}
         alt='Website_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor'
@@ -109,6 +115,11 @@ function Dzire() {
           className='w-full mx-auto'
         />
       </div>
+
+      <CarFaq
+        carName='Maruti Swift Dzire'
+        cngUrl='/maruti-swift-dzire-cng-on-road-price-in-hyderabad'
+      />
     </>
   );
 }

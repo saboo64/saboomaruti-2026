@@ -227,9 +227,9 @@ function Footer() {
               </div>
               <br />
               <div className='flex flex-col space-y-3 font-semibold text-white'>
-                <h1 className='text-2xl text-white text-extrabold'>
+                <p className='text-2xl text-white text-extrabold'>
                  POPULAR RKS PVT. LTD.
-                </h1>
+                </p>
               </div>
               <p className='py-2'>
                 <a
