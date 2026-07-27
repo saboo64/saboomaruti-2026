@@ -124,24 +124,27 @@ const Colors = () => {
         <p
           className={
             current === 1
-              ? 'h-5 rounded-full w-5 animate-bounce bg-[#5d5135]'
-              : 'h-5 rounded-full w-5 bg-[#5d5135]'
+              ? 'h-5 rounded-full w-5 animate-bounce'
+              : 'h-5 rounded-full w-5'
           }
+          style={{
+            background: 'linear-gradient(61deg, #b8a888 50%, #17181a 50%)',
+          }}
           onClick={() => setCurrent(1)}
         ></p>
         <p
           className={
             current === 2
-              ? 'h-5 rounded-full w-5 bg-[#264b9c] animate-bounce'
-              : 'h-5 rounded-full w-5 bg-[#264b9c]'
+              ? 'h-5 rounded-full w-5 bg-[#b8a888] animate-bounce'
+              : 'h-5 rounded-full w-5 bg-[#b8a888]'
           }
           onClick={() => setCurrent(2)}
         ></p>
         <p
           className={
             current === 3
-              ? 'h-5 rounded-full w-5 bg-[#8d8d8d] animate-bounce'
-              : 'h-5 rounded-full w-5 bg-[#8d8d8d] '
+              ? 'h-5 rounded-full w-5 bg-[#5b5b5d] animate-bounce'
+              : 'h-5 rounded-full w-5 bg-[#5b5b5d]'
           }
           onClick={() => setCurrent(3)}
         ></p>
@@ -152,7 +155,7 @@ const Colors = () => {
               : 'h-5 rounded-full w-5'
           }
           style={{
-            background: 'linear-gradient(61deg, #5d5135 50%, #ffffff 50%)',
+            background: 'linear-gradient(61deg, #f7f7f7 50%, #17181a 50%)',
           }}
           onClick={() => setCurrent(4)}
         ></p>
@@ -167,48 +170,37 @@ const Colors = () => {
         <p
           className={
             current === 6
-              ? 'h-5 rounded-full w-5 animate-bounce'
-              : 'h-5 rounded-full w-5'
+              ? 'h-5 rounded-full w-5 bg-[#17181a] animate-bounce'
+              : 'h-5 rounded-full w-5 bg-[#17181a]'
           }
-          style={{
-            background: 'linear-gradient(61deg, #e62924 50%, #3e403f 50%)',
-          }}
           onClick={() => setCurrent(6)}
         ></p>
         <p
           className={
             current === 7
-              ? 'h-5 rounded-full w-5 bg-[#e62924] animate-bounce'
-              : 'h-5 rounded-full w-5 bg-[#e62924]'
+              ? 'h-5 rounded-full w-5 animate-bounce'
+              : 'h-5 rounded-full w-5'
           }
+          style={{
+            background: 'linear-gradient(61deg, #e62924 50%, #17181a 50%)',
+          }}
           onClick={() => setCurrent(7)}
         ></p>
         <p
           className={
             current === 8
-              ? 'h-5 rounded-full w-5 animate-bounce'
-              : 'h-5 rounded-full w-5'
+              ? 'h-5 rounded-full w-5 bg-[#c5c5c5] animate-bounce'
+              : 'h-5 rounded-full w-5 bg-[#c5c5c5]'
           }
-          style={{
-            background: 'linear-gradient(61deg, #5d5135 50%, #000 50%)',
-          }}
           onClick={() => setCurrent(8)}
         ></p>
         <p
           className={
             current === 9
-              ? 'h-5 rounded-full w-5 bg-[#c5c5c5] animate-bounce'
-              : 'h-5 rounded-full w-5 bg-[#c5c5c5]'
+              ? 'h-5 rounded-full w-5 bg-[#e8720c] animate-bounce'
+              : 'h-5 rounded-full w-5 bg-[#e8720c]'
           }
           onClick={() => setCurrent(9)}
-        ></p>
-        <p
-          className={
-            current === 10
-              ? 'h-5 rounded-full w-5 bg-[#141316] animate-bounce'
-              : 'h-5 rounded-full w-5 bg-[#141316]'
-          }
-          onClick={() => setCurrent(10)}
         ></p>
       </div>
     </div>
