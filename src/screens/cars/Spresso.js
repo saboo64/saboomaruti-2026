@@ -3,13 +3,7 @@ import React, { useState, useRef } from 'react';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import ImageGallery from 'react-image-gallery';
 // import { Dialog, Transition } from '@headlessui/react';
-import {
-  spressoColors,
-  spressoSliders,
-  spressoVariants,
-  spressoMileage,
-  spressoData,
-} from '../../constants/spressoData';
+import { carsData } from '../../constants';
 import SpressoBanner from '../../assets/banners/Website_Maruti_Suzuki_Dream_Series_Saboo_RKS_Motor_June_Offers.webp';
 import Header from '../../components/header/Header';
 // import { Helmet } from 'react-helmet';
@@ -21,6 +15,14 @@ import StructuredData from '../../components/SEo/StructuredData';
 import { LazyImage } from '../about/About';
 import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
 import CarFaq from '../../components/SEo/CarFaq';
+
+const {
+  colors: spressoColors,
+  sliders: spressoSliders,
+  variants: spressoVariants,
+  mileage: spressoMileage,
+  data: spressoData,
+} = carsData.spresso;
 
 function Spresso() {
   const carEnquiryRef = useRef(null);

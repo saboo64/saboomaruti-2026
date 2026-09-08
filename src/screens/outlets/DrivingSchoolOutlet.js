@@ -13,7 +13,7 @@ function DrivingSchoolOutlet() {
         description='Maruti Driving School Locations in Hyderabad. Vist our site to know your nearest Maruti Driving School Locationor  Call now 9848898488.'
         keywords='maruti driving school, maruti authorized driving school, maruti driving school near me'
         canonicalUrl='https://www.saboomaruti.in/maruti-driving-school-locations'
-        ogImage='' // You can replace this with a valid image path like "/img/og-tags/driving_school.webp"
+        ogImage='/img/og-tags/default.webp'
       />
 
       <Header />

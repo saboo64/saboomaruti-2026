@@ -4,14 +4,7 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 import ImageGallery from 'react-image-gallery';
 import offerBanner from '../../assets/banners/Website_Maruti_Suzuki_Dream_Series_Saboo_RKS_Motor_June_Offers.webp';
 
-import {
-  celerioColors,
-  celerioData,
-  celerioMileage,
-  celerioSliders,
-  celerioVariants,
-} from '../../constants/celerioData';
-
+import { carsData } from '../../constants';
 import Header from '../../components/header/Header';
 // import { Helmet } from 'react-helmet';
 
@@ -23,6 +16,14 @@ import StructuredData from '../../components/SEo/StructuredData';
 import { LazyImage } from '../about/About';
 import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
 import CarFaq from '../../components/SEo/CarFaq';
+
+const {
+  colors: celerioColors,
+  data: celerioData,
+  mileage: celerioMileage,
+  sliders: celerioSliders,
+  variants: celerioVariants,
+} = carsData.celerio;
 
 function Celerio() {
   const carEnquiryRef = useRef(null);
@@ -40,7 +41,7 @@ function Celerio() {
       <LazyImage
         src={offerBanner}
         className='w-full max-w-full lg:mt-16'
-        alt='Buy Maruti Suzuki Celerio 2025 in Hyderabad'
+        alt='Buy Maruti Suzuki Celerio 2026 in Hyderabad'
       />
       <h1 className='px-5 pt-4 text-xl font-semibold text-center md:text-2xl lg:text-3xl'>
         Maruti Celerio On-Road Price in Hyderabad

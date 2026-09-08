@@ -4,13 +4,7 @@ import banner from '../../assets/banners/vehicles/Dazzling New Dzire Single page
 import 'react-image-gallery/styles/css/image-gallery.css';
 import ImageGallery from 'react-image-gallery';
 import banner2 from '../../assets/banners/vehicles/banners-2024/Website_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor.webp';
-import {
-  dzireColors,
-  dzireSliders,
-  dzireVariants,
-  dzireMileage,
-  dzireData,
-} from '../../constants/dzireData';
+import { carsData } from '../../constants';
 import banner3 from '../../assets/banners/vehicles/banners-2024/Website_Mobile_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor.webp';
 import Header from '../../components/header/Header';
 // import { Helmet } from 'react-helmet';
@@ -23,6 +17,14 @@ import StructuredData from '../../components/SEo/StructuredData';
 import { LazyImage } from '../about/About';
 import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
 import CarFaq from '../../components/SEo/CarFaq';
+
+const {
+  colors: dzireColors,
+  sliders: dzireSliders,
+  variants: dzireVariants,
+  mileage: dzireMileage,
+  data: dzireData,
+} = carsData.dzire;
 
 function Dzire() {
   const carEnquiryRef = useRef(null);

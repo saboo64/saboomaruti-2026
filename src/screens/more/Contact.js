@@ -129,7 +129,7 @@ function Contact() {
    Our Sales consultant will contact you shortly.
    
    Regards
-   Popular RKS Pvt. Ltd.
+   Popular RKS.
    98488 98488
    www.saboomaruti.in
    www.saboonexa.in&type=1&template_id=1407168967467983613`
@@ -223,7 +223,7 @@ function Contact() {
         description='Contact your nearest Popular Maruti showroom for any Maruti Suzuki vehicle enquiry. For queries about any of the Maruti cars, feedback or complaints call now 9848898488.'
         keywords='car showrooms, saboo contact us, Popular true value'
         canonicalUrl='https://www.saboomaruti.in/contact-maruti-suzuki-showroom'
-        ogImage='/img/og-tags/contact_us.webp'
+        ogImage='/img/og-tags/default.webp'
         twitterUrl='https://x.com/saboorksmaruti'
       />
 
@@ -410,9 +410,9 @@ function Contact() {
                             <MenuItem value='Shamirpet'>Shamirpet</MenuItem>
                             <MenuItem value='Narsingi'>Narsingi</MenuItem>
                             <MenuItem value='Kodangal'>Kodangal</MenuItem>
-                            <MenuItem value='Sangeeth Circle'>
+                            {/* <MenuItem value='Sangeeth Circle'>
                               Sangeeth Circle
-                            </MenuItem>
+                            </MenuItem> */}
                           </TextField>
                         </div>
                       </div>

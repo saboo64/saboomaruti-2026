@@ -43,7 +43,7 @@ const NewBlog = () => {
         description='Stay updated with the latest Maruti Suzuki news, car launches, and automobile industry updates from Popular RKS, Hyderabad.'
         keywords='Maruti Suzuki news, automobile news Hyderabad, Popular RKS blog'
         canonicalUrl='https://www.saboomaruti.in/blog'
-        ogImage='/img/og-tags/saboo_rks.webp'
+        ogImage='/img/og-tags/default.webp'
       />
       <StructuredData data={collectionSchema} />
       <Header />

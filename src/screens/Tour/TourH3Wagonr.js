@@ -22,7 +22,7 @@ function TourH3Wagonr() {
         description='Celebrate Sankranti 2026 with exclusive festive offers on the Maruti WagonR Tour H3 Commercial at Popular RKS, Hyderabad. Get the best on-road price, popular RKS Sankranti discounts, low EMI options & quick delivery. Limited-time festive deals – Book now!'
         keywords='Maruti WagonR Tour H3 Sankranti offers 2026, WagonR Tour H3 commercial Sankranti discounts, Popular RKS  WagonR Tour H3 offers, Popular RKS Sankranti deals WagonR Tour H3, Buy WagonR Tour H3 Commercial Hyderabad, WagonR Tour H3 best price Sankranti 2026, Maruti WagonR Tour H3 commercial vehicle Popular RKS'
         canonicalUrl='https://www.saboomaruti.in/tour/maruti-wagnor-tour-h3-on-road-price-in-hyderabad'
-        ogImage='/img/og-tags/wagonr-tour-h3.webp'
+        ogImage='/img/og-tags/default.webp'
       />
 
       <Header />

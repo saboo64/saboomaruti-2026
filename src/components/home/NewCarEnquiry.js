@@ -72,7 +72,7 @@ const NewCarEnquiry = ({ title, carName }) => {
    Our Sales consultant will contact you shortly.
    
    Regards
-   RKS Motor Pvt. Ltd.
+   RKS Motor.
    98488 98488
    www.saboomaruti.in
    www.saboonexa.in&type=1&template_id=1407168967467983613`

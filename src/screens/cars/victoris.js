@@ -1,13 +1,7 @@
 import Header from '../../components/header/Header';
 import { LazyImage } from '../about/About';
 import ImageGallery from 'react-image-gallery';
-import {
-  victoriesSliders,
-  victoriesData,
-  victorisColors,
-  victoriesVariants,
-  VictoriesMileage,
-} from '../../constants/victoris';
+import { carsData } from '../../constants';
 import CarDetails from '../reusable/cardslider';
 import { CarEnquiryDown } from '../Forms/CarEnquiryDown';
 import React, { useState } from 'react';
@@ -20,6 +14,14 @@ import StructuredData from '../../components/SEo/StructuredData';
 import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
 import PriceTable from '../reusable/pricetable';
 import CarFaq from '../../components/SEo/CarFaq';
+
+const {
+  sliders: victoriesSliders,
+  data: victoriesData,
+  colors: victorisColors,
+  variants: victoriesVariants,
+  mileage: VictoriesMileage,
+} = carsData.victoris;
 
 const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 

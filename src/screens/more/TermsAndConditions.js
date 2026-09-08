@@ -50,7 +50,7 @@ function TermsAndConditions() {
           </p>
           <br></br>
           <p className="text-sm">
-            I, hereby authorize Popular RKS Pvt Ltd., to contact me. It will
+            I, hereby authorize Popular RKS , to contact me. It will
             override my registry on the NCPR. By providing your contact details
             you have expressly authorized Popular RKS to contact you in future
             through calls /SMS / E-mails and inform you about our products..

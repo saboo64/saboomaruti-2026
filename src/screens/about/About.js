@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 // import { Helmet } from 'react-helmet';
 import Header from '../../components/header/Header';
 import LazyLoad from 'react-lazyload';
-import banner from '../../assets/banners/Saboo-RKS-Maruti-Suzuki-Now_6-Airbags.webp';
+import banner from '../../assets/banners/Saboo-RKS-Maruti-Suzuki-Now_6-Airbags.jpeg';
 import '../../App.css';
 import SeoMeta from '../../components/SEo/SeoMeta';
 import { SEOPages } from '../../constants/SEOData';
@@ -73,7 +73,7 @@ function About() {
           OUR MANAGEMENT
         </h2>
         <p className='text-blue-900'>
-          At Saboo RKS, we pride ourselves on the quality of our team - our
+          At Popular RKS, we pride ourselves on the quality of our team - our
           experts are not only the finest in the industry but also leaders in
           their field.
         </p>

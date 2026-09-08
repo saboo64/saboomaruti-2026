@@ -21,7 +21,7 @@ function TourV() {
   description="Celebrate Sankranti 2026 with exclusive Popular RKS festive offers on the Maruti Suzuki Eeco Tour V Commercial. On-road price starts at ₹4.96 Lakh in Hyderabad. Ideal for business and commercial use with low EMI options & quick delivery. Limited-time Sankranti deals – Book today!"
   keywords="Maruti Eeco Tour V Sankranti offers 2026, Eeco Tour V commercial Sankranti discounts Hyderabad, Popular RKS Eeco Tour V offers, Popular RKS Sankranti deals Eeco Tour V, Buy Eeco Tour V Commercial Hyderabad, Maruti Eeco Tour V best price Sankranti 2026, Eeco Tour V on road price Hyderabad, Maruti Eeco Tour V commercial vehicle Popular RKS"
   canonicalUrl="https://www.saboomaruti.in/tour/maruti-eeco-tour-v-on-road-price-in-hyderabad"
-  ogImage="/img/og-tags/eeco-tour-v.webp"
+  ogImage="/img/og-tags/default.webp"
 />
 
 

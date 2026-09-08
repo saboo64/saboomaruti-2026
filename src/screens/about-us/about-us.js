@@ -10,12 +10,12 @@ const AboutSection = () => {
       className='container w-full mx-auto mb-8'
       height={400}
     /> */}
-    <section className="relative py-16 pt-20 bg-gray-100">
+    <section className="relative py-16 pt-10 bg-gray-100">
 
       <div className="max-w-5xl px-6 mx-auto">
 
         {/* Content */}
-        <div className="space-y-5 text-sm leading-7 text-gray-700 md:text-base">
+        <div className="space-y-5 text-sm leading-7 text-gray-700 md:text-base mt-28">
 
           <p>
             Popular Vehicles & Services Limited ("Popular Vehicles & Services" or
@@ -54,7 +54,7 @@ const AboutSection = () => {
           </p>
 
           <p>
-            The Kuttukaran Group has over 70 years of experience in the automobile
+            The Kuttukaran Group has over 85 years of experience in the automobile
             industry. Our leadership team and promoters bring decades of
             experience, helping us become valued partners of our OEMs and giving
             us a strong competitive advantage.

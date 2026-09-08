@@ -53,7 +53,7 @@ const navigation = {
     },
   ],
   about: [
-    { name: 'POPULAR RKS PVT LTD', to: '/about-maruti-suzuki-dealers' },
+    { name: 'POPULAR RKS', to: '/about-maruti-suzuki-dealers' },
     // { name: "CAREERS", to: "/contact-us" },
     { name: 'CONTACT US', to: '/contact-maruti-suzuki-showroom' },
   ],
@@ -228,7 +228,7 @@ function Footer() {
               <br />
               <div className='flex flex-col space-y-3 font-semibold text-white'>
                 <p className='text-2xl text-white text-extrabold'>
-                 POPULAR RKS PVT. LTD.
+                 POPULAR RKS
                 </p>
               </div>
               <p className='py-2'>
@@ -337,19 +337,22 @@ function Footer() {
               </Link>
             </div>
             <p className='text-sm'>
-              © {new Date().getFullYear()} All Rights Reserved by POPULAR RKS  Pvt
-              Ltd.
+              © {new Date().getFullYear()} All Rights Reserved by POPULAR RKS.
             </p>
           </div>
-          <p className='text-sm'>
+          <p className='flex items-center gap-2 text-sm'>
             Powered by{' '}
             <a
-              className='hover:text-red-500'
+              className='inline-flex items-center gap-2 hover:text-red-500'
               href='https://broaddcast.com'
               target='_blank'
               rel='noreferrer'
             >
-              BroaddCast Business Solutions LLP
+              <img
+                src='/logo-white.svg'
+                alt='BroaddCast Business Solutions LLP Logo'
+                className='w-auto h-12 '
+              />
             </a>
             .
           </p>

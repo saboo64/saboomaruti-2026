@@ -2,13 +2,7 @@ import React, { useState, Fragment, useRef } from 'react';
 // import { BsCalendarCheck } from "react-icons/bs";
 import 'react-image-gallery/styles/css/image-gallery.css';
 import ImageGallery from 'react-image-gallery';
-import {
-  altoK10Colors,
-  altoK10Sliders,
-  altoK10Variants,
-  altok10Data,
-  altok10Mileage,
-} from '../../constants/altoK10Data';
+import { carsData } from '../../constants';
 import AltoK10Banner from '../../assets/banners/Saboo-RKS-Maruti-Suzuki-Alto-k10-Now-6-Airbags.webp';
 import Header from '../../components/header/Header';
 
@@ -20,6 +14,14 @@ import SeoMeta from '../../components/SEo/SeoMeta';
 import StructuredData from '../../components/SEo/StructuredData';
 import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
 import CarFaq from '../../components/SEo/CarFaq';
+
+const {
+  colors: altoK10Colors,
+  sliders: altoK10Sliders,
+  variants: altoK10Variants,
+  data: altok10Data,
+  mileage: altok10Mileage,
+} = carsData.altoK10;
 
 function AltoK10() {
   const carEnquiryRef = useRef(null);

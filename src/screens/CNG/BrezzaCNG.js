@@ -6,7 +6,7 @@ import Header from '../../components/header/Header';
 import { Tab } from '@headlessui/react';
 import { Disclosure } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/solid';
-
+import brezza_thumbnail from '../../assets/thumbnail/brezza_thumbnail.png'
 // import { Helmet } from "react-helmet";
 import { CarEnquiryDown } from '../Forms/CarEnquiryDown';
 import SeoMeta from '../../components/SEo/SeoMeta';
@@ -82,7 +82,7 @@ function BrezzaCNG() {
           <div className='object-contain object-right h-50 w-100 pt-14'>
             {/* <img src={AltoCNG1} alt='vehicle_banner' /> */}
             <img
-              src='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-brezza.webp'
+              src={brezza_thumbnail}
               alt='vehicle_banner'
             />
           </div>

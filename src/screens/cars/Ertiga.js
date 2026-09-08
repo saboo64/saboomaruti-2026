@@ -2,13 +2,7 @@ import React, { useState, Fragment, useRef } from 'react';
 // import { BsCalendarCheck } from "react-icons/bs";
 import 'react-image-gallery/styles/css/image-gallery.css';
 import ImageGallery from 'react-image-gallery';
-import {
-  ertigaColors,
-  ertigaSliders,
-  ertigaVariants,
-  ertigaMileage,
-  ertigaData,
-} from '../../constants/ertigaData';
+import { carsData } from '../../constants';
 import ErtigaBanner from '../../assets/banners/vehicles/Buy Maruti Suzuki Ertiga 2023 in Hyderabad.webp';
 import Header from '../../components/header/Header';
 // import { Helmet } from 'react-helmet';
@@ -20,6 +14,14 @@ import StructuredData from '../../components/SEo/StructuredData';
 import { LazyImage } from '../about/About';
 import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
 import CarFaq from '../../components/SEo/CarFaq';
+
+const {
+  colors: ertigaColors,
+  sliders: ertigaSliders,
+  variants: ertigaVariants,
+  mileage: ertigaMileage,
+  data: ertigaData,
+} = carsData.ertiga;
 
 function Ertiga() {
   const carEnquiryRef = useRef(null);

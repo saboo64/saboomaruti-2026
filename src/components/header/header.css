@@ -9,6 +9,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +25,7 @@
     top: px;
     left: 0;
     width: 100%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,6 +33,13 @@
     /* background: linear-gradient(90deg, #293e91 33%, rgb(0 212 255) 100%); */
     padding: 0 100px;
     transition: 0.6s;
+  }
+
+  /* header/.is-sticky now have an explicit height above, so a taller logo
+     no longer stretches the navbar — align-items: center just lets it
+     overflow evenly top/bottom instead. No repositioning needed. */
+  header .logo {
+    flex-shrink: 0;
   }
 
   header .navigation {

@@ -186,9 +186,9 @@ function MainHeader() {
       <header className={fixHeader ? "is-sticky" : "main_header_01"}>
         <Link to="/" className="logo">
           <img
-            className="w-auto h-16"
+            className="w-auto h-14"
             src={pvslLogo}
-            alt="logo"
+            alt="Popular RKS Maruti Suzuki Logo"
           />
         </Link>
 

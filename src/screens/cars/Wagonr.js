@@ -2,13 +2,7 @@ import React, { useRef } from 'react';
 // import { BsCalendarCheck } from "react-icons/bs";
 import 'react-image-gallery/styles/css/image-gallery.css';
 import ImageGallery from 'react-image-gallery';
-import {
-  wagonrColors,
-  wagonrData,
-  wagonrMileage,
-  wagonrSliders,
-  wagonrVariants,
-} from '../../constants/wagonrData';
+import { carsData } from '../../constants';
 import Header from '../../components/header/Header';
 // import { Helmet } from 'react-helmet';
 import { CarEnquiryDown } from '../Forms/CarEnquiryDown';
@@ -22,6 +16,15 @@ import { LazyImage } from '../about/About';
 import Colors from '../reusable/color';
 import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
 import CarFaq from '../../components/SEo/CarFaq';
+
+const {
+  colors: wagonrColors,
+  data: wagonrData,
+  mileage: wagonrMileage,
+  sliders: wagonrSliders,
+  variants: wagonrVariants,
+} = carsData.wagonr;
+
 function Wagonr() {
   const carEnquiryRef = useRef(null);
   // const scrollToCarEnquiry = () => {

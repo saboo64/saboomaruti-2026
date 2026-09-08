@@ -2,13 +2,7 @@ import React, { useState, Fragment, useRef } from 'react';
 // import { BsCalendarCheck } from "react-icons/bs";
 import 'react-image-gallery/styles/css/image-gallery.css';
 import ImageGallery from 'react-image-gallery';
-import {
-  swiftColors,
-  swiftSliders,
-  swiftVariants,
-  swiftMileage,
-  swiftData,
-} from '../../constants/swiftData';
+import { carsData } from '../../constants';
 import Swiftbanner from '../../assets/banners/Arena new Swift banner.webp';
 import Header from '../../components/header/Header';
 // import { Helmet } from 'react-helmet';
@@ -21,6 +15,14 @@ import { LazyImage } from '../about/About';
 import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
 import CarFaq from '../../components/SEo/CarFaq';
 // import { Link } from 'react-router-dom';
+
+const {
+  colors: swiftColors,
+  sliders: swiftSliders,
+  variants: swiftVariants,
+  mileage: swiftMileage,
+  data: swiftData,
+} = carsData.swift;
 
 function Swift() {
   const carEnquiryRef = useRef(null);

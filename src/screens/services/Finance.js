@@ -102,7 +102,7 @@ function Finance() {
    Our Sales consultant will contact you shortly.
    
    Regards
-   RKS Motor Pvt. Ltd.
+   RKS Motor.
    98488 98488
    www.saboomaruti.in
    www.saboonexa.in&type=1&template_id=1407168967467983613`
@@ -277,7 +277,7 @@ function Finance() {
         description='Get best car finance deals on Maruti cars. Saboo Maruti offers car loans with low down payment, low interest & low cost EMI. For more info call now 98488 98488.'
         keywords='maruti car loans, finance in, saboomaruti in car, suzuki secunderabad services'
         canonicalUrl='https://www.saboomaruti.in/maruti-suzuki-car-finance-services'
-        ogImage='/img/og-tags/finance.webp'
+        ogImage='/img/og-tags/default.webp'
         twitterUrl='https://x.com/saboorksmaruti'
         author='Broaddcast'
       />

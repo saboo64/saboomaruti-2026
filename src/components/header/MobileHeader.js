@@ -149,13 +149,13 @@ function MobileHeader() {
                 {/* Logo for larger screens (hidden on smaller screens) */}
                 <img
                   src={pvslLogo}
-                  alt="Logo"
+                  alt="Popular RKS Maruti Suzuki Logo"
                   className="hidden h-auto max-w-full sm:block"
                 />
                 {/* Logo for smaller screens (hidden on larger screens) */}
                 <img
                   src={pvslLogo}
-                  alt="Logo"
+                  alt="Popular RKS Maruti Suzuki Logo"
                   className="h-10 max-w-full sm:hidden"
                 />
               </div>
@@ -288,7 +288,7 @@ function MobileHeader() {
                   <img
                     className="w-auto h-12 mx-auto"
                     src={pvslLogo}
-                    alt="logo"
+                    alt="Popular RKS Maruti Suzuki Logo"
                   />
                 </Link>
                 {/* </div> */}

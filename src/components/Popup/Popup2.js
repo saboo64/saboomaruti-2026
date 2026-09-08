@@ -185,7 +185,7 @@ function Popup2() {
                           `https://www.smsstriker.com/API/sms.php?username=saboorks&password=LqHk1wBeI&from=RKSMOT&to=${values.phone}&msg=Thank you for showing interest in Maruti Suzuki.
                        Our Sales consultant will contact you shortly.
                        Regards
-                       RKS Motor Pvt. Ltd.
+                       RKS Motor.
                        98488 98488
                        www.saboomaruti.in
                        www.saboonexa.in&type=1&template_id=1407168967467983613`

@@ -4,13 +4,7 @@ import React, { useState, Fragment, useRef } from 'react';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import ImageGallery from 'react-image-gallery';
 // import { Dialog, Transition } from '@headlessui/react';
-import {
-  eecoColors,
-  eecoSliders,
-  eecoVariants,
-  eecoMileage,
-  eecoData,
-} from '../../constants/eecoData';
+import { carsData } from '../../constants';
 import EecoBanner from '../../assets/banners/Saboo-RKS-Maruti-Suzuki-EECO-With-More-Mileage.webp';
 // import { CgSpinner } from 'react-icons/cg';
 import Header from '../../components/header/Header';
@@ -25,6 +19,14 @@ import StructuredData from '../../components/SEo/StructuredData';
 import { LazyImage } from '../about/About';
 import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
 import CarFaq from '../../components/SEo/CarFaq';
+
+const {
+  colors: eecoColors,
+  sliders: eecoSliders,
+  variants: eecoVariants,
+  mileage: eecoMileage,
+  data: eecoData,
+} = carsData.eeco;
 
 function Eeco() {
   const carEnquiryRef = useRef(null);

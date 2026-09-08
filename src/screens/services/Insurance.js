@@ -77,7 +77,7 @@ function Insurance() {
    Our Sales consultant will contact you shortly.
    
    Regards
-   RKS Motor Pvt. Ltd.
+   RKS Motor.
    98488 98488
    www.saboomaruti.in
    www.saboonexa.in&type=1&template_id=1407168967467983613`
@@ -126,7 +126,7 @@ function Insurance() {
   description="Maruti car insurance renewal in Hyderabad & Secunderabad. Get cashless accident repairs, fair & transparent claim settlement. Looking to Renew Insurance Online for, Maruti Swift,Maruti Wagon R, Maruti Ertiga, Eeco, Maruti S-Presso, Maruti Alto 800,Maruti Vitara brezza,Maruti brezza, Celerio"
   keywords="maruti insurance renewal, saboomaruti in car, suzuki renewal"
   canonicalUrl="https://www.saboomaruti.in/maruti-suzuki-car-insurance-renewal"
-  ogImage="/img/og-tags/insurance.webp"
+  ogImage="/img/og-tags/default.webp"
   twitterUrl="https://x.com/saboorksmaruti"
   author="Broaddcast"
 />

@@ -1,10 +1,10 @@
-import bannerMonsoonDesktop from '../assets/banners/Website_Maruti_Suzuki_Arena_Monsoon_Offers_July_offers_Now_Six_6_Airbags_Popular_RKS_Vehicles_Services.webp';
+import bannerMonsoonDesktop from '../assets/banners/Website_Maruti_Suzuki_Arena_Festival_Offers_Ganesh_Chaturthi_offers__Popular_RKS_Vehicles_Services.webp';
 import bannerVictoris from '../assets/banners/Saboo RKS Maruti Suzuki Victoris Web Banner.webp';
 import bannerBrezzaDesktop from '../assets/banners/Saboo-RKS-Maruti-Suzuki-Brezza-Now-6-Airbags.webp';
 import bannerSwiftDesktop from '../assets/banners/Arena new Swift banner.webp';
 import bannerSUVMaker from '../assets/banners/new/Website_Maruti_Suzuki_No1_SUV_Maker_Saboo_RKS_Motor_October_Offers.webp';
 import bannerAltoK10Desktop from '../assets/banners/Saboo-RKS-Maruti-Suzuki-Alto-k10-Now-6-Airbags.webp';
-import bannerMonsoonMobile from '../assets/banners/WM_Maruti_Suzuki_Arena_Monsoon_Offers_July_offers_Now_Six_6_Airbags_Popular_RKS_Vehicles_Services.webp';
+ import bannerMonsoonMobile from '../assets/banners/WM_Maruti_Suzuki_Arena_Festival_Offers_Ganesh_Chaturthi_offers__Popular_RKS_Vehicles_Services.webp';
 import bannerDzireMobile from '../assets/banners/vehicles/banners-2024/Website_Mobile_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor.webp';
 import bannerBrezzaMobile from '../assets/banners/Website_Mobile_Maruti_Suzuki_Arena_Brezza_Urbano_Edition_Offers_Saboo_RKS_Motor_Hyderabad_Favoruite_Maruti_Suzuki_Dealer.webp';
 import bannerSwiftMobile from '../assets/banners/Arena new Swift banner_mobile.webp';
@@ -13,7 +13,159 @@ import reward2 from '../assets/banners/RewardSlider/2.png';
 import reward3 from '../assets/banners/RewardSlider/3.png';
 import reward4 from '../assets/banners/RewardSlider/4.png';
 import reward8 from '../assets/banners/RewardSlider/8.png';
-import bannerAccessories from '../assets/banners/Maruti_Suzuki_Genuine_Accessories_Summer_cool_offers_Saboo_RKS_Nexa_Banner-01.webp';
+// import bannerAccessories from '../assets/banners/Maruti_Suzuki_Genuine_Accessories_Summer_cool_offers_Saboo_RKS_Nexa_Banner-01.webp';
+import brezza_thumbnail from '../assets/thumbnail/brezza_thumbnail.png'
+import {
+  swiftSliders,
+  swiftColors,
+  swiftVariants,
+  swiftMileage,
+  swiftData,
+} from './swiftData';
+import {
+  celerioSliders,
+  celerioColors,
+  celerioVariants,
+  celerioMileage,
+  celerioData,
+} from './celerioData';
+import {
+  dzireSliders,
+  dzireColors,
+  dzireVariants,
+  dzireMileage,
+  dzireData,
+} from './dzireData';
+import {
+  altoK10Sliders,
+  altoK10Colors,
+  altoK10Variants,
+  altok10Mileage,
+  altok10Data,
+} from './altoK10Data';
+import {
+  eecoSliders,
+  eecoColors,
+  eecoVariants,
+  eecoMileage,
+  eecoData,
+} from './eecoData';
+import {
+  ertigaSliders,
+  ertigaColors,
+  ertigaVariants,
+  ertigaMileage,
+  ertigaData,
+} from './ertigaData';
+import {
+  spressoSliders,
+  spressoColors,
+  spressoVariants,
+  spressoMileage,
+  spressoData,
+} from './spressoData';
+import {
+  wagonrSliders,
+  wagonrColors,
+  wagonrVariants,
+  wagonrMileage,
+  wagonrData,
+} from './wagonrData';
+import {
+  brezzaSliders,
+  brezzaColors,
+  brezzaVariants,
+  brezzaMileage,
+  brezzaData,
+} from './brezzaData';
+import {
+  victoriesSliders,
+  victorisColors,
+  victoriesVariants,
+  VictoriesMileage,
+  victoriesData,
+} from './victoris';
+
+/**
+ * Single reusable source for every car model's page data (image sliders,
+ * color swatches, variant pricing, mileage table, spec summary). Re-exports
+ * each car's existing per-file data (unchanged, still the source of truth)
+ * under one consistent carsData.<model>.{sliders,colors,variants,mileage,data}
+ * shape, so any screen can pull from one place instead of importing a
+ * differently-named file per car.
+ */
+export const carsData = {
+  swift: {
+    sliders: swiftSliders,
+    colors: swiftColors,
+    variants: swiftVariants,
+    mileage: swiftMileage,
+    data: swiftData,
+  },
+  celerio: {
+    sliders: celerioSliders,
+    colors: celerioColors,
+    variants: celerioVariants,
+    mileage: celerioMileage,
+    data: celerioData,
+  },
+  dzire: {
+    sliders: dzireSliders,
+    colors: dzireColors,
+    variants: dzireVariants,
+    mileage: dzireMileage,
+    data: dzireData,
+  },
+  altoK10: {
+    sliders: altoK10Sliders,
+    colors: altoK10Colors,
+    variants: altoK10Variants,
+    mileage: altok10Mileage,
+    data: altok10Data,
+  },
+  eeco: {
+    sliders: eecoSliders,
+    colors: eecoColors,
+    variants: eecoVariants,
+    mileage: eecoMileage,
+    data: eecoData,
+  },
+  ertiga: {
+    sliders: ertigaSliders,
+    colors: ertigaColors,
+    variants: ertigaVariants,
+    mileage: ertigaMileage,
+    data: ertigaData,
+  },
+  spresso: {
+    sliders: spressoSliders,
+    colors: spressoColors,
+    variants: spressoVariants,
+    mileage: spressoMileage,
+    data: spressoData,
+  },
+  wagonr: {
+    sliders: wagonrSliders,
+    colors: wagonrColors,
+    variants: wagonrVariants,
+    mileage: wagonrMileage,
+    data: wagonrData,
+  },
+  brezza: {
+    sliders: brezzaSliders,
+    colors: brezzaColors,
+    variants: brezzaVariants,
+    mileage: brezzaMileage,
+    data: brezzaData,
+  },
+  victoris: {
+    sliders: victoriesSliders,
+    colors: victorisColors,
+    variants: victoriesVariants,
+    mileage: VictoriesMileage,
+    data: victoriesData,
+  },
+};
 
 export const sliders = [
   {
@@ -24,7 +176,7 @@ export const sliders = [
 
   {
     img: bannerVictoris,
-    alt: 'Website Maruti Suzuki Dzire Festive November Yearend Offers Saboo RKS Motor, Website_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor',
+    alt: 'Website Maruti Suzuki Dzire Festive November Yearend Offers Popular RKS Motor, Website_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor',
     link: '/victoris',
   },
 
@@ -55,7 +207,7 @@ export const sliders = [
 
   {
     img: bannerBrezzaDesktop,
-    alt: 'Maruti Suzuki Arena Brezza Urbano Edition Offers Saboo RKS Motor Hyderabad Favourite Maruti Suzuki Dealer',
+    alt: 'Maruti Suzuki Arena Brezza Urbano Edition Offers Popular RKS Motor Hyderabad Favourite Maruti Suzuki Dealer',
     link: '/maruti-new-brezza-on-road-price-in-hyderabad',
   },
   // {
@@ -69,7 +221,7 @@ export const sliders = [
   // },
   {
     img: bannerSwiftDesktop,
-    alt: 'Unveleing New Maruti Suzuki Swift 2024, Coming Soon. Saboo RKS Motors Hyderabad',
+    alt: 'Unveleing New Maruti Suzuki Swift 2024, Coming Soon. Popular RKS Motors Hyderabad',
     link: '/maruti-swift-car-on-road-price-in-hyderabad',
   },
 
@@ -90,7 +242,7 @@ export const sliders = [
 
   {
     img: bannerSUVMaker,
-    alt: 'Maruti Suzuki No1 SUV Maker Saboo RKS Motor October Offers',
+    alt: 'Maruti Suzuki No1 SUV Maker Popular RKS Motor October Offers',
     link: '/maruti-suzuki-car-offers-page',
   },
   // {
@@ -117,7 +269,7 @@ export const sliders = [
   // },
   {
     img: bannerAltoK10Desktop,
-    alt: 'Maruti Suzuki No1 SUV Maker Saboo RKS Motor October Offers',
+    alt: 'Maruti Suzuki No1 SUV Maker Popular RKS Motor October Offers',
     link: '/maruti-suzuki-car-offers-page',
   },
   // {
@@ -130,7 +282,7 @@ export const sliders = [
 export const mobileSliders = [
   {
     img: bannerMonsoonMobile,
-    alt: 'Maruti_Suzuki_Arena_Valentines_Day_2025_Febrauary_offers',
+    alt: 'Maruti_Suzuki_Arena_Valentines_Day_2026_Febrauary_offers',
     link: '/maruti-suzuki-car-offers-page',
   },
 
@@ -147,7 +299,7 @@ export const mobileSliders = [
 
   {
     img: bannerDzireMobile,
-    alt: 'Mobile Maruti Suzuki Dezire Festive december Yearend Offers Saboo RKS Motor, Mobile_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor.webp',
+    alt: 'Mobile Maruti Suzuki Dezire Festive december Yearend Offers Popular RKS Motor, Mobile_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor.webp',
     link: '/maruti-swift-dzire-on-road-price-in-hyderabad',
   },
   // {
@@ -169,7 +321,7 @@ export const mobileSliders = [
 
   {
     img: bannerBrezzaMobile,
-    alt: 'Maruti Suzuki Arena Brezza Urbano Edition Offers Saboo RKS Motor Hyderabad Favourite Maruti Suzuki Dealer',
+    alt: 'Maruti Suzuki Arena Brezza Urbano Edition Offers Popular RKS Motor Hyderabad Favourite Maruti Suzuki Dealer',
     link: '/maruti-new-brezza-on-road-price-in-hyderabad',
   },
   // {
@@ -182,7 +334,7 @@ export const mobileSliders = [
   // },
   {
     img: bannerSwiftMobile,
-    alt: 'Unveleing New Maruti Suzuki Swift 2024, Coming Soon. Saboo RKS Motors Hyderabad',
+    alt: 'Unveleing New Maruti Suzuki Swift 2024, Coming Soon. Popular RKS Motors Hyderabad',
     link: '/maruti-swift-car-on-road-price-in-hyderabad',
   },
   // {
@@ -209,11 +361,11 @@ export const mobileSliders = [
   //   img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/banners/Website_Mobile_Gandhi_Jayanti_Saboo_RKS_Motor_October_Offers.webp',
   //   alt: 'Website Mobile Gandhi Jayanti Saboo RKS Motor October Offers',
   // },
-  {
-    img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/banners/Website_Mobile_Maruti_Suzuki_No1_SUV_Maker_Saboo_RKS_Motor_October_Offers.webp',
-    alt: 'Website Mobile Maruti Suzuki No1 SUV Maker Saboo RKS Motor December Offers',
-    link: '/maruti-suzuki-car-offers-page',
-  },
+  // {
+  //   img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/banners/Website_Mobile_Maruti_Suzuki_No1_SUV_Maker_Saboo_RKS_Motor_October_Offers.png',
+  //   alt: 'Website Mobile Maruti Suzuki No1 SUV Maker Popular RKS Motor December Offers',
+  //   link: '/maruti-suzuki-car-offers-page',
+  // },
 ];
 
 export const offersSliders = [
@@ -272,7 +424,7 @@ export const offersSliders = [
 export const mobileOffersSliders = [
   {
     img: bannerMonsoonMobile,
-    alt: 'Maruti_Suzuki_Arena_Valentines_Day_2025_Febrauary_offers',
+    alt: 'Maruti_Suzuki_Arena_Valentines_Day_2026_Febrauary_offers',
     link: '/maruti-suzuki-car-offers-page',
   },
   // {
@@ -391,7 +543,7 @@ export const products = [
     name: 'Brezza',
     price: '8.25 L',
     logo: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/logo/brezza-new-logo.png',
-    img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-brezza.webp',
+  img: brezza_thumbnail,
     brouchure:
       'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/brochures/Brezza2022_Hot_Techy_SUV_Broucher.pdf',
     explore: '/maruti-new-brezza-on-road-price-in-hyderabad',
@@ -539,7 +691,7 @@ export const cngProducts = [
     name: 'Brezza CNG',
     price: '9.29 L',
     logo: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/logo/brezza-new-logo.png',
-    img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-brezza.webp',
+    img: brezza_thumbnail,
     brouchure:
       'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/brochures/Brezza2022_Hot_Techy_SUV_Broucher.pdf',
     explore: '/maruti-brezza-cng-on-road-price',
@@ -754,12 +906,12 @@ export const showrooms = [
     image:
       'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/showroom+locations/webp-showrooms/webp-showroom/RKS-Motor-Maruti-Suzuki-Arena-Center-Near-Me-Kodangal.webp',
   },
-  {
-    map: 'https://www.google.com/maps/place/Saboo+RKS+Maruti+Suzuki+Arena+Showroom/@17.4203741,78.4406094,14z/data=!4m6!3m5!1s0x3bcb9bdda638d193:0xc9116e0ef0b6a48b!8m2!3d17.4406719!4d78.5051666!16s%2Fg%2F11vhs808gd?entry=ttu',
-    address: 'Sangeeth Circle',
-    image:
-      'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/showroom+locations/webp-showrooms/webp-showroom/sangeeth-branch-arena.webp',
-  },
+  // {
+  //   map: 'https://www.google.com/maps/place/Saboo+RKS+Maruti+Suzuki+Arena+Showroom/@17.4203741,78.4406094,14z/data=!4m6!3m5!1s0x3bcb9bdda638d193:0xc9116e0ef0b6a48b!8m2!3d17.4406719!4d78.5051666!16s%2Fg%2F11vhs808gd?entry=ttu',
+  //   address: 'Sangeeth Circle',
+  //   image:
+  //     'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/showroom+locations/webp-showrooms/webp-showroom/sangeeth-branch-arena.webp',
+  // },
 ];
 
 export const RewardSliderImages = [
@@ -1041,10 +1193,10 @@ export const Newaccesoriessliders = [
   //   img: "https://marutisuzukiarenaprodcdn.azureedge.net/-/media/marutigeniuneaccessories_27112019/msgabanner/webp-banner/swift_desktop_1500x470.webp",
   //   alt: "banner-1",
   // },
-  {
-    img: bannerAccessories,
-    alt: 'Maruti Suzuki Genuine Accessories Summer cool offers Saboo RKS Hyderabad April 2024',
-  },
+  // {
+  //   img: bannerAccessories,
+  //   alt: 'Maruti Suzuki Genuine Accessories Summer cool offers Popular RKS Hyderabad April 2024',
+  // },
   {
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/accessory-page/new+banners/AltoK10_desktop_1500X470.webp',
     alt: 'banner-1',
@@ -1057,8 +1209,8 @@ export const Newaccesoriessliders = [
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/accessory-page/new+banners/Order_desktop_1500X470.webp',
     alt: 'banner-3',
   },
-  {
-    img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/accessory-page/new+banners/Order_desktop_1500X470.webp',
-    alt: 'banner-4',
-  },
+  // {
+  //   img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/accessory-page/new+banners/Order_desktop_1500X470.webp',
+  //   alt: 'banner-4',
+  // },
 ];

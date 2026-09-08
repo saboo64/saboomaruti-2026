@@ -15,7 +15,7 @@ export const faqData = [
     id: 3,
     question: "How can we book a Maruti New Car? ( Online/ Direct Walkin)",
     answer:
-      "Register your details to Popular RKS Pvt. Ltd. Maruti Suzuki Dealer https://www.saboomaruti.in confirm your details.  Or you May call us on 9848898488 Maruti Car Enquire enquiry https://www.saboomaruti.in/contact-maruti-suzuki-showroom Maruti Car Service:  https://www.saboomaruti.in/maruti-car-service-centers-near-me Maruti Car Complaints/ Queries/ Feedback:  https://www.saboomaruti.in/contact-maruti-suzuki-showroom Maruti Car Offers:  https://www.saboomaruti.in/maruti-suzuki-car-offers-page.",
+      "Register your details to Popular RKS . Maruti Suzuki Dealer https://www.saboomaruti.in confirm your details.  Or you May call us on 9848898488 Maruti Car Enquire enquiry https://www.saboomaruti.in/contact-maruti-suzuki-showroom Maruti Car Service:  https://www.saboomaruti.in/maruti-car-service-centers-near-me Maruti Car Complaints/ Queries/ Feedback:  https://www.saboomaruti.in/contact-maruti-suzuki-showroom Maruti Car Offers:  https://www.saboomaruti.in/maruti-suzuki-car-offers-page.",
   },
   {
     id: 4,

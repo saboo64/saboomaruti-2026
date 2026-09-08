@@ -115,7 +115,7 @@ export const CarEnquiryDown = ({ title, carName }) => {
    Our Sales consultant will contact you shortly.
    
    Regards
-   Popular RKS Pvt. Ltd.
+   Popular RKS.
    98488 98488
    www.saboomaruti.in
    www.saboonexa.in&type=1&template_id=1407168967467983613`
@@ -152,7 +152,7 @@ export const CarEnquiryDown = ({ title, carName }) => {
     <div className="container p-5 py-6 mx-auto mt-8 bg-gray-100 shadow rounded-3xl lg:p-6">
       <h3 className="mb-5 text-xl font-semibold text-blue-800 normal-case">
         {/* Get {title} On-Road price in Hyderabad */}
-        Register your intrest on New {title} 2025
+        Register your interest on New {title} 2026
       </h3>
       <form
         id="arenaCarEnq2"
@@ -251,7 +251,7 @@ export const CarEnquiryDown = ({ title, carName }) => {
             <option value="Shamirpet">Shamirpet</option>
             <option value="Narsingi">Narsingi</option>
             <option value="Kodangal">Kodangal</option>
-            <option value="Sangeeth Circle">Sangeeth Circle</option>
+            {/* <option value="Sangeeth Circle">Sangeeth Circle</option> */}
           </select>
         </div>
 

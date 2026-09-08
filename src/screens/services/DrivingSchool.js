@@ -25,7 +25,7 @@ function DrivingSchool() {
         description='Maruti Driving School in Hyderabad. Special initiatives that have lady instructors for women learners. Get world-class driving training at Maruti Driving School. Call now 9848898488 for fees & Offers.'
         keywords='suzuki, maruti suzuki suzuki'
         canonicalUrl='https://www.saboomaruti.in/maruti-suzuki-driving-school'
-        ogImage='/img/og-tags/maruti_driving_school.webp'
+        ogImage='/img/og-tags/default.webp'
         twitterUrl='https://x.com/saboorksmaruti'
       />
 
@@ -312,7 +312,7 @@ const DrivingSchoolEnquiry = ({ title, carName }) => {
    Our Sales consultant will contact you shortly.
    
    Regards
-   RKS Motor Pvt. Ltd.
+   RKS Motor.
    98488 98488
    www.saboomaruti.in
    www.saboonexa.in&type=1&template_id=1407168967467983613`

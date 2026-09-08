@@ -2,6 +2,7 @@ import { useState, useRef } from 'react';
 import React from 'react';
 import emailjs from '@emailjs/browser';
 import './Careers.css';
+import pvsl_logo from '../../assets/pvsl_logo.webp';
 import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
@@ -543,11 +544,11 @@ const Careers = () => {
         <title>Careers | Popular RKS  Pvt Ltd | Popular Maruti</title>
         <meta
           name="title"
-          content="Careers |Popular RKS Pvt Ltd | Popular Maruti"
+          content="Careers |Popular RKS | Popular Maruti"
         />
         <meta
           name="description"
-          content="Upload Your Resume for Job openings in Popular RKS Pvt Ltd with great work culture and work environment. Job openings in Secunderabad & Hyderabad."
+          content="Upload Your Resume for Job openings in Popular RKS  with great work culture and work environment. Job openings in Secunderabad & Hyderabad."
         />
       </Helmet>
 
@@ -555,9 +556,9 @@ const Careers = () => {
         <div className="flex flex-col items-center justify-center">
           <a href="/" onClick={handleImageClick} className="image-link">
             <img
-              src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/black-logo.png"
-              alt="saboo rks logo"
-              className="h-10 w-17"
+              src={pvsl_logo}
+              alt="Popular RKS logo"
+              className="w-auto h-20"
             />
             <span className="bg-white hover-text opacity-5">Home</span>
           </a>
@@ -963,8 +964,8 @@ const Careers = () => {
                     <p className="text-gray-700">
                       <span className="font-bold text-black">Disclaimer</span>:
                       I agree that by clicking the ‘Submit’ button below, I am
-                      explicitly soliciting a call/Message from Saboo Maruti
-                      (Popular RKS Pvt. Ltd) or its Representatives on my
+                      explicitly soliciting a call/Message from 
+                      Popular RKS or its Representatives on my
                       ‘Mobile’.
                     </p>
                     <div className="flex items-start">

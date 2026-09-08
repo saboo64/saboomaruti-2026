@@ -329,7 +329,7 @@ function LeadPopup({ setOpen }) {
    Our Sales consultant will contact you shortly.
    
    Regards
-   Popular RKS Pvt. Ltd.
+   Popular RKS.
    98488 98488
    www.saboomaruti.in
    www.saboonexa.in&type=1&template_id=1407168967467983613`

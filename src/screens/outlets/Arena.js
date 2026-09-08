@@ -14,7 +14,7 @@ function Arena() {
   description="Authorized Maruti Suzuki Showrooms in Hyderabad. Visit our nearest Saboo Maruti branch to get best offers & discounts on new Maruti cars. Call us 98488 98488"
   keywords="maruti suzuki showrooms in hyderabad, maruti showrooms near me, maruti showrooms in hyderabad, maruti showroom"
   canonicalUrl="https://www.saboomaruti.in/showrooms"
-  ogImage="/img/og-tags/saboo_rks.webp"
+  ogImage="/img/og-tags/default.webp"
 />
 
       {/* <Banner /> */}

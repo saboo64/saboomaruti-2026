@@ -217,10 +217,10 @@ function Awards() {
     <>
      <SeoMeta
   title="Awards & Achievements | Maruti Suzuki Car Dealers in Hyderabad"
-  description="Popular RKS Pvt. Ltd. has won the 'Platinum Dealership Award' for 6 times. And 'Royal Platinum Band Award' for the 1st time from Maruti Suzuki based on the performance parameters for the year of 2018-19."
+  description="Popular RKS. has won the 'Platinum Dealership Award' for 6 times. And 'Royal Platinum Band Award' for the 1st time from Maruti Suzuki based on the performance parameters for the year of 2018-19."
   keywords="Maruti Suzuki Awards"
   canonicalUrl="https://www.saboomaruti.in/"
-  ogImage="/img/og-tags/awards_banner.webp"
+  ogImage="/img/og-tags/default.webp"
   twitterUrl="https://x.com/saboorksmaruti"
 />
 

@@ -49,10 +49,10 @@ const RewardPoints = () => {
   return (
     <>
   <SeoMeta
-  title="Maruti Suzuki Rewards | Loyalty Reward Program by Saboo RKS"
-  description="Earn and redeem points for exciting prizes from Saboo RKS. A Digitised Experience. Super convenient meets super streamlined. Attend Exclusive Events with Maruti Suzuki Rewards."
+  title="Maruti Suzuki Rewards | Loyalty Reward Program by Popular RKS"
+  description="Earn and redeem points for exciting prizes from Popular RKS. A Digitised Experience. Super convenient meets super streamlined. Attend Exclusive Events with Maruti Suzuki Rewards."
   canonicalUrl="https://www.saboomaruti.in/maruti-alto-800-on-road-price-in-hyderabad"
-  ogImage="/img/og-tags/alto.webp"
+  ogImage="/img/og-tags/default.webp"
   twitterUrl="https://www.saboomaruti.in/maruti-alto-800-on-road-price-in-hyderabad"
 />
 

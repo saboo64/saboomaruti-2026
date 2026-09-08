@@ -26,7 +26,7 @@ const PriceList = () => {
               <img
                 className='w-auto h-12'
                 src={pvslLogo}
-                alt='logo'
+                alt='Popular RKS Maruti Suzuki Logo'
               />
             </a>
             {/* <button

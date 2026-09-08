@@ -13,7 +13,7 @@ function WorkShop() {
         description='Saboo Maruti Authorized Maruti Suzuki Service Center in Hyderabad. Visit our nearest Saboo Maruti workshop for Maruti car Servicing, Repairing, Painting, Battery repair. Free pickup & Drop facility available. Call now 9848898488'
         keywords='maruti service cente near me, maruti car service locations, maruti service center address, car service center'
         canonicalUrl='https://www.saboomaruti.in/maruti-suzuki-car-service-center'
-        ogImage='/img/og-tags/saboo_rks.webp'
+        ogImage='/img/og-tags/default.webp'
         twitterUrl='https://x.com/saboorksmaruti'
       />
 

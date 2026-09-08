@@ -3,13 +3,7 @@ import React, { useState, useRef } from 'react';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import ImageGallery from 'react-image-gallery';
 
-import {
-  brezzaColors,
-  brezzaSliders,
-  brezzaVariants,
-  brezzaMileage,
-  brezzaData,
-} from '../../constants/brezzaData';
+import { carsData } from '../../constants';
 import BrezzaBanner from '../../assets/banners/Saboo-RKS-Maruti-Suzuki-Brezza-Now-6-Airbags.webp';
 import Header from '../../components/header/Header';
 // import { Helmet } from 'react-helmet';
@@ -23,6 +17,14 @@ import StructuredData from '../../components/SEo/StructuredData';
 import { LazyImage } from '../about/About';
 import { VehicleSEO, vehicleSchema } from '../../constants/SEOData';
 import CarFaq from '../../components/SEo/CarFaq';
+
+const {
+  colors: brezzaColors,
+  sliders: brezzaSliders,
+  variants: brezzaVariants,
+  mileage: brezzaMileage,
+  data: brezzaData,
+} = carsData.brezza;
 
 function Brezza() {
   // // const [email, setEmail] = useState('');
@@ -41,7 +43,7 @@ function Brezza() {
       <LazyImage
         src={BrezzaBanner}
         className='w-full max-w-full lg:mt-16'
-        alt='Buy Maruti Suzuki Brezza 2025 in Hyderabad'
+        alt='Buy Maruti Suzuki Brezza 2026 in Hyderabad'
       />
       <h1 className='px-5 pt-4 text-xl font-semibold text-center md:text-2xl lg:text-3xl'>
         Maruti Brezza On-Road Price in Hyderabad

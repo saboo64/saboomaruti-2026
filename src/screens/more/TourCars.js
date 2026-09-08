@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Header from '../../components/header/Header';
 import { tourProducts } from '../../constants';
 
-import banner from '../../assets/banners/Saboo-RKS-Maruti-Suzuki-Now_6-Airbags.webp'
+import banner from '../../assets/banners/Saboo-RKS-Maruti-Suzuki-Now_6-Airbags.jpeg'
 
 function TourCars() {
   return (

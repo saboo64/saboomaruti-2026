@@ -21,7 +21,7 @@ function TourM() {
         description='Celebrate Sankranti 2026 with exclusive Popular RKS festive offers on the Maruti Suzuki Ertiga Tour M Commercial. On-road price starts at ₹9.80 Lakh in Hyderabad. Best deals for commercial use, low EMI options & quick delivery. Limited-time Sankranti offers – Book today!'
         keywords='Maruti Ertiga Tour M Sankranti offers 2026, Ertiga Tour M commercial Sankranti discounts Hyderabad, Popular RKS Ertiga Tour M offers, Popular RKS Sankranti deals Ertiga Tour M, Buy Ertiga Tour M Commercial Hyderabad, Maruti Ertiga Tour M best price Sankranti 2026, Ertiga Tour M on road price Hyderabad, Maruti Ertiga Tour M commercial vehicle Popular RKS'
         canonicalUrl='https://www.saboomaruti.in/tour/maruti-ertiga-tour-m-on-road-price-in-hyderabad'
-        ogImage='/img/og-tags/ertiga-tour-m.webp'
+        ogImage='/img/og-tags/default.webp'
       />
 
       <Header />

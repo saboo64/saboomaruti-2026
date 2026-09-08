@@ -21,7 +21,7 @@ function TourS() {
         description='Celebrate Sankranti 2026 with exclusive Popular RKS festive offers on the Maruti Suzuki Dzire Tour S Commercial. On-road price starts at ₹6.56 Lakh in Hyderabad. Best deals for commercial use, low EMI options & quick delivery. Limited-time Sankranti offers – Book today!'
         keywords='Maruti Dzire Tour S Sankranti offers 2026, Dzire Tour S commercial Sankranti discounts Hyderabad, Popular RKS Dzire Tour S offers, Popular RKS Sankranti deals Dzire Tour S, Buy Dzire Tour S Commercial Hyderabad, Maruti Dzire Tour S best price Sankranti 2026, Dzire Tour S on road price Hyderabad, Maruti Dzire Tour S commercial vehicle Popular RKS'
         canonicalUrl='https://www.saboomaruti.in/tour/maruti-dzire-tour-s-on-road-price-in-hyderabad'
-        ogImage='/img/og-tags/dzire-tour-s.webp'
+        ogImage='/img/og-tags/default.webp'
       />
 
       <Header />

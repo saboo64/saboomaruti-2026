@@ -100,7 +100,7 @@ function Corporate() {
    Our Sales consultant will contact you shortly.
    
    Regards
-   RKS Motor Pvt. Ltd.
+   RKS Motor.
    98488 98488
    www.saboomaruti.in
    www.saboonexa.in&type=1&template_id=1407168967467983613`
@@ -152,7 +152,7 @@ function Corporate() {
   description="Best discounts and offers on Maruti Suzuki cars bulk booking. Saboo Maruti offers best deals on Corporate car booking & bulk purchases. Call now 98488 98488."
   keywords="Maruti Suzuki Cars Bulk Buy, Corporate Offers, Saboo Maruti"
   canonicalUrl="https://www.saboomaruti.in/"
-  ogImage="/img/og-tags/corporate.webp"
+  ogImage="/img/og-tags/default.webp"
   twitterUrl="https://x.com/saboorksmaruti"
 />
 
@@ -327,7 +327,7 @@ function Corporate() {
                     <option value="Shamirpet">Shamirpet</option>
                     <option value="Narsingi">Narsingi</option>
                     <option value="Kodangal">Kodangal</option>
-                    <option value="Sangeeth Circle">Sangeeth Circle</option>
+                    {/* <option value="Sangeeth Circle">Sangeeth Circle</option> */}
                   </select>
                 </div>
               </div>

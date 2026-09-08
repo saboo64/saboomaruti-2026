@@ -222,7 +222,7 @@ function AwardsTest() {
         />
         <meta
           name='description'
-          content="Popular RKS Pvt. Ltd. has won the 'Platinum Dealership Award' for 6 times. And 'Royal Platinum Band Award' for the 1st time from Maruti Suzuki based on the performance parameters for the year of 2018-19."
+          content="Popular RKS. has won the 'Platinum Dealership Award' for 6 times. And 'Royal Platinum Band Award' for the 1st time from Maruti Suzuki based on the performance parameters for the year of 2018-19."
         />
         <meta name='keywords' content='Maruti Suzuki Awards' />
         <meta name='author' content='Broaddcast' />
@@ -234,7 +234,7 @@ function AwardsTest() {
         />
         <meta
           property='og:description'
-          content="Popular RKS Pvt. Ltd. has won the 'Platinum Dealership Award' for 6 times. And 'Royal Platinum Band Award' for the 1st time from Maruti Suzuki based on the performance parameters for the year of 2018-19."
+          content="Popular RKS. has won the 'Platinum Dealership Award' for 6 times. And 'Royal Platinum Band Award' for the 1st time from Maruti Suzuki based on the performance parameters for the year of 2018-19."
         />
         <meta property='og:image' content='img/og-tags/awards_banner.webp' />
         <meta property='twitter:card' content='summary_large_image' />
@@ -245,7 +245,7 @@ function AwardsTest() {
         />
         <meta
           property='twitter:description'
-          content="Popular RKS Pvt. Ltd. has won the 'Platinum Dealership Award' for 6 times. And 'Royal Platinum Band Award' for the 1st time from Maruti Suzuki based on the performance parameters for the year of 2018-19."
+          content="Popular RKS. has won the 'Platinum Dealership Award' for 6 times. And 'Royal Platinum Band Award' for the 1st time from Maruti Suzuki based on the performance parameters for the year of 2018-19."
         />
         <meta
           property='twitter:image'

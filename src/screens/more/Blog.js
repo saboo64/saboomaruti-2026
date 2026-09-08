@@ -9,11 +9,11 @@ function Blog() {
   return (
     <>
       <SeoMeta
-        title='Blog |Popular RKS Pvt Ltd'
+        title='Blog |Popular RKS '
         description='' // You can update this if needed
         keywords='Blogs'
         canonicalUrl='https://www.saboomaruti.in/blog'
-        ogImage='/img/og-tags/about_us.webp'
+        ogImage='/img/og-tags/default.webp'
         twitterUrl='https://x.com/saboorksmaruti'
       />
 

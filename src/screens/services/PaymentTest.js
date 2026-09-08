@@ -73,7 +73,7 @@ const PaymentTest = () => {
    Our Sales consultant will contact you shortly.
    
    Regards
-   RKS Motor Pvt. Ltd.
+   RKS Motor.
    98488 98488
    www.saboomaruti.in
    www.saboonexa.in&type=1&template_id=1407168967467983613`
@@ -144,7 +144,7 @@ const PaymentTest = () => {
                         Name:
                       </th>
                       <td class="py-4 px-6 text-gray-900 whitespace-nowrap dark:text-white font-bold">
-                        RKS Motor Pvt. Ltd.
+                        Popular RKS.
                       </td>
                     </tr>
                     <tr class="text-left bg-white border-b dark:bg-gray-800 dark:border-gray-700">

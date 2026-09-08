@@ -10,11 +10,11 @@ function ServiceSubscribe() {
       <Header />
       <img
         src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/banners/Saboo-Maruti-Suzuki-Subscribe-Banner+copy.webp"
-        className="max-w-full w-full lg:mt-16"
+        className="w-full max-w-full lg:mt-16"
         alt="Service Subscribe"
       />
       <div className="container mx-auto my-8">
-        <p className="font-bold text-3xl text-blue-900 mx-5">
+        <p className="mx-5 text-3xl font-bold text-blue-900">
           Why Subscribe from Maruti Suzuki?
         </p>
         <p className="mx-5 text-gray-500">
@@ -23,7 +23,7 @@ function ServiceSubscribe() {
           all-inclusive monthly fee which takes care of your maintenance and
           insurance cost also.
         </p>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-5 mx-5 md:mx-0">
+        <div className="grid grid-cols-2 gap-5 mx-5 md:grid-cols-3 md:mx-0">
           <img
             src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/saboomaruti/subscribe_screen/subscription-benefits.webp"
             alt="1"
@@ -37,7 +37,7 @@ function ServiceSubscribe() {
             alt="3"
           />
         </div>
-        <ul className="list-disc mx-10 md:mx-0 text-gray-600">
+        <ul className="mx-10 text-gray-600 list-disc md:mx-0">
           <li>
             In White plate, vehicle will be registered in customer’s name.
             Tenure options available in white plate are 24, 36 or 48 months.
@@ -50,12 +50,12 @@ function ServiceSubscribe() {
           <li>MS Subscribe is available in select cities only.</li>
         </ul>
       </div>
-      <div className="bg-gray-100 py-8">
+      <div className="py-8 bg-gray-100">
         <div className="container mx-auto">
-          <p className="font-semibold text-3xl text-blue-900 mx-5">
+          <p className="mx-5 text-3xl font-semibold text-blue-900">
             Easy Steps to Subscribe your Car
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mx-5 md:mx-0">
+          <div className="grid grid-cols-2 gap-5 mx-5 md:grid-cols-4 md:mx-0">
             <img
               src="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/saboomaruti/subscribe_screen/easy-1.webp"
               alt="1"
@@ -198,7 +198,7 @@ const PreferenceForm = () => {
    Our Sales consultant will contact you shortly.
    
    Regards
-   RKS Motor Pvt. Ltd.
+   RKS Motor.
    98488 98488
    www.saboomaruti.in
    www.saboonexa.in&type=1&template_id=1407168967467983613`
@@ -236,7 +236,7 @@ const PreferenceForm = () => {
   return (
     <>
       <div className="container mx-auto my-8">
-        <p className="font-semibold text-3xl text-blue-900  my-4">
+        <p className="my-4 text-3xl font-semibold text-blue-900">
           Select your Preference
         </p>
         <form
@@ -275,10 +275,10 @@ const PreferenceForm = () => {
             name="returnURL"
             value="https://www.saboomaruti.in/thank-you-for-contact-us"
           />
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+          <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 md:grid-cols-2">
             <div>
               <input
-                className="border h-10 outline-none px-3 rounded-full w-full focus:ring-blue-500 focus:border-blue-500"
+                className="w-full h-10 px-3 border rounded-full outline-none focus:ring-blue-500 focus:border-blue-500"
                 placeholder="Name"
                 id="Last_Name"
                 name="Last Name"
@@ -288,7 +288,7 @@ const PreferenceForm = () => {
             </div>
             <div>
               <input
-                className="border h-10 outline-none px-3 rounded-full w-full focus:ring-blue-500 focus:border-blue-500"
+                className="w-full h-10 px-3 border rounded-full outline-none focus:ring-blue-500 focus:border-blue-500"
                 placeholder="Phone"
                 minlength="10"
                 maxlength="10"
@@ -319,7 +319,7 @@ const PreferenceForm = () => {
                 name="LEADCF23"
                 onChange={(e) => setOutlet(e.target.value)}
                 defaultValue="Select Outlet"
-                className="block w-full h-10 py-2 px-3 border border-gray-300 bg-white rounded-full shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                className="block w-full h-10 px-3 py-2 bg-white border border-gray-300 rounded-full shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
               >
                 <option disabled>Select Outlet</option>
                 <option value="Somajiguda">Somajiguda</option>
@@ -330,17 +330,17 @@ const PreferenceForm = () => {
                 <option value="Shamirpet">Shamirpet</option>
                 <option value="Narsingi">Narsingi</option>
                 <option value="Kodangal">Kodangal</option>
-                <option value="Sangeeth Circle">Sangeeth Circle</option>
+                {/* <option value="Sangeeth Circle">Sangeeth Circle</option> */}
               </select>
             </div>
           </div>
-          {/* <div className='flex items-center space-x-1 my-3'>
+          {/* <div className='flex items-center my-3 space-x-1'>
             <input id='comments' name='comments' type='checkbox' required />
             <label htmlFor='comments' className='font-medium text-gray-900'>
               I Agree
             </label>
           </div>
-          <p className='text-gray-900 mb-2'>
+          <p className='mb-2 text-gray-900'>
             <span className='font-semibold'>Disclaimer :</span> I agree that by
             clicking the ‘Submit’ button below, I am explicitly soliciting a
             call / Message from Saboo Maruti (RKS Motor Pvt. Ltd) or its
@@ -363,7 +363,7 @@ const PreferenceForm = () => {
           >
             {loading ? (
               <div className="flex items-center justify-center">
-                <CgSpinner className="animate-spin h-5 mr-2 text-white w-5" />
+                <CgSpinner className="w-5 h-5 mr-2 text-white animate-spin" />
                 Loading
               </div>
             ) : (
@@ -373,7 +373,7 @@ const PreferenceForm = () => {
           <div className="flex items-start py-1 ">
             <div className="ml-2 text-sm">
               <label htmlFor="disclaimer" className="font-medium text-gray-700">
-                <span className="text-black font-bold">Disclaimer</span>
+                <span className="font-bold text-black">Disclaimer</span>
                 <span className="text-black">
                   : By clicking 'SUBMIT', you have agreed to our
                 </span>
@@ -381,7 +381,7 @@ const PreferenceForm = () => {
                   href="/maruti-car-terms-and-conditions"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-2  text-sm  text-red-600 "
+                  className="px-2 text-sm text-red-600 "
                 >
                   Terms and Conditions
                 </a>
@@ -402,13 +402,13 @@ const PreferenceForm = () => {
             name='returnURL'
             value='https://www.saboomaruti.in/thank-you-for-contact-us'
           />
-          <div className='grid sm:grid-cols-3 gap-3'>
+          <div className='grid gap-3 sm:grid-cols-3'>
             <div>
               <label className='block text-sm font-medium text-gray-700'>
                 Name
               </label>
               <input
-                className='border h-10 outline-none px-3 rounded-md w-full focus:ring-blue-500 focus:border-blue-500'
+                className='w-full h-10 px-3 border rounded-md outline-none focus:ring-blue-500 focus:border-blue-500'
                 id='Last_Name'
                 name='Last Name'
                 onChange={(e) => setName(e.target.value)}
@@ -425,7 +425,7 @@ const PreferenceForm = () => {
                 id='Email'
                 name='Email'
                 onChange={(e) => setEmail(e.target.value)}
-                className='mt-1 px-2 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border rounded-md h-10'
+                className='block w-full h-10 px-2 mt-1 border rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm'
               />
             </div>
 
@@ -434,7 +434,7 @@ const PreferenceForm = () => {
                 Phone
               </label>
               <input
-                className='mt-1 px-2 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border  rounded-md h-10'
+                className='block w-full h-10 px-2 mt-1 border rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm'
                 type='text'
                 maxLength='10'
                 minLength='10'
@@ -463,7 +463,7 @@ const PreferenceForm = () => {
                 id='LEADCF23'
                 name='LEADCF23'
                 onChange={(e) => setOutlet(e.target.value)}
-                className='block w-full h-10 py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm'
+                className='block w-full h-10 px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm'
               >
                 <option>Select Outlet</option>
                 <option value='RKS Motor - Somajiguda'>
@@ -497,7 +497,7 @@ const PreferenceForm = () => {
               <label className='block text-sm font-medium text-gray-700'>
                 Registeration Type
               </label>
-              <select className='block w-full py-2 h-10 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm'>
+              <select className='block w-full h-10 px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm'>
                 <option> Select Type</option>
                 <option value='White Plate'>White Plate</option>
                 <option value='Black Plate'>Black Plate</option>
@@ -508,7 +508,7 @@ const PreferenceForm = () => {
               <label className='block text-sm font-medium text-gray-700'>
                 Subscription Tenure
               </label>
-              <select className='block w-full py-2 h-10 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm'>
+              <select className='block w-full h-10 px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm'>
                 <option> Select Tenure </option>
                 <option value='12'>12</option>
                 <option value='18'>18</option>
@@ -523,11 +523,11 @@ const PreferenceForm = () => {
           <button
             type='submit'
             onClick={handleSubmit}
-            className='mt-5 h-10 inline-flex justify-center mr-3 py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-red-800 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500'
+            className='inline-flex justify-center h-10 px-4 py-2 mt-5 mr-3 text-sm font-medium text-white bg-red-800 border border-transparent rounded-md shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500'
           >
             {loading ? (
               <div className='flex items-center justify-center'>
-                <CgSpinner className='animate-spin h-5 mr-2 text-white w-5' />
+                <CgSpinner className='w-5 h-5 mr-2 text-white animate-spin' />
                 Loading
               </div>
             ) : (

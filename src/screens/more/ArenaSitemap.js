@@ -18,7 +18,7 @@ const ArenaSitemap = () => {
               <img
                 className='w-auto h-12'
                 src={pvslLogo}
-                alt='logo'
+                alt='Popular RKS Maruti Suzuki Logo'
               />
             </a>
             {/* <button
@@ -801,7 +801,7 @@ const ArenaSitemap = () => {
                 to='/about-maruti-suzuki-dealers#about'
                 className=' hover:underline'
               >
-                About Saboo RKS
+                About Popular RKS
               </HashLink>
             </li>
             <li className='w-full md:w-2/2'>

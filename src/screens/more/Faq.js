@@ -29,7 +29,7 @@ function Faq() {
         description='Check out the frequently asked questions for Maruti Suzuki Arena cars. Get on road price, Book a test drive, Offers on Maruti cars, Maruti car servicing, Maruti insurance, Maruti finance. Call us 98488 98488.'
         keywords='Maruti FAQ'
         canonicalUrl='https://www.saboomaruti.in/faq'
-        ogImage='/img/og-tags/FAQ.webp'
+        ogImage='/img/og-tags/default.webp'
         twitterUrl='https://www.saboomaruti.in/faq'
       />
       <StructuredData data={faqSchema} />

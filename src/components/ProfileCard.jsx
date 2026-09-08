@@ -49,7 +49,7 @@ export default function ProfileCard() {
         <div className="mt-10">
           <img
             src={logo}
-            alt="Popular RKS"
+            alt="Popular RKS Maruti Suzuki Logo"
             className="h-20 w-26 "
           />
         </div>
