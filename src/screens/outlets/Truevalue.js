@@ -9,9 +9,9 @@ function Truevalue() {
   return (
     <>
       <SeoMeta
-        title='Maruti Suzuki True Value in Hyderabad | Buy & Sell Used Cars in Hyderabad'
-        description='Maruti Suzuki True Value in Hyderabad. Buy & Sell used cars in Hyderabad. Saboo Maruti offers best deals on used cars. Sell your used car at Saboo Maruti True Value & get best price.'
-        keywords='maruti suzuki truevalue showrrom in hyderabad, maruti truevalue showroom, maruti true value showroom near me, true value, preowned cars near me'
+        title='Maruti True Value Used Cars in Hyderabad | Popular RKS'
+        description='Buy certified pre-owned cars at Maruti Suzuki True Value, Hyderabad. Quality-checked used cars, warranty, easy finance & best exchange value.'
+        keywords='Maruti True Value Hyderabad, used cars Hyderabad, certified pre-owned Maruti, second hand Maruti cars Hyderabad, Maruti True Value showroom'
         canonicalUrl='https://www.saboomaruti.in/true-value'
         ogImage='/img/og-tags/default.webp'
         twitterUrl='https://x.com/saboorksmaruti'

@@ -273,9 +273,9 @@ function Finance() {
     <>
       <Header />
       <SeoMeta
-        title='Maruti Car loans, Finance in Secunderabad & Hyderabad | Saboo Maruti'
-        description='Get best car finance deals on Maruti cars. Saboo Maruti offers car loans with low down payment, low interest & low cost EMI. For more info call now 98488 98488.'
-        keywords='maruti car loans, finance in, saboomaruti in car, suzuki secunderabad services'
+        title='Maruti Car Loan & Finance in Hyderabad | Popular RKS'
+        description='Get a Maruti Suzuki car loan in Hyderabad with low interest rates, quick approval and flexible EMI options. Apply at Popular RKS today.'
+        keywords='Maruti car loan Hyderabad, Maruti Suzuki finance, car EMI calculator Maruti, Maruti car loan interest rate, Maruti low EMI'
         canonicalUrl='https://www.saboomaruti.in/maruti-suzuki-car-finance-services'
         ogImage='/img/og-tags/default.webp'
         twitterUrl='https://x.com/saboorksmaruti'

@@ -21,9 +21,9 @@ function DrivingSchool() {
     <>
       <Header />
       <SeoMeta
-        title='Maruti Driving School in Hyderabad | Fees & Offers on Maruti Driving School'
-        description='Maruti Driving School in Hyderabad. Special initiatives that have lady instructors for women learners. Get world-class driving training at Maruti Driving School. Call now 9848898488 for fees & Offers.'
-        keywords='suzuki, maruti suzuki suzuki'
+        title='Maruti Driving School in Hyderabad | Popular RKS'
+        description='Learn to drive with Maruti Suzuki Driving School in Hyderabad. Certified trainers, dual-control cars & licence assistance. Enrol at Popular RKS.'
+        keywords='Maruti driving school Hyderabad, driving school near me, car driving classes Hyderabad, learn car driving Hyderabad'
         canonicalUrl='https://www.saboomaruti.in/maruti-suzuki-driving-school'
         ogImage='/img/og-tags/default.webp'
         twitterUrl='https://x.com/saboorksmaruti'

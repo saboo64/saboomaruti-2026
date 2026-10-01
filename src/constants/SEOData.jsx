@@ -13,32 +13,29 @@ export const SEOPages = {
   },
 
   Home: {
-    title:
-      'Independence Day 2026 Maruti Suzuki Cars in Hyderabad | Best Prices, Offers & Test Drive – Popular RKS',
+    title: 'Maruti Suzuki Showroom in Hyderabad | Popular RKS Arena',
     description:
-      'Celebrate Monsoon & Independence Day 2026 with best Maruti Suzuki car offers in Hyderabad at Popular RKS. Get exclusive discounts, low EMI, exchange bonus on Alto K10, Swift, Brezza, Dzire, WagonR & more.',
+      "Visit Popular RKS, Telangana's No.1 Maruti Suzuki Arena dealer in Hyderabad. Check new car prices, offers, low EMI & book a free test drive today.",
     keywords:
-      'Monsoon & Independence Day offers 2026 Maruti Suzuki, Maruti cars Hyderabad, Swift Independence Day & Monsoon offer, Brezza price Hyderabad, Dzire discount, Maruti test drive Hyderabad',
+      'Maruti Suzuki showroom in Hyderabad, Maruti Suzuki dealer in Hyderabad, Maruti Arena showroom Hyderabad, Maruti showroom near me, Popular RKS, Saboo RKS Maruti, new Maruti cars in Hyderabad, Maruti car price in Hyderabad, Maruti Suzuki offers Hyderabad, Maruti test drive Hyderabad, festive offers Maruti Suzuki Hyderabad, Dussehra offers Maruti cars, Diwali offers Maruti cars, Maruti Suzuki festive offers 2026',
     canonicalUrl: 'https://www.saboomaruti.in/',
     ogImage: 'https://www.saboomaruti.in/img/og-tags/default.webp',
   },
 
   Accessory: {
-    title:
-      'Maruti Suzuki Accessories Hyderabad | Independence Day Offers 2026 on Genuine Parts – Popular RKS',
+    title: 'Maruti Suzuki Accessories Hyderabad | Popular RKS',
     description:
-      'Buy genuine Maruti Suzuki accessories and spare parts in Hyderabad with Monsoon & Independence Day 2026 special offers at Popular RKS. Get original parts with warranty at best prices.',
+      'Buy genuine Maruti Suzuki accessories and spare parts in Hyderabad at Popular RKS. Get original parts with warranty at the best prices.',
     keywords:
-      'Maruti accessories Hyderabad, Monsoon & Independence Day offers car accessories, Maruti spare parts Hyderabad, genuine Maruti accessories',
+      'Maruti accessories Hyderabad, Maruti spare parts Hyderabad, genuine Maruti accessories, Maruti Suzuki accessories price, Popular RKS accessories',
     canonicalUrl: 'https://www.saboomaruti.in/maruti-accessories',
     ogImage: '/img/og-tags/default.webp',
   },
 
   ArenaSitemap: {
-    title:
-      'Sitemap | Independence Day 2026 Maruti Offers, Cars & Services – Popular RKS Hyderabad',
+    title: 'Sitemap | Popular RKS Maruti Suzuki Hyderabad',
     description:
-      'Explore Popular RKS sitemap for Monsoon & Independence Day 2026 Maruti Suzuki offers, cars, service centers, finance, insurance and dealership details across Hyderabad.',
+      'Explore the Popular RKS sitemap for Maruti Suzuki cars, offers, service centers, finance, insurance and dealership details across Hyderabad.',
     canonicalUrl: 'https://www.saboomaruti.in/arenasitemap',
     ogImage: '/img/og-tags/default.webp',
     twitterUrl: 'https://x.com/saboorksmaruti',
@@ -57,26 +54,24 @@ export const SEOPages = {
   },
 
   BookAService: {
-    title:
-      'Book Maruti Service Hyderabad | Independence Day 2026 Car Service Offers – Popular RKS',
+    title: 'Book Maruti Service Hyderabad | Popular RKS',
     description:
-      'Book Maruti Suzuki car service online at Popular RKS this Monsoon & Independence Day 2026. Get special service offers, genuine parts, expert care and maintenance across Hyderabad.',
+      'Book Maruti Suzuki car service online at Popular RKS. Get special service offers, genuine parts, expert care and maintenance across Hyderabad.',
     keywords:
-      'Maruti service Hyderabad, Independence Day & Monsoon service offers Maruti, car service booking Hyderabad, Maruti maintenance offers',
+      'Maruti service Hyderabad, Maruti service booking Hyderabad, car service booking Hyderabad, Maruti maintenance offers, Popular RKS service',
     canonicalUrl: 'https://www.saboomaruti.in/maruti-car-service-centers-near-me',
     ogImage: '/img/og-tags/default.webp',
     twitterUrl: 'https://x.com/saboorksmaruti',
   },
 
   offers: {
-    title:
-      'Independence Day 2026 Maruti Suzuki Car Offers in Hyderabad | Best Deals – Popular RKS',
+    title: 'Maruti Suzuki Car Offers in Hyderabad | Popular RKS',
 
     description:
-      'Celebrate Monsoon & Independence Day 2026 with best Maruti Suzuki offers in Hyderabad at Popular RKS. Get exclusive discounts, exchange bonus, low EMI and festive deals on Swift, Dzire, Brezza, Alto, WagonR & more.',
+      'Get the latest Maruti Suzuki car offers in Hyderabad: cash discounts, exchange bonus, corporate benefits & low EMI. Book your test drive at Popular RKS.',
 
     keywords:
-      'Monsoon & Independence Day offers 2026 Maruti Suzuki, Maruti car discounts Hyderabad, Swift Independence Day & Monsoon offer, Dzire discount, Brezza deals, Alto K10 offers, WagonR offers',
+      'Maruti Suzuki offers Hyderabad, Maruti car discounts Hyderabad, Maruti exchange bonus, Maruti corporate offer, festive offers Maruti, Maruti car offers this month, Dussehra offers Maruti cars, Diwali offers Maruti cars, Maruti Suzuki festive offers 2026, Maruti low EMI offer, Maruti Suzuki showroom Hyderabad, Popular RKS',
     canonicalUrl: 'https://www.saboomaruti.in/maruti-suzuki-car-offers-page',
     ogImage: '/img/og-tags/default.webp',
     twitterUrl: 'https://x.com/saboorksmaruti',
@@ -85,12 +80,11 @@ export const SEOPages = {
 
 export const VehicleSEO = {
   AltoK10: {
-    title:
-      'Maruti Alto K10 On-Road Price in Hyderabad 2026 | Independence Day Offers & EMI – Popular RKS',
+    title: 'Maruti Alto K10 On-Road Price Hyderabad | Popular RKS',
     description:
-      'Celebrate Monsoon & Independence Day 2026 with best Maruti Alto K10 offers in Hyderabad at Popular RKS. Get lowest on-road price, exchange bonus, low EMI & instant delivery benefits.',
+      'Check Maruti Alto K10 on-road price in Hyderabad, variants, mileage & colours. Get best offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'Alto K10 Monsoon & Independence Day offers 2026, Maruti Alto K10 price Hyderabad, Alto K10 EMI, Alto K10 exchange bonus, Independence Day & Monsoon car offers Hyderabad',
+      'Alto K10 price in Hyderabad, Alto K10 on road price Hyderabad, Maruti Alto K10 Hyderabad, Alto K10 variants, Alto K10 mileage, Alto K10 colours, Alto K10 EMI, Alto K10 test drive Hyderabad, Alto K10 offers Hyderabad, Popular RKS Alto K10',
     canonicalUrl:
       'https://www.saboomaruti.in/all-new-maruti-alto-k10-on-road-price-in-hyderabad',
     ogImage:
@@ -98,12 +92,11 @@ export const VehicleSEO = {
   },
 
   Brezza: {
-    title:
-      'Maruti Brezza On-Road Price in Hyderabad 2026 | Independence Day SUV Offers – Popular RKS',
+    title: 'Maruti Brezza On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Get best Monsoon & Independence Day Offers 2026 on Maruti Brezza in Hyderabad at Popular RKS. Enjoy SUV deals, exchange bonus, low EMI & limited-time discounts.',
+      'Explore Maruti Brezza on-road price in Hyderabad, variants, features & colours. Get exclusive offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'Brezza Monsoon & Independence Day offers 2026, Maruti Brezza price Hyderabad, Brezza EMI, SUV offers Hyderabad Independence Day & Monsoon, Brezza exchange bonus',
+      'Brezza price in Hyderabad, Brezza on road price Hyderabad, Maruti Brezza Hyderabad, Brezza variants, Brezza mileage, Brezza colours, Brezza EMI, Brezza test drive Hyderabad, Brezza offers Hyderabad, Popular RKS Brezza, Brezza festive offer',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-new-brezza-on-road-price-in-hyderabad',
     ogImage:
@@ -111,24 +104,22 @@ export const VehicleSEO = {
   },
 
   Celerio: {
-    title:
-      'Maruti Celerio On-Road Price in Hyderabad 2026 | Independence Day Offers & Mileage Benefits',
+    title: 'Maruti Celerio On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Celebrate Monsoon & Independence Day 2026 with best Maruti Celerio offers in Hyderabad. Get high mileage car benefits, exchange bonus, EMI options & seasonal discounts.',
+      'Check Maruti Celerio on-road price in Hyderabad, variants, mileage & colours. Get best offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'Celerio Monsoon & Independence Day offers 2026, Maruti Celerio price Hyderabad, mileage car offers Independence Day & Monsoon, Celerio EMI Hyderabad',
+      'Celerio price in Hyderabad, Celerio on road price Hyderabad, Maruti Celerio Hyderabad, Celerio variants, Celerio mileage, Celerio colours, Celerio EMI, Celerio test drive Hyderabad, Celerio offers Hyderabad, Popular RKS Celerio',
     canonicalUrl: 'https://www.saboomaruti.in/the-all-new-celerio',
     ogImage:
       'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/data/celerio/colors/Maruti-Suzuki-Clerio-GLISTENING_GREY.webp',
   },
 
   Dzire: {
-    title:
-      'Maruti Dzire On-Road Price in Hyderabad 2026 | Independence Day Sedan Offers – Popular RKS',
+    title: 'Maruti Dzire On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Buy Maruti Dzire in Hyderabad with best Monsoon & Independence Day Offers 2026 at Popular RKS. Get sedan discounts, exchange bonus, EMI plans & seasonal benefits.',
+      'Check Maruti Dzire on-road price in Hyderabad, variants, features & colours. Get best offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'Dzire Monsoon & Independence Day offers 2026, Maruti Dzire price Hyderabad, Dzire EMI, sedan offers Hyderabad Independence Day & Monsoon',
+      'Dzire price in Hyderabad, Dzire on road price Hyderabad, Maruti Dzire Hyderabad, Dzire variants, Dzire mileage, Dzire colours, Dzire EMI, Dzire test drive Hyderabad, Dzire offers Hyderabad, Popular RKS Dzire, Dzire festive offer',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-swift-dzire-on-road-price-in-hyderabad',
     ogImage:
@@ -136,12 +127,11 @@ export const VehicleSEO = {
   },
 
   Ecco: {
-    title:
-      'Maruti Eeco On-Road Price in Hyderabad 2026 | Independence Day Family Car Offers',
+    title: 'Maruti Eeco On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Get best Monsoon & Independence Day Offers 2026 on Maruti Eeco in Hyderabad at Popular RKS. Ideal family & commercial vehicle with exchange bonus, EMI & discounts.',
+      'Check Maruti Eeco on-road price in Hyderabad, variants, seating options & features. Get best offers, easy EMI and book a test drive at Popular RKS.',
     keywords:
-      'Eeco Monsoon & Independence Day offers 2026, Maruti Eeco price Hyderabad, family car offers Independence Day & Monsoon, Eeco EMI Hyderabad',
+      'Eeco price in Hyderabad, Eeco on road price Hyderabad, Maruti Eeco Hyderabad, Eeco variants, Eeco mileage, Eeco colours, Eeco EMI, Eeco test drive Hyderabad, Eeco offers Hyderabad, Popular RKS Eeco',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-eeco-on-road-price-in-hyderabad',
     ogImage:
@@ -149,12 +139,11 @@ export const VehicleSEO = {
   },
 
   Ertiga: {
-    title:
-      'Maruti Ertiga On-Road Price in Hyderabad 2026 | Independence Day MPV Offers – Popular RKS',
+    title: 'Maruti Ertiga On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Celebrate Monsoon & Independence Day 2026 with best Maruti Ertiga offers in Hyderabad. Get spacious MPV deals, exchange bonus, EMI benefits & seasonal discounts.',
+      'Check Maruti Ertiga on-road price in Hyderabad, variants, 7-seater features & colours. Get offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'Ertiga Monsoon & Independence Day offers 2026, Maruti Ertiga price Hyderabad, MPV offers Independence Day & Monsoon, Ertiga EMI Hyderabad',
+      'Ertiga price in Hyderabad, Ertiga on road price Hyderabad, Maruti Ertiga Hyderabad, Ertiga variants, Ertiga mileage, Ertiga colours, Ertiga EMI, Ertiga test drive Hyderabad, Ertiga offers Hyderabad, Popular RKS Ertiga',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-ertiga-on-road-price-in-hyderabad',
     ogImage:
@@ -162,12 +151,11 @@ export const VehicleSEO = {
   },
 
   Spresso: {
-    title:
-      'Maruti S-Presso On-Road Price in Hyderabad 2026 | Independence Day Entry Car Offers',
+    title: 'Maruti S-Presso On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Buy Maruti S-Presso in Hyderabad with Monsoon & Independence Day Offers 2026 at Popular RKS. Get best price, EMI options, exchange bonus & discounts.',
+      'Check Maruti S-Presso on-road price in Hyderabad, variants, features & colours. Get best offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'S-Presso Monsoon & Independence Day offers 2026, Maruti S-Presso price Hyderabad, entry car offers Independence Day & Monsoon, S-Presso EMI',
+      'S-Presso price in Hyderabad, S-Presso on road price Hyderabad, Maruti S-Presso Hyderabad, S-Presso variants, S-Presso mileage, S-Presso colours, S-Presso EMI, S-Presso test drive Hyderabad, S-Presso offers Hyderabad, Popular RKS S-Presso',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-s-presso-on-road-price-in-hyderabad',
     ogImage:
@@ -175,12 +163,11 @@ export const VehicleSEO = {
   },
 
   Swift: {
-    title:
-      'Maruti Swift On-Road Price in Hyderabad 2026 | Independence Day Offers & Deals – Popular RKS',
+    title: 'Maruti Swift On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Celebrate Monsoon & Independence Day 2026 with best Maruti Swift offers in Hyderabad. Get sporty hatchback deals, exchange bonus, EMI & exclusive discounts.',
+      'Check Maruti Swift on-road price in Hyderabad, variants, mileage & colours. Get best offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'Swift Monsoon & Independence Day offers 2026, Maruti Swift price Hyderabad, Swift EMI, hatchback offers Hyderabad Independence Day & Monsoon',
+      'Swift price in Hyderabad, Swift on road price Hyderabad, Maruti Swift Hyderabad, Swift variants, Swift mileage, Swift colours, Swift EMI, Swift test drive Hyderabad, Swift offers Hyderabad, Popular RKS Swift, Swift festive offer Hyderabad',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-swift-car-on-road-price-in-hyderabad',
     ogImage:
@@ -188,12 +175,11 @@ export const VehicleSEO = {
   },
 
   Wagonr: {
-    title:
-      'Maruti WagonR On-Road Price in Hyderabad 2026 | Independence Day Family Offers',
+    title: 'Maruti WagonR On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Get best Monsoon & Independence Day Offers 2026 on Maruti WagonR in Hyderabad at Popular RKS. Spacious family hatchback with EMI benefits, exchange bonus & deals.',
+      'Check Maruti WagonR on-road price in Hyderabad, variants, mileage & colours. Get best offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'WagonR Monsoon & Independence Day offers 2026, Maruti WagonR price Hyderabad, WagonR EMI, family car offers Independence Day & Monsoon',
+      'WagonR price in Hyderabad, WagonR on road price Hyderabad, Maruti WagonR Hyderabad, WagonR variants, WagonR mileage, WagonR colours, WagonR EMI, WagonR test drive Hyderabad, WagonR offers Hyderabad, Popular RKS WagonR',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-wagon-r-on-road-price-in-hyderabad',
     ogImage:
@@ -201,12 +187,11 @@ export const VehicleSEO = {
   },
 
   Victoris: {
-    title:
-      'Maruti Victoris Price in Hyderabad 2026 | Independence Day Booking Offers – Popular RKS',
+    title: 'Maruti Victoris Price & Offers in Hyderabad | Popular RKS',
     description:
-      'Book the new Maruti Victoris in Hyderabad with Monsoon & Independence Day Offers 2026 at Popular RKS. Get priority delivery, booking benefits, exchange bonus & launch deals.',
+      'Explore the Maruti Victoris in Hyderabad: price, variants, features & colours. Get exclusive offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'Victoris Monsoon & Independence Day offers 2026, Maruti Victoris price Hyderabad, new Maruti booking offers, upcoming Maruti cars',
+      'Victoris price in Hyderabad, Victoris on road price Hyderabad, Maruti Victoris Hyderabad, Victoris variants, Victoris mileage, Victoris colours, Victoris EMI, Victoris test drive Hyderabad, Victoris offers Hyderabad, Popular RKS Victoris',
     canonicalUrl: 'https://www.saboomaruti.in/victoris',
     ogImage:
       'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/cars/victoris/download.png',
@@ -216,24 +201,22 @@ export const VehicleSEO = {
 
 export const CNGvehicleSeo = {
   AltoK10CNG: {
-    title:
-      'Maruti Alto K10 CNG On-Road Price in Hyderabad 2026 | Independence Day Offers & EMI',
+    title: 'Maruti Alto K10 CNG On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Celebrate Monsoon & Independence Day 2026 with best Maruti Alto K10 CNG offers in Hyderabad at Popular RKS. Get highest mileage, low EMI, exchange bonus & lowest running cost benefits.',
+      'Check Maruti Alto K10 CNG on-road price in Hyderabad, mileage & features. Get best offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'Alto K10 CNG Monsoon & Independence Day offers 2026, Alto K10 CNG price Hyderabad, CNG mileage car offers Independence Day & Monsoon, Alto K10 CNG EMI Hyderabad',
+      'Alto K10 CNG price in Hyderabad, Alto K10 CNG on road price Hyderabad, Maruti Alto K10 CNG Hyderabad, Alto K10 CNG mileage, Alto K10 CNG EMI, Alto K10 CNG test drive Hyderabad, Alto K10 CNG offers Hyderabad, Popular RKS Alto K10 CNG',
     canonicalUrl: 'https://www.saboomaruti.in/alto-k10-cng',
     ogImage:
       'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/new-alto-k10/colors/color_range_688x360_red.webp',
   },
 
   BrezzaCNG: {
-    title:
-      'Maruti Brezza CNG On-Road Price in Hyderabad 2026 | Independence Day SUV CNG Offers',
+    title: 'Maruti Brezza CNG On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Get best Monsoon & Independence Day Offers 2026 on Maruti Brezza CNG in Hyderabad at Popular RKS. Enjoy SUV comfort with low running cost, EMI benefits & discounts.',
+      'Check Maruti Brezza CNG on-road price in Hyderabad, mileage & features. Get best offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'Brezza CNG Monsoon & Independence Day offers 2026, Maruti Brezza CNG price Hyderabad, SUV CNG offers Independence Day & Monsoon, Brezza CNG EMI',
+      'Brezza CNG price in Hyderabad, Brezza CNG on road price Hyderabad, Maruti Brezza CNG Hyderabad, Brezza CNG mileage, Brezza CNG EMI, Brezza CNG test drive Hyderabad, Brezza CNG offers Hyderabad, Popular RKS Brezza CNG',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-brezza-cng-on-road-price',
     ogImage:
@@ -241,12 +224,11 @@ export const CNGvehicleSeo = {
   },
 
   CelerioCNG: {
-    title:
-      'Maruti Celerio CNG On-Road Price in Hyderabad 2026 | Independence Day Mileage Offers',
+    title: 'Maruti Celerio CNG On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Buy Maruti Celerio CNG in Hyderabad with Monsoon & Independence Day Offers 2026 at Popular RKS. Get best mileage benefits, EMI options, exchange bonus & seasonal discounts.',
+      'Check Maruti Celerio CNG on-road price in Hyderabad, mileage & features. Get best offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'Celerio CNG Monsoon & Independence Day offers 2026, Maruti Celerio CNG price Hyderabad, best mileage CNG car, Celerio CNG EMI',
+      'Celerio CNG price in Hyderabad, Celerio CNG on road price Hyderabad, Maruti Celerio CNG Hyderabad, Celerio CNG mileage, Celerio CNG EMI, Celerio CNG test drive Hyderabad, Celerio CNG offers Hyderabad, Popular RKS Celerio CNG',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-celerio-cng-on-road-price-in-hyderabad',
     ogImage:
@@ -254,12 +236,11 @@ export const CNGvehicleSeo = {
   },
 
   DzireCNG: {
-    title:
-      'Maruti Dzire CNG On-Road Price in Hyderabad 2026 | Independence Day Sedan CNG Offers',
+    title: 'Maruti Dzire CNG On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Celebrate Monsoon & Independence Day 2026 with best Maruti Dzire CNG offers in Hyderabad. Enjoy sedan comfort, high mileage, EMI plans & exchange bonus.',
+      'Check Maruti Dzire CNG on-road price in Hyderabad, mileage & features. Get best offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'Dzire CNG Monsoon & Independence Day offers 2026, Maruti Dzire CNG price Hyderabad, sedan CNG offers Independence Day & Monsoon, Dzire CNG EMI',
+      'Dzire CNG price in Hyderabad, Dzire CNG on road price Hyderabad, Maruti Dzire CNG Hyderabad, Dzire CNG mileage, Dzire CNG EMI, Dzire CNG test drive Hyderabad, Dzire CNG offers Hyderabad, Popular RKS Dzire CNG',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-swift-dzire-cng-on-road-price-in-hyderabad',
     ogImage:
@@ -267,12 +248,11 @@ export const CNGvehicleSeo = {
   },
 
   EccoCNG: {
-    title:
-      'Maruti Eeco CNG On-Road Price in Hyderabad 2026 | Independence Day Van Offers',
+    title: 'Maruti Eeco CNG On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Get best Monsoon & Independence Day Offers 2026 on Maruti Eeco CNG in Hyderabad at Popular RKS. Ideal for family & commercial use with low running cost, EMI & exchange bonus.',
+      'Check Maruti Eeco CNG on-road price in Hyderabad, seating options & features. Get best offers, easy EMI and book a test drive at Popular RKS.',
     keywords:
-      'Eeco CNG Monsoon & Independence Day offers 2026, Maruti Eeco CNG price Hyderabad, CNG van offers, Eeco CNG EMI',
+      'Eeco CNG price in Hyderabad, Eeco CNG on road price Hyderabad, Maruti Eeco CNG Hyderabad, Eeco CNG mileage, Eeco CNG EMI, Eeco CNG test drive Hyderabad, Eeco CNG offers Hyderabad, Popular RKS Eeco CNG',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-eeco-cng-on-road-price-in-hyderabad',
     ogImage:
@@ -280,12 +260,11 @@ export const CNGvehicleSeo = {
   },
 
   ErtigaCNG: {
-    title:
-      'Maruti Ertiga CNG On-Road Price in Hyderabad 2026 | Independence Day MPV CNG Offers',
+    title: 'Maruti Ertiga CNG On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Buy Maruti Ertiga CNG in Hyderabad with Monsoon & Independence Day Offers 2026 at Popular RKS. Spacious MPV with high mileage, EMI options & seasonal benefits.',
+      'Check Maruti Ertiga CNG on-road price in Hyderabad, 7-seater features & mileage. Get offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'Ertiga CNG Monsoon & Independence Day offers 2026, Maruti Ertiga CNG price Hyderabad, MPV CNG offers Independence Day & Monsoon, Ertiga CNG EMI',
+      'Ertiga CNG price in Hyderabad, Ertiga CNG on road price Hyderabad, Maruti Ertiga CNG Hyderabad, Ertiga CNG mileage, Ertiga CNG EMI, Ertiga CNG test drive Hyderabad, Ertiga CNG offers Hyderabad, Popular RKS Ertiga CNG',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-ertiga-cng-on-road-price-in-hyderabad',
     ogImage:
@@ -293,12 +272,11 @@ export const CNGvehicleSeo = {
   },
 
   SpressoCNG: {
-    title:
-      'Maruti S-Presso CNG On-Road Price in Hyderabad 2026 | Independence Day Entry CNG Offers',
+    title: 'Maruti S-Presso CNG On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Check Maruti S-Presso CNG in Hyderabad with Monsoon & Independence Day Offers 2026 at Popular RKS. Affordable entry car with EMI benefits, exchange bonus & discounts.',
+      'Check Maruti S-Presso CNG on-road price in Hyderabad, features & mileage. Get best offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'S-Presso CNG Monsoon & Independence Day offers 2026, Maruti S-Presso CNG price Hyderabad, entry CNG car offers Independence Day & Monsoon, S-Presso CNG EMI',
+      'S-Presso CNG price in Hyderabad, S-Presso CNG on road price Hyderabad, Maruti S-Presso CNG Hyderabad, S-Presso CNG mileage, S-Presso CNG EMI, S-Presso CNG test drive Hyderabad, S-Presso CNG offers Hyderabad, Popular RKS S-Presso CNG',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-s-presso-cng-on-road-price-in-hyderabad',
     ogImage:
@@ -306,12 +284,11 @@ export const CNGvehicleSeo = {
   },
 
   SwiftCNG: {
-    title:
-      'Maruti Swift CNG On-Road Price in Hyderabad 2026 | Independence Day Hatchback Offers',
+    title: 'Maruti Swift CNG On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Celebrate Monsoon & Independence Day 2026 with best Maruti Swift CNG offers in Hyderabad. Get sporty hatchback, high mileage, EMI & exchange bonus.',
+      'Check Maruti Swift CNG on-road price in Hyderabad, mileage & colours. Get best offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'Swift CNG Monsoon & Independence Day offers 2026, Maruti Swift CNG price Hyderabad, hatchback CNG offers Independence Day & Monsoon, Swift CNG EMI',
+      'Swift CNG price in Hyderabad, Swift CNG on road price Hyderabad, Maruti Swift CNG Hyderabad, Swift CNG mileage, Swift CNG EMI, Swift CNG test drive Hyderabad, Swift CNG offers Hyderabad, Popular RKS Swift CNG',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-swift-cng-on-road-price-in-hyderabad',
     ogImage:
@@ -319,12 +296,11 @@ export const CNGvehicleSeo = {
   },
 
   WagonrCNG: {
-    title:
-      'Maruti WagonR CNG On-Road Price in Hyderabad 2026 | Independence Day Family CNG Offers',
+    title: 'Maruti WagonR CNG On-Road Price in Hyderabad | Popular RKS',
     description:
-      'Get best Monsoon & Independence Day Offers 2026 on Maruti WagonR CNG in Hyderabad at Popular RKS. Spacious family car with excellent mileage, EMI & exchange benefits.',
+      'Check Maruti WagonR CNG on-road price in Hyderabad, mileage & colours. Get best offers, low EMI and book a test drive at Popular RKS.',
     keywords:
-      'WagonR CNG Monsoon & Independence Day offers 2026, Maruti WagonR CNG price Hyderabad, family CNG car offers Independence Day & Monsoon, WagonR CNG EMI',
+      'WagonR CNG price in Hyderabad, WagonR CNG on road price Hyderabad, Maruti WagonR CNG Hyderabad, WagonR CNG mileage, WagonR CNG EMI, WagonR CNG test drive Hyderabad, WagonR CNG offers Hyderabad, Popular RKS WagonR CNG',
     canonicalUrl:
       'https://www.saboomaruti.in/maruti-wagonr-cng-on-road-price-in-hyderabad',
     ogImage:

@@ -2,12 +2,20 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../../components/header/Header';
 import { tourProducts } from '../../constants';
+import SeoMeta from '../../components/SEo/SeoMeta';
 
 import banner from '../../assets/banners/Saboo-RKS-Maruti-Suzuki-Now_6-Airbags.jpeg'
 
 function TourCars() {
   return (
     <>
+      <SeoMeta
+        title='Maruti Suzuki Tour Cars in Hyderabad | Popular RKS'
+        description='Looking for a taxi or fleet car? Explore Maruti Suzuki Tour cars in Hyderabad with low running costs & easy finance. Enquire at Popular RKS.'
+        keywords='Maruti tour cars Hyderabad, Dzire Tour S, Ertiga Tour, taxi cars Hyderabad, fleet cars Maruti'
+        canonicalUrl='https://www.saboomaruti.in/maruti-suzuki-tour-cars'
+        ogImage='/img/og-tags/default.webp'
+      />
       <Header />
       <img
         src={banner}

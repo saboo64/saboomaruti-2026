@@ -9,9 +9,9 @@ function WorkShop() {
   return (
     <>
       <SeoMeta
-        title='Maruti Suzuki Authorized Service Center in Hyderabad | Saboo Maruti'
-        description='Saboo Maruti Authorized Maruti Suzuki Service Center in Hyderabad. Visit our nearest Saboo Maruti workshop for Maruti car Servicing, Repairing, Painting, Battery repair. Free pickup & Drop facility available. Call now 9848898488'
-        keywords='maruti service cente near me, maruti car service locations, maruti service center address, car service center'
+        title='Maruti Suzuki Service Center in Hyderabad | Popular RKS'
+        description='Book your Maruti car service online at Popular RKS workshops in Hyderabad. Genuine parts, expert technicians, pickup & drop and transparent pricing.'
+        keywords='Maruti service center Hyderabad, Maruti car service booking, Maruti workshop near me, Maruti genuine parts, Popular RKS service'
         canonicalUrl='https://www.saboomaruti.in/maruti-suzuki-car-service-center'
         ogImage='/img/og-tags/default.webp'
         twitterUrl='https://x.com/saboorksmaruti'

@@ -122,9 +122,9 @@ function Insurance() {
   return (
     <>
   <SeoMeta
-  title="Maruti Insurance Renewal in Secunderabad, Hyderabad | Saboo Maruti"
-  description="Maruti car insurance renewal in Hyderabad & Secunderabad. Get cashless accident repairs, fair & transparent claim settlement. Looking to Renew Insurance Online for, Maruti Swift,Maruti Wagon R, Maruti Ertiga, Eeco, Maruti S-Presso, Maruti Alto 800,Maruti Vitara brezza,Maruti brezza, Celerio"
-  keywords="maruti insurance renewal, saboomaruti in car, suzuki renewal"
+  title="Maruti Car Insurance Renewal Online | Popular RKS"
+  description="Renew your Maruti Suzuki car insurance online in minutes. Compare plans, get cashless claims and the best premiums with Popular RKS in Hyderabad."
+  keywords="Maruti car insurance renewal, Maruti Suzuki insurance online, car insurance renewal Hyderabad, Maruti insurance claim"
   canonicalUrl="https://www.saboomaruti.in/maruti-suzuki-car-insurance-renewal"
   ogImage="/img/og-tags/default.webp"
   twitterUrl="https://x.com/saboorksmaruti"

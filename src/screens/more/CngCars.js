@@ -11,9 +11,9 @@ function CngCars() {
   return (
     <>
       <SeoMeta
-        title='Maruti Suzuki CNG Cars in Hyderabad | Buy Maruti CNG Cars in Hyderabad 2026'
-        description='Saboo Maruti CNG Cars in Hyderabad. Buy Brezza CNG, Swift CNG, Alto CNG Cars in Hyderabad. Choose the location to find the nearest authorized Maruti Service Center. Free pickup and drop Facility. To Book service Appointment today Call us on 9848898488'
-        keywords='vitara brezza service in hyderabad, buy maruti cng cars in hyderabad, vitara brezza workshops, maruti suzuki vitara brezza service centers, maruti suzuki dzire workshops, maruti suzuki alto workshops in hyderabad, Maruti Suzuki Service Center, Maruti Car Service, Maruti Service Center Near Me, Maruti Service Centers in Hyderabad, Maruti Authorized Service Center Near Me, etc.'
+        title='Maruti Suzuki CNG Cars in Hyderabad | Popular RKS'
+        description='Explore Maruti Suzuki CNG cars in Hyderabad: Swift, Dzire, WagonR, Ertiga & more. Low running cost, great mileage. Book a test drive at Popular RKS.'
+        keywords='Maruti CNG cars Hyderabad, Swift CNG price Hyderabad, Dzire CNG price, WagonR CNG price, Ertiga CNG price, best CNG car Hyderabad'
         canonicalUrl='https://www.saboomaruti.in/maruti-suzuki-cng-cars'
         ogImage='/img/og-tags/default.webp'
         twitterUrl='https://x.com/saboorksmaruti'

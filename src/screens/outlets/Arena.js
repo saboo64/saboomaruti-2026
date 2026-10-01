@@ -10,9 +10,9 @@ function Arena() {
     <>
       <Header />
       <SeoMeta
-  title="Authorized Maruti Showrooms in Hyderabad | Saboo Maruti"
-  description="Authorized Maruti Suzuki Showrooms in Hyderabad. Visit our nearest Saboo Maruti branch to get best offers & discounts on new Maruti cars. Call us 98488 98488"
-  keywords="maruti suzuki showrooms in hyderabad, maruti showrooms near me, maruti showrooms in hyderabad, maruti showroom"
+  title="Maruti Suzuki Arena Showrooms in Hyderabad | Popular RKS"
+  description="Find Maruti Suzuki Arena showrooms near you in Hyderabad. Get addresses, contact numbers & directions to Popular RKS and book a test drive today."
+  keywords="Maruti Arena showroom Hyderabad, Maruti showroom near me, Maruti Suzuki showroom address Hyderabad, Popular RKS showroom, Saboo RKS Maruti showroom"
   canonicalUrl="https://www.saboomaruti.in/showrooms"
   ogImage="/img/og-tags/default.webp"
 />
