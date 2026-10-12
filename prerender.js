@@ -107,48 +107,63 @@ async function prerenderRoute(page, route) {
 
 async function main() {
   const server = await startServer();
-  const browser = await puppeteer.launch({
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
-  });
-  const page = await browser.newPage();
+  let browser;
+  try {
+    browser = await puppeteer.launch({
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+    });
+    const page = await browser.newPage();
 
-  await page.setRequestInterception(true);
-  page.on('request', (req) => {
-    const reqUrl = req.url();
-    if (reqUrl.startsWith(`http://localhost:${PORT}`)) {
-      req.continue();
-    } else {
-      req.abort();
+    await page.setRequestInterception(true);
+    page.on('request', (req) => {
+      const reqUrl = req.url();
+      if (reqUrl.startsWith(`http://localhost:${PORT}`)) {
+        req.continue();
+      } else {
+        req.abort();
+      }
+    });
+    page.on('pageerror', () => {});
+    page.on('console', () => {});
+
+    let ok = 0;
+    const failed = [];
+    for (const route of ROUTES) {
+      try {
+        await prerenderRoute(page, route);
+        ok += 1;
+        console.log(`prerendered (${ok}/${ROUTES.length}): ${route}`);
+      } catch (err) {
+        failed.push(route);
+        console.error(`FAILED: ${route} -> ${err.message}`);
+      }
     }
-  });
-  page.on('pageerror', () => {});
-  page.on('console', () => {});
 
-  let ok = 0;
-  const failed = [];
-  for (const route of ROUTES) {
-    try {
-      await prerenderRoute(page, route);
-      ok += 1;
-      console.log(`prerendered (${ok}/${ROUTES.length}): ${route}`);
-    } catch (err) {
-      failed.push(route);
-      console.error(`FAILED: ${route} -> ${err.message}`);
+    console.log(`\nDone. ${ok}/${ROUTES.length} routes prerendered.`);
+    if (failed.length) {
+      console.error(`Failed routes:\n${failed.join('\n')}`);
     }
-  }
-
-  await browser.close();
-  server.close();
-
-  console.log(`\nDone. ${ok}/${ROUTES.length} routes prerendered.`);
-  if (failed.length) {
-    console.error(`Failed routes:\n${failed.join('\n')}`);
+  } finally {
+    // Always release the server/browser, even if launch itself failed —
+    // an open listening server keeps Node's event loop alive forever,
+    // which previously hung the whole `npm run build` indefinitely on
+    // Vercel instead of letting the soft-failure below actually finish.
+    if (browser) {
+      await browser.close().catch(() => {});
+    }
+    await new Promise((resolve) => server.close(resolve));
   }
 }
 
 // A prerendering failure (e.g. headless Chrome unavailable in this CI
 // environment) should degrade to shared meta tags, not block deployment
 // entirely — so this never exits non-zero and never fails `npm run build`.
-main().catch((err) => {
-  console.error('Prerendering failed, deploying without per-route static HTML:', err);
-});
+main()
+  .catch((err) => {
+    console.error('Prerendering failed, deploying without per-route static HTML:', err);
+  })
+  .finally(() => {
+    // Force termination regardless of any other handle still open
+    // (e.g. a zombie child process from a partial browser launch).
+    process.exit(0);
+  });
