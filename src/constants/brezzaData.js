@@ -297,7 +297,7 @@ const brezzaMileage = [
  const brezzaData = {
   name: "Brezza",
   brand: "Maruti Suzuki",
-  priceRange: "₹ 7.39 - 11.65 Lakh*",
+  priceRange: "₹ 7.49 - 11.65 Lakh*",
   specs: [
     { label: "Engine", value: "1462 cc", icon: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/local/speedometer.png", },
     { label: "Mileage", value: "25.51 km/kg*",icon: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/local/gas-station.png", },

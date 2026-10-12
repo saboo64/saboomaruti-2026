@@ -222,7 +222,7 @@ const ertigaMileage = [
 const ertigaData = {
   name: "Ertiga",
   brand: "Maruti Suzuki",
-  priceRange: "₹ 8.80 - 12.26 Lakhs*",
+  priceRange: "₹ 8.90 - 12.26 Lakhs*",
   specs: [
     { label: "Engine", value: "1462 CC",icon: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/local/speedometer.png",  },
     { label: "Mileage", value: "26.11 km/kg*",icon: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/local/gas-station.png", },

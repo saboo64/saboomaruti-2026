@@ -1,10 +1,10 @@
-import bannerMonsoonDesktop from '../assets/banners/Website_Maruti_Suzuki_Arena_Festival_Offers_Ganesh_Chaturthi_offers__Popular_RKS_Vehicles_Services.webp';
+import bannerMonsoonDesktop from '../assets/banners/Website_Maruti_Suzuki_Arena_Festival_Offers_Dussehra_Dasara_Offers__Popular_RKS_Vehicles_Services.webp';
 import bannerVictoris from '../assets/banners/Saboo RKS Maruti Suzuki Victoris Web Banner.webp';
 import bannerBrezzaDesktop from '../assets/banners/Saboo-RKS-Maruti-Suzuki-Brezza-Now-6-Airbags.webp';
 import bannerSwiftDesktop from '../assets/banners/Arena new Swift banner.webp';
 import bannerSUVMaker from '../assets/banners/new/Website_Maruti_Suzuki_No1_SUV_Maker_Saboo_RKS_Motor_October_Offers.webp';
 import bannerAltoK10Desktop from '../assets/banners/Saboo-RKS-Maruti-Suzuki-Alto-k10-Now-6-Airbags.webp';
- import bannerMonsoonMobile from '../assets/banners/WM_Maruti_Suzuki_Arena_Festival_Offers_Ganesh_Chaturthi_offers__Popular_RKS_Vehicles_Services.webp';
+ import bannerMonsoonMobile from '../assets/banners/WM_Maruti_Suzuki_Arena_Festival_Offers_Dussehra_Dasara_Offers__Popular_RKS_Vehicles_Services.webp';
 import bannerDzireMobile from '../assets/banners/vehicles/banners-2024/Website_Mobile_Maruti_Suzuki_Arena_New_Dazzling_Dzire_with_Five_Star_Rating_Car_Offers_Saboo_RKS_Motor.webp';
 import bannerBrezzaMobile from '../assets/banners/Website_Mobile_Maruti_Suzuki_Arena_Brezza_Urbano_Edition_Offers_Saboo_RKS_Motor_Hyderabad_Favoruite_Maruti_Suzuki_Dealer.webp';
 import bannerSwiftMobile from '../assets/banners/Arena new Swift banner_mobile.webp';
@@ -541,7 +541,7 @@ export const products = [
   {
     id: 3,
     name: 'Brezza',
-    price: '8.25 L',
+    price: '7.49 L',
     logo: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/logo/brezza-new-logo.png',
   img: brezza_thumbnail,
     brouchure:
@@ -559,7 +559,7 @@ export const products = [
   {
     id: 5,
     name: 'Dzire',
-    price: '6.25 L',
+    price: '6.30 L',
     logo: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/index/Dzire.jpg',
     img: 'https://www.marutisuzuki.com/images/dzire_brand/images/threesixty/blue/suzuki_swift_ext_360_oragne_v-1_6.webp',
     // img: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-dzire.webp",
@@ -612,7 +612,7 @@ export const products = [
   {
     id: 8,
     name: 'Ertiga',
-    price: '8.80 L',
+    price: '8.90 L',
     logo: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/index/Ertiga.jpg',
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-ertiga.webp',
     brouchure:

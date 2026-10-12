@@ -21,13 +21,13 @@ import { SEOPages } from '../../constants/SEOData';
 const offer_products = [
   {
     name: 'Victoris',
-    price: '1,80,000',
+    price: '1,95,000',
     img: 'https://ik.imagekit.io/hsukyjske/Nivya-automobiles/Victoris/Colors/sizzling_red-min.png?updatedAt=1762336384483',
     explore: '/victoris',
   },
   {
     name: 'Swift ',
-    price: '40,000',
+    price: '80,000',
     // desc:"on 2024 model (with old Alto & Wagonr exchange) ",
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/Swift+Tile+Image.webp',
     explore: '/maruti-swift-car-on-road-price-in-hyderabad',
@@ -43,34 +43,34 @@ const offer_products = [
   {
     name: 'Alto K10',
 
-    price: '52,100',
+    price: '57,500',
     logo: 'Alto k10',
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-k10.webp',
     explore: '/maruti-alto-800-on-road-price-in-hyderabad',
   },
   {
     name: 'S-Presso',
-    price: '37,100',
+    price: '37,500',
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-spresso.webp',
     explore: '/maruti-s-presso-on-road-price-in-hyderabad',
   },
   {
     name: 'WagonR ',
-    price: '63,100',
+    price: '57,500',
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-wagonr.webp',
     explore: '/maruti-wagon-r-on-road-price-in-hyderabad',
   },
 
   {
     name: 'Celerio',
-    price: '37,100',
+    price: '60,000',
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-celerio.webp',
     explore: '/the-all-new-celerio',
   },
 
   {
     name: 'EECO',
-    price: '37,500',
+    price: '37,100',
     img: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/thumnails/arena-eeco.webp',
     explore: '/maruti-eeco-on-road-price-in-hyderabad',
   },

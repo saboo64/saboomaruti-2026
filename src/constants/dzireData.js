@@ -230,7 +230,7 @@ const dzireMileage = [
  const dzireData = {
   name: "Dzire",
   brand: "Maruti Suzuki",
-  priceRange: "₹ 6.25 - 9.31 Lakh*",
+  priceRange: "₹ 6.30 - 9.31 Lakh*",
   specs: [
     { label: "Engine", value: "1197 CC",icon: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/local/speedometer.png",  },
     { label: "Mileage", value: "33.73 km/kg*",icon: "https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/local/gas-station.png", },
