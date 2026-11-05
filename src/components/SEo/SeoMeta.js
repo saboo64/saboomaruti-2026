@@ -11,6 +11,8 @@ const SeoMeta = ({
   ogImage = "/img/og-tags/default.webp",
   twitterUrl = "https://x.com/saboorksmaruti",
   author = "Broaddcast",
+  ogType = "website",
+  robots = "index, follow",
 }) => {
   return (
     <Helmet>
@@ -19,12 +21,12 @@ const SeoMeta = ({
       <meta name="description" content={description} />
       {keywords && <meta name="keywords" content={keywords} />}
       <meta name="author" content={author} />
-      <meta name="robots" content="index, follow" />
-      <meta name="googlebot" content="index, follow" />
+      <meta name="robots" content={robots} />
+      <meta name="googlebot" content={robots} />
       <link rel="canonical" href={canonicalUrl} />
 
       {/* Open Graph tags */}
-      <meta property="og:type" content="website" />
+      <meta property="og:type" content={ogType} />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
@@ -47,7 +49,8 @@ SeoMeta.propTypes = {
   ogImage: PropTypes.string,
   twitterUrl: PropTypes.string,
   author: PropTypes.string,
+  ogType: PropTypes.string,
+  robots: PropTypes.string,
 };
 
 export default SeoMeta;
-

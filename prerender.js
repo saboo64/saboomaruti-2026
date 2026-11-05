@@ -53,11 +53,12 @@ const ROUTES = [
   '/maruti-suzuki-new-cars',
   '/maruti-suzuki-cng-cars',
   '/maruti-suzuki-tour-cars',
-  '/maruti-suzuki-car-offers-page',
+  // '/maruti-suzuki-car-offers-page' is rendered per request by api/offers-page.js.
   '/maruti-car-service-centers-near-me',
   '/metaverse',
   '/compare-cars',
-  '/blog',
+  // '/blog' is rendered per request by api/blog-page.js. Prerendering it would
+  // create a static file that takes priority over that function on Vercel.
   '/awards',
   '/gallery',
   '/contact-maruti-suzuki-showroom',
@@ -99,6 +100,19 @@ async function prerenderRoute(page, route) {
   } catch (e) {
     console.warn(`  warning: helmet tag never appeared for ${route}, saving anyway`);
   }
+  // public/index.html has its own default tags, which react-helmet adds to rather than
+  // replaces. Without this, each page would have two descriptions and share images.
+  await page.evaluate(() => {
+    document.querySelectorAll('meta[data-react-helmet]').forEach((tag) => {
+      ['name', 'property'].forEach((attr) => {
+        const key = tag.getAttribute(attr);
+        if (!key) return;
+        document
+          .querySelectorAll(`meta[${attr}="${key}"]:not([data-react-helmet])`)
+          .forEach((duplicate) => duplicate.remove());
+      });
+    });
+  });
   const html = await page.content();
   const outPath = outputPathFor(route);
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
@@ -154,6 +168,13 @@ async function main() {
     await new Promise((resolve) => server.close(resolve));
   }
 }
+
+// Prerendering '/' overwrites index.html with the home page, so keep an untouched
+// copy first. The blog function and /admin use it as their empty starting page.
+fs.copyFileSync(
+  path.join(BUILD_DIR, 'index.html'),
+  path.join(BUILD_DIR, 'app-shell.html')
+);
 
 // A prerendering failure (e.g. headless Chrome unavailable in this CI
 // environment) should degrade to shared meta tags, not block deployment

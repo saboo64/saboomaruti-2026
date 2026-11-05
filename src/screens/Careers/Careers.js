@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import './Careers.css';
 import pvsl_logo from '../../assets/pvsl_logo.webp';
 import { useNavigate } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import SeoMeta from '../../components/SEo/SeoMeta';
 
 const Careers = () => {
   const navigate = useNavigate();
@@ -540,17 +540,11 @@ const Careers = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Careers | Popular RKS  Pvt Ltd | Popular Maruti</title>
-        <meta
-          name="title"
-          content="Careers |Popular RKS | Popular Maruti"
-        />
-        <meta
-          name="description"
-          content="Upload Your Resume for Job openings in Popular RKS  with great work culture and work environment. Job openings in Secunderabad & Hyderabad."
-        />
-      </Helmet>
+      <SeoMeta
+        title='Careers | Popular RKS  Pvt Ltd | Popular Maruti'
+        description='Upload Your Resume for Job openings in Popular RKS  with great work culture and work environment. Job openings in Secunderabad & Hyderabad.'
+        canonicalUrl='https://www.saboomaruti.in/careers'
+      />
 
       <div className="container p-4 mx-auto sm:p-8">
         <div className="flex flex-col items-center justify-center">

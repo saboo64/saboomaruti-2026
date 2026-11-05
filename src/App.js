@@ -1,9 +1,10 @@
-import React, { useState, Fragment, useEffect } from 'react';
+import React, { useState, Fragment, useEffect, lazy, Suspense } from 'react';
 import { useLocation } from 'react-router-dom';
 import { CgSpinner } from 'react-icons/cg';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footer from './components/footer/Footer';
+import PageSeoOverride from './components/SEo/PageSeoOverride';
 import About from './screens/about-us/about-us';
 import Offers from './screens/more/Offers';
 import Arena from './screens/outlets/Arena';
@@ -80,13 +81,22 @@ import Careers from './screens/Careers/Careers';
 // import Popup2 from './components/Popup/Popup2';
 
 import Header2 from './components/header/Header2';
-import NewBlog from './screens/more/NewBlog';
 import ArenaSitemap from './screens/more/ArenaSitemap';
 import RewardPoints from './screens/more/RewardPoints';
 // import { Link } from 'react-router-dom';
 import TermsAndConditions from './screens/more/TermsAndConditions';
 import VictorisPage from './screens/cars/victoris';
 import Card from './screens/profile-card/Card';
+
+// Loaded on demand so regular visitors don't download the Markdown or Firebase code.
+const BlogList = lazy(() => import('./screens/blog/BlogList'));
+const BlogPost = lazy(() => import('./screens/blog/BlogPost'));
+const AdminApp = lazy(() => import('./screens/admin/AdminApp'));
+const PageLoading = () => (
+  <div className='flex items-center justify-center min-h-screen'>
+    <CgSpinner className='w-8 h-8 text-blue-800 animate-spin' />
+  </div>
+);
 
 const ScrollTop = ({ setOpen }) => {
   const { pathname } = useLocation();
@@ -588,15 +598,16 @@ function LeadPopup({ setOpen }) {
 
 function AppContent({ open, setOpen }) {
   const { pathname } = useLocation();
+  const isAdmin = pathname === '/admin' || pathname.startsWith('/admin/');
   useEffect(() => {
-    if (pathname === '/Abdul-Hameed') {
+    if (pathname === '/Abdul-Hameed' || isAdmin) {
       document.body.classList.add('hide-chatbot');
     } else {
       document.body.classList.remove('hide-chatbot');
     }
-  }, [pathname]);
-  // Hide footer only for this link
-  const hideFooter = pathname === '/Abdul-Hameed';
+  }, [pathname, isAdmin]);
+  // Hide footer only for this link and the blog dashboard
+  const hideFooter = pathname === '/Abdul-Hameed' || isAdmin;
 
   return (
     <>
@@ -750,7 +761,30 @@ function AppContent({ open, setOpen }) {
 
         <Route path='/compare-cars' element={<Compare />} />
         {/* <Route path='/blog' element={<Blog />} /> */}
-        <Route path='/blog' element={<NewBlog />} />
+        <Route
+          path='/blog'
+          element={
+            <Suspense fallback={<PageLoading />}>
+              <BlogList />
+            </Suspense>
+          }
+        />
+        <Route
+          path='/blog/:slug'
+          element={
+            <Suspense fallback={<PageLoading />}>
+              <BlogPost />
+            </Suspense>
+          }
+        />
+        <Route
+          path='/admin/*'
+          element={
+            <Suspense fallback={<PageLoading />}>
+              <AdminApp />
+            </Suspense>
+          }
+        />
         <Route path='/awards' element={<Awards />} />
         {/* <Route path="/awardstest" element={<AwardsTest />} /> */}
         <Route path='/gallery' element={<Gallery />} />
@@ -773,6 +807,7 @@ function AppContent({ open, setOpen }) {
         {/*====== Not Found ======*/}
         <Route path='*' element={<NotFound />} />
       </Routes>
+      <PageSeoOverride key={pathname} />
 
       {!hideFooter && <Footer />}
     </>

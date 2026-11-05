@@ -8,12 +8,16 @@
 # testing
 /coverage
 
+# created by scripts/fetch-seo-overrides.js
+/src/generated
+
 # production
 /build
 /.firebase
 
 # misc
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local

@@ -9,3 +9,4 @@ Disallow: /Abdul-Hameed
 Disallow: /header
 
 Sitemap: https://www.saboomaruti.in/sitemap.xml
+Sitemap: https://www.saboomaruti.in/blog-sitemap.xml
